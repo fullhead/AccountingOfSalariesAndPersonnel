@@ -16,5 +16,12 @@ namespace AccountingOfSalariesAndPersonnel
         {
             InitializeComponent();
         }
+
+        private void Учёт_зарплат_и_кадров_Load(object sender, EventArgs e)
+        {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "accountingOfSalariesAndPersonnelDataSet.Должности". При необходимости она может быть перемещена или удалена.
+            this.должностиTableAdapter.Fill(this.accountingOfSalariesAndPersonnelDataSet.Должности);
+
+        }
     }
 }
