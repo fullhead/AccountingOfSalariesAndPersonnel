@@ -1,20 +1,62 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace AccountingOfSalariesAndPersonnel
 {
     public partial class Вход : Form
     {
+        private SqlConnection sqlConnection = null;
         public Вход()
         {
             InitializeComponent();
+        }
+
+        private void Вход_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+            sqlConnection.Open();
+            SqlDataAdapter Tablet = new SqlDataAdapter("Select Count (*) Login From Пользователи Where Логин ='" + textBox1.Text + "'and Пароль = '" + textBox2.Text + "'", sqlConnection);
+            DataTable dt = new DataTable();
+            Tablet.Fill(dt);
+            if (dt.Rows[0][0].ToString() == "1")
+            {
+                Учёт_зарплат_и_кадров учёт_зарплат_и_кадров = new Учёт_зарплат_и_кадров();
+                учёт_зарплат_и_кадров.Show();
+                this.Hide();
+            }
+            else
+            {
+                label3.Show();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Регистрация регистрация = new Регистрация();
+            регистрация.Show();
+        }
+
+        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            label3.Hide();
+        }
+
+        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            _ = e.KeyChar;
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
+            {
+                e.Handled = true;
+            }
         }
     }
 }
