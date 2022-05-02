@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class_Print.cs" />
     <Compile Include="О_программе.cs">
       <SubType>Form</SubType>
     </Compile>
