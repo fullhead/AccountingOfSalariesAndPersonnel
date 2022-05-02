@@ -9,6 +9,7 @@ using System.Data.SqlClient;
 using Tulpep.NotificationWindow;
 using System.IO;
 
+
 namespace AccountingOfSalariesAndPersonnel
 {
     public partial class Учёт_зарплат_и_кадров : Form
@@ -52,6 +53,7 @@ namespace AccountingOfSalariesAndPersonnel
             {
                 ПользователиPage.Parent = DB_pages;
                 пользователиToolStripMenuItem.Visible = true;
+                пользователиToolStripMenuItem1.Visible = true;
             }
             else
             {
@@ -62,6 +64,7 @@ namespace AccountingOfSalariesAndPersonnel
         {
             ПользователиPage.Parent = null;
             пользователиToolStripMenuItem.Visible = false;
+            пользователиToolStripMenuItem1.Visible = false;
         }
 
         //STATUS AND LOAD DB
@@ -304,24 +307,541 @@ namespace AccountingOfSalariesAndPersonnel
         }
 
         //SAVE FOR .CSV
+        private void ДолжностиToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var dt = new DataTable();
+            try
+            {
+                adapter = new SqlDataAdapter("SELECT * FROM Должности", sqlConnection);
+                adapter.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sqlConnection.Close();
+            }
+            string path = "";
+            using (var path_dialog = new FolderBrowserDialog())
+                if (path_dialog.ShowDialog() == DialogResult.OK)
+                {
+                    //Путь к директории
+                    path = path_dialog.SelectedPath;
+                };
+            sqlConnection.Close();
+            ToCSVДолжности(dt, path + @"\" + @"Отчёт_Должности.csv");
+        }
+        public static void ToCSVДолжности(DataTable dtDataTable, string strFilePath)
+        {
+            StreamWriter sw = new StreamWriter(strFilePath, false, Encoding.UTF8);
+            for (int i = 0; i < dtDataTable.Columns.Count; i++)
+            {
+                sw.Write(dtDataTable.Columns[i]);
+                if (i < dtDataTable.Columns.Count - 1)
+                {
+                    sw.Write(";");
+                }
+            }
+            sw.Write(sw.NewLine);
+            foreach (DataRow dr in dtDataTable.Rows)
+            {
+                for (int i = 0; i < dtDataTable.Columns.Count; i++)
+                {
+                    if (!Convert.IsDBNull(dr[i]))
+                    {
+                        string value = dr[i].ToString();
+                        if (value.Contains(';'))
+                        {
+                            value = String.Format("\"{0}\"", value);
+                            sw.Write(value);
+                        }
+                        else
+                        {
+                            sw.Write(dr[i].ToString());
+                        }
+                    }
+                    if (i < dtDataTable.Columns.Count - 1)
+                    {
+                        sw.Write(";");
+                    }
+                }
+                sw.Write(sw.NewLine);
+            }
+            sw.Close();
+        }
 
+        private void КомандировкиToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var dt = new DataTable();
+            try
+            {
+                adapter = new SqlDataAdapter("SELECT * FROM Командировки", sqlConnection);
+                adapter.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sqlConnection.Close();
+            }
+            string path = "";
+            using (var path_dialog = new FolderBrowserDialog())
+                if (path_dialog.ShowDialog() == DialogResult.OK)
+                {
+                    //Путь к директории
+                    path = path_dialog.SelectedPath;
+                };
+            sqlConnection.Close();
+            ToCSVКомандировки(dt, path + @"\" + @"Отчёт_Командировки.csv");
+        }
+        public static void ToCSVКомандировки(DataTable dtDataTable, string strFilePath)
+        {
+            StreamWriter sw = new StreamWriter(strFilePath, false, Encoding.UTF8);
+            for (int i = 0; i < dtDataTable.Columns.Count; i++)
+            {
+                sw.Write(dtDataTable.Columns[i]);
+                if (i < dtDataTable.Columns.Count - 1)
+                {
+                    sw.Write(";");
+                }
+            }
+            sw.Write(sw.NewLine);
+            foreach (DataRow dr in dtDataTable.Rows)
+            {
+                for (int i = 0; i < dtDataTable.Columns.Count; i++)
+                {
+                    if (!Convert.IsDBNull(dr[i]))
+                    {
+                        string value = dr[i].ToString();
+                        if (value.Contains(';'))
+                        {
+                            value = String.Format("\"{0}\"", value);
+                            sw.Write(value);
+                        }
+                        else
+                        {
+                            sw.Write(dr[i].ToString());
+                        }
+                    }
+                    if (i < dtDataTable.Columns.Count - 1)
+                    {
+                        sw.Write(";");
+                    }
+                }
+                sw.Write(sw.NewLine);
+            }
+            sw.Close();
+        }
 
+        private void НачислениеЗПToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var dt = new DataTable();
+            try
+            {
+                adapter = new SqlDataAdapter("SELECT * FROM Начисление_ЗП", sqlConnection);
+                adapter.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sqlConnection.Close();
+            }
+            string path = "";
+            using (var path_dialog = new FolderBrowserDialog())
+                if (path_dialog.ShowDialog() == DialogResult.OK)
+                {
+                    //Путь к директории
+                    path = path_dialog.SelectedPath;
+                };
+            sqlConnection.Close();
+            ToCSVНачисление_ЗП(dt, path + @"\" + @"Отчёт_Начисление_ЗП.csv");
+        }
+        public static void ToCSVНачисление_ЗП(DataTable dtDataTable, string strFilePath)
+        {
+            StreamWriter sw = new StreamWriter(strFilePath, false, Encoding.UTF8);
+            for (int i = 0; i < dtDataTable.Columns.Count; i++)
+            {
+                sw.Write(dtDataTable.Columns[i]);
+                if (i < dtDataTable.Columns.Count - 1)
+                {
+                    sw.Write(";");
+                }
+            }
+            sw.Write(sw.NewLine);
+            foreach (DataRow dr in dtDataTable.Rows)
+            {
+                for (int i = 0; i < dtDataTable.Columns.Count; i++)
+                {
+                    if (!Convert.IsDBNull(dr[i]))
+                    {
+                        string value = dr[i].ToString();
+                        if (value.Contains(';'))
+                        {
+                            value = String.Format("\"{0}\"", value);
+                            sw.Write(value);
+                        }
+                        else
+                        {
+                            sw.Write(dr[i].ToString());
+                        }
+                    }
+                    if (i < dtDataTable.Columns.Count - 1)
+                    {
+                        sw.Write(";");
+                    }
+                }
+                sw.Write(sw.NewLine);
+            }
+            sw.Close();
+        }
 
+        private void ОтпускиToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var dt = new DataTable();
+            try
+            {
+                adapter = new SqlDataAdapter("SELECT * FROM Отпуски", sqlConnection);
+                adapter.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sqlConnection.Close();
+            }
+            string path = "";
+            using (var path_dialog = new FolderBrowserDialog())
+                if (path_dialog.ShowDialog() == DialogResult.OK)
+                {
+                    //Путь к директории
+                    path = path_dialog.SelectedPath;
+                };
+            sqlConnection.Close();
+            ToCSVОтпуски(dt, path + @"\" + @"Отчёт_Отпуски.csv");
+        }
+        public static void ToCSVОтпуски(DataTable dtDataTable, string strFilePath)
+        {
+            StreamWriter sw = new StreamWriter(strFilePath, false, Encoding.UTF8);
+            for (int i = 0; i < dtDataTable.Columns.Count; i++)
+            {
+                sw.Write(dtDataTable.Columns[i]);
+                if (i < dtDataTable.Columns.Count - 1)
+                {
+                    sw.Write(";");
+                }
+            }
+            sw.Write(sw.NewLine);
+            foreach (DataRow dr in dtDataTable.Rows)
+            {
+                for (int i = 0; i < dtDataTable.Columns.Count; i++)
+                {
+                    if (!Convert.IsDBNull(dr[i]))
+                    {
+                        string value = dr[i].ToString();
+                        if (value.Contains(';'))
+                        {
+                            value = String.Format("\"{0}\"", value);
+                            sw.Write(value);
+                        }
+                        else
+                        {
+                            sw.Write(dr[i].ToString());
+                        }
+                    }
+                    if (i < dtDataTable.Columns.Count - 1)
+                    {
+                        sw.Write(";");
+                    }
+                }
+                sw.Write(sw.NewLine);
+            }
+            sw.Close();
+        }
 
+        private void СотрудникиToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var dt = new DataTable();
+            try
+            {
+                adapter = new SqlDataAdapter("SELECT * FROM Сотрудники", sqlConnection);
+                adapter.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sqlConnection.Close();
+            }
+            string path = "";
+            using (var path_dialog = new FolderBrowserDialog())
+                if (path_dialog.ShowDialog() == DialogResult.OK)
+                {
+                    //Путь к директории
+                    path = path_dialog.SelectedPath;
+                };
+            sqlConnection.Close();
+            ToCSVСотрудники(dt, path + @"\" + @"Отчёт_Сотрудники.csv");
+        }
+        public static void ToCSVСотрудники(DataTable dtDataTable, string strFilePath)
+        {
+            StreamWriter sw = new StreamWriter(strFilePath, false, Encoding.UTF8);
+            for (int i = 0; i < dtDataTable.Columns.Count; i++)
+            {
+                sw.Write(dtDataTable.Columns[i]);
+                if (i < dtDataTable.Columns.Count - 1)
+                {
+                    sw.Write(";");
+                }
+            }
+            sw.Write(sw.NewLine);
+            foreach (DataRow dr in dtDataTable.Rows)
+            {
+                for (int i = 0; i < dtDataTable.Columns.Count; i++)
+                {
+                    if (!Convert.IsDBNull(dr[i]))
+                    {
+                        string value = dr[i].ToString();
+                        if (value.Contains(';'))
+                        {
+                            value = String.Format("\"{0}\"", value);
+                            sw.Write(value);
+                        }
+                        else
+                        {
+                            sw.Write(dr[i].ToString());
+                        }
+                    }
+                    if (i < dtDataTable.Columns.Count - 1)
+                    {
+                        sw.Write(";");
+                    }
+                }
+                sw.Write(sw.NewLine);
+            }
+            sw.Close();
+        }
 
-        private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ТрудовыеДоговораToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var dt = new DataTable();
+            try
+            {
+                adapter = new SqlDataAdapter("SELECT * FROM Трудовые_договора", sqlConnection);
+                adapter.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sqlConnection.Close();
+            }
+            string path = "";
+            using (var path_dialog = new FolderBrowserDialog())
+                if (path_dialog.ShowDialog() == DialogResult.OK)
+                {
+                    //Путь к директории
+                    path = path_dialog.SelectedPath;
+                };
+            sqlConnection.Close();
+            ToCSVТрудовые_договора(dt, path + @"\" + @"Отчёт_Трудовые_договора.csv");
+        }
+        public static void ToCSVТрудовые_договора(DataTable dtDataTable, string strFilePath)
+        {
+            StreamWriter sw = new StreamWriter(strFilePath, false, Encoding.UTF8);
+            for (int i = 0; i < dtDataTable.Columns.Count; i++)
+            {
+                sw.Write(dtDataTable.Columns[i]);
+                if (i < dtDataTable.Columns.Count - 1)
+                {
+                    sw.Write(";");
+                }
+            }
+            sw.Write(sw.NewLine);
+            foreach (DataRow dr in dtDataTable.Rows)
+            {
+                for (int i = 0; i < dtDataTable.Columns.Count; i++)
+                {
+                    if (!Convert.IsDBNull(dr[i]))
+                    {
+                        string value = dr[i].ToString();
+                        if (value.Contains(';'))
+                        {
+                            value = String.Format("\"{0}\"", value);
+                            sw.Write(value);
+                        }
+                        else
+                        {
+                            sw.Write(dr[i].ToString());
+                        }
+                    }
+                    if (i < dtDataTable.Columns.Count - 1)
+                    {
+                        sw.Write(";");
+                    }
+                }
+                sw.Write(sw.NewLine);
+            }
+            sw.Close();
+        }
+
+        private void ШтатноеРасписаниеToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var dt = new DataTable();
+            try
+            {
+                adapter = new SqlDataAdapter("SELECT * FROM Штатное_расписание", sqlConnection);
+                adapter.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sqlConnection.Close();
+            }
+            string path = "";
+            using (var path_dialog = new FolderBrowserDialog())
+                if (path_dialog.ShowDialog() == DialogResult.OK)
+                {
+                    //Путь к директории
+                    path = path_dialog.SelectedPath;
+                };
+            sqlConnection.Close();
+            ToCSVШтатное_расписание(dt, path + @"\" + @"Отчёт_Штатное_расписание.csv");
+        }
+        public static void ToCSVШтатное_расписание(DataTable dtDataTable, string strFilePath)
+        {
+            StreamWriter sw = new StreamWriter(strFilePath, false, Encoding.UTF8);
+            for (int i = 0; i < dtDataTable.Columns.Count; i++)
+            {
+                sw.Write(dtDataTable.Columns[i]);
+                if (i < dtDataTable.Columns.Count - 1)
+                {
+                    sw.Write(";");
+                }
+            }
+            sw.Write(sw.NewLine);
+            foreach (DataRow dr in dtDataTable.Rows)
+            {
+                for (int i = 0; i < dtDataTable.Columns.Count; i++)
+                {
+                    if (!Convert.IsDBNull(dr[i]))
+                    {
+                        string value = dr[i].ToString();
+                        if (value.Contains(';'))
+                        {
+                            value = String.Format("\"{0}\"", value);
+                            sw.Write(value);
+                        }
+                        else
+                        {
+                            sw.Write(dr[i].ToString());
+                        }
+                    }
+                    if (i < dtDataTable.Columns.Count - 1)
+                    {
+                        sw.Write(";");
+                    }
+                }
+                sw.Write(sw.NewLine);
+            }
+            sw.Close();
+        }
+
+        private void ПользователиToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var dt = new DataTable();
+            try
+            {
+                adapter = new SqlDataAdapter("SELECT * FROM Пользователи", sqlConnection);
+                adapter.Fill(dt);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sqlConnection.Close();
+            }
+            string path = "";
+            using (var path_dialog = new FolderBrowserDialog())
+                if (path_dialog.ShowDialog() == DialogResult.OK)
+                {
+                    //Путь к директории
+                    path = path_dialog.SelectedPath;
+                };
+            sqlConnection.Close();
+            ToCSVПользователи(dt, path + @"\" + @"Отчёт_Пользователи.csv");
+        }
+        public static void ToCSVПользователи(DataTable dtDataTable, string strFilePath)
+        {
+            StreamWriter sw = new StreamWriter(strFilePath, false, Encoding.UTF8);
+            for (int i = 0; i < dtDataTable.Columns.Count; i++)
+            {
+                sw.Write(dtDataTable.Columns[i]);
+                if (i < dtDataTable.Columns.Count - 1)
+                {
+                    sw.Write(";");
+                }
+            }
+            sw.Write(sw.NewLine);
+            foreach (DataRow dr in dtDataTable.Rows)
+            {
+                for (int i = 0; i < dtDataTable.Columns.Count; i++)
+                {
+                    if (!Convert.IsDBNull(dr[i]))
+                    {
+                        string value = dr[i].ToString();
+                        if (value.Contains(';'))
+                        {
+                            value = String.Format("\"{0}\"", value);
+                            sw.Write(value);
+                        }
+                        else
+                        {
+                            sw.Write(dr[i].ToString());
+                        }
+                    }
+                    if (i < dtDataTable.Columns.Count - 1)
+                    {
+                        sw.Write(";");
+                    }
+                }
+                sw.Write(sw.NewLine);
+            }
+            sw.Close();
+
+        }
+
+        //
+        private void ОПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
         {
             О_программе о_программе = new О_программе();
             о_программе.Show();
         }
 
-        
+
         private void ОбновитьButton_Click(object sender, EventArgs e)
         {
             this.ДолжностиDataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
 
         }
 
-        
+
     }
 }

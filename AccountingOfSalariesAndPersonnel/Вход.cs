@@ -19,7 +19,7 @@ namespace AccountingOfSalariesAndPersonnel
             Application.Exit();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void ВходButton_Click(object sender, EventArgs e)
         {
             sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
             sqlConnection.Open();
@@ -36,27 +36,20 @@ namespace AccountingOfSalariesAndPersonnel
             {
                 label3.Show();
             }
-        }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Регистрация регистрация = new Регистрация();
-            регистрация.Show();
         }
-
-        private void panel1_MouseMove(object sender, MouseEventArgs e)
-        {
-            label3.Hide();
-        }
-
-        private void textBox2_KeyPress(object sender, KeyPressEventArgs e)
+        private void TextBox2_KeyPress_1(object sender, KeyPressEventArgs e)
         {
             _ = e.KeyChar;
             if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
             {
                 e.Handled = true;
             }
+        }
+
+        private void tableLayoutPanel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            label3.Hide();
         }
     }
 }
