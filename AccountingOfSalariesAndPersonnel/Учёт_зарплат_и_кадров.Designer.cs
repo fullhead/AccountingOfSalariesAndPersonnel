@@ -193,7 +193,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.Должности_SearchTextBox = new System.Windows.Forms.TextBox();
             this.Должности_правки_pages = new System.Windows.Forms.TabControl();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.Долж_Обн_TabPage = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.примечаниеTextBox = new System.Windows.Forms.TextBox();
             this.должностиBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -203,14 +203,20 @@
             this.окладTextBox = new System.Windows.Forms.TextBox();
             this.наименованиеTextBox = new System.Windows.Forms.TextBox();
             this.код_должностиComboBox = new System.Windows.Forms.ComboBox();
-            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.Долж_Обн_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Долж_Обн_Обяз_зап_label1 = new System.Windows.Forms.Label();
+            this.Долж_Обн_Обяз_зап_label2 = new System.Windows.Forms.Label();
+            this.Долж_Доб_TabPage = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.примечаниеTextBox1 = new System.Windows.Forms.TextBox();
             this.обязанностиTextBox1 = new System.Windows.Forms.TextBox();
             this.окладTextBox1 = new System.Windows.Forms.TextBox();
             this.наименованиеTextBox1 = new System.Windows.Forms.TextBox();
             this.ДобавитьButton = new System.Windows.Forms.Button();
-            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.Долж_Доб_Обяз_зап_label1 = new System.Windows.Forms.Label();
+            this.Долж_Доб_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Долж_Доб_Обяз_зап_label2 = new System.Windows.Forms.Label();
+            this.Долж_Удал_TabPage = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.УдалитьButton = new System.Windows.Forms.Button();
             this.код_должностиComboBox1 = new System.Windows.Forms.ComboBox();
@@ -226,30 +232,36 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Командировки_SearchTextBox = new System.Windows.Forms.TextBox();
             this.Командировки_правки_pages = new System.Windows.Forms.TabControl();
-            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.Ком_Обн_TabPage = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.местоComboBox = new System.Windows.Forms.ComboBox();
+            this.дата_командировкиDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.примечаниеTextBox2 = new System.Windows.Forms.TextBox();
             this.командировкиBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.оплатаTextBox = new System.Windows.Forms.TextBox();
             this.цельTextBox = new System.Windows.Forms.TextBox();
-            this.местоTextBox = new System.Windows.Forms.TextBox();
             this.длительностьTextBox = new System.Windows.Forms.TextBox();
-            this.дата_командировкиTextBox = new System.Windows.Forms.TextBox();
             this.Код_командировкиComboBox = new System.Windows.Forms.ComboBox();
             this.код_сотрудникаComboBox = new System.Windows.Forms.ComboBox();
             this.сотрудникиBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.ОбновитьButton1 = new System.Windows.Forms.Button();
-            this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.Ком_Обн_Обяз_зап_label1 = new System.Windows.Forms.Label();
+            this.Ком_Обн_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Ком_Обн_Обяз_зап_label2 = new System.Windows.Forms.Label();
+            this.Ком_Доб_TabPage = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.местоComboBox1 = new System.Windows.Forms.ComboBox();
+            this.дата_командировкиDateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.ДобавитьButton1 = new System.Windows.Forms.Button();
             this.код_сотрудникаComboBox1 = new System.Windows.Forms.ComboBox();
-            this.дата_командировкиTextBox1 = new System.Windows.Forms.TextBox();
             this.длительностьTextBox1 = new System.Windows.Forms.TextBox();
-            this.местоTextBox1 = new System.Windows.Forms.TextBox();
             this.цельTextBox1 = new System.Windows.Forms.TextBox();
             this.оплатаTextBox1 = new System.Windows.Forms.TextBox();
             this.примечаниеTextBox3 = new System.Windows.Forms.TextBox();
-            this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.Ком_Доб_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Ком_Доб_Обяз_зап_label1 = new System.Windows.Forms.Label();
+            this.Ком_Доб_Обяз_зап_label2 = new System.Windows.Forms.Label();
+            this.Ком_Удал_TabPage = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
             this.Код_командировкиComboBox1 = new System.Windows.Forms.ComboBox();
             this.УдалитьButton1 = new System.Windows.Forms.Button();
@@ -270,24 +282,30 @@
             this.Начисление_зп_правки_pages = new System.Windows.Forms.TabControl();
             this.tabPage14 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
+            this.дата_выплатыDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.примечаниеTextBox4 = new System.Windows.Forms.TextBox();
             this.начислениеЗПBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.статусTextBox = new System.Windows.Forms.TextBox();
-            this.дата_выплатыTextBox = new System.Windows.Forms.TextBox();
             this.размер_премииTextBox = new System.Windows.Forms.TextBox();
             this.сумма_выплатыTextBox = new System.Windows.Forms.TextBox();
             this.код_начисленияComboBox = new System.Windows.Forms.ComboBox();
             this.код_сотрудникаComboBox2 = new System.Windows.Forms.ComboBox();
             this.ОбновитьButton2 = new System.Windows.Forms.Button();
+            this.Нач_Обн_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Нач_Обн_Обяз_зап_label1 = new System.Windows.Forms.Label();
+            this.Нач_Обн_Обяз_зап_label2 = new System.Windows.Forms.Label();
+            this.статусComboBox = new System.Windows.Forms.ComboBox();
             this.tabPage15 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.дата_выплатыDateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.статусComboBox1 = new System.Windows.Forms.ComboBox();
             this.примечаниеTextBox5 = new System.Windows.Forms.TextBox();
-            this.статусTextBox1 = new System.Windows.Forms.TextBox();
-            this.дата_выплатыTextBox1 = new System.Windows.Forms.TextBox();
             this.размер_премииTextBox1 = new System.Windows.Forms.TextBox();
             this.сумма_выплатыTextBox1 = new System.Windows.Forms.TextBox();
             this.ДобавитьButton2 = new System.Windows.Forms.Button();
             this.код_сотрудникаComboBox3 = new System.Windows.Forms.ComboBox();
+            this.Нач_Доб_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Нач_Доб_Обяз_зап_label1 = new System.Windows.Forms.Label();
+            this.Нач_Доб_Обяз_зап_label2 = new System.Windows.Forms.Label();
             this.tabPage16 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
             this.код_начисленияComboBox1 = new System.Windows.Forms.ComboBox();
@@ -308,26 +326,34 @@
             this.Отпуски_правки_pages = new System.Windows.Forms.TabControl();
             this.tabPage17 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
+            this.дата_окончания_отпускаDateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.видComboBox = new System.Windows.Forms.ComboBox();
+            this.дата_начала_отпускаDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.примечаниеTextBox6 = new System.Windows.Forms.TextBox();
             this.отпускиBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.выплатаTextBox = new System.Windows.Forms.TextBox();
-            this.видTextBox = new System.Windows.Forms.TextBox();
             this.длительностьTextBox2 = new System.Windows.Forms.TextBox();
-            this.дата_окончания_отпускаTextBox = new System.Windows.Forms.TextBox();
-            this.дата_начала_отпускаTextBox = new System.Windows.Forms.TextBox();
             this.ОбновитьButton3 = new System.Windows.Forms.Button();
             this.код_отпускаComboBox = new System.Windows.Forms.ComboBox();
             this.код_сотрудникаСomboBox4 = new System.Windows.Forms.ComboBox();
+            this.Отп_Обн_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Отп_Обн_Обяз_зап_label1 = new System.Windows.Forms.Label();
+            this.Отп_Обн_Обяз_зап_label2 = new System.Windows.Forms.Label();
+            this.Отп_Обн_Обяз_зап_label3 = new System.Windows.Forms.Label();
             this.tabPage18 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
+            this.дата_окончания_отпускаDateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.примечаниеTextBox7 = new System.Windows.Forms.TextBox();
+            this.дата_начала_отпускаDateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.выплатаTextBox1 = new System.Windows.Forms.TextBox();
-            this.видTextBox1 = new System.Windows.Forms.TextBox();
-            this.длительностьTextBox3 = new System.Windows.Forms.TextBox();
-            this.дата_окончания_отпускаTextBox1 = new System.Windows.Forms.TextBox();
-            this.дата_начала_отпускаTextBox1 = new System.Windows.Forms.TextBox();
             this.ДобавитьButton3 = new System.Windows.Forms.Button();
             this.код_сотрудникаComboBox5 = new System.Windows.Forms.ComboBox();
+            this.Отп_Доб_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Отп_Доб_Обяз_зап_label1 = new System.Windows.Forms.Label();
+            this.Отп_Доб_Обяз_зап_label2 = new System.Windows.Forms.Label();
+            this.Отп_Доб_Обяз_зап_label3 = new System.Windows.Forms.Label();
+            this.длительностьTextBox3 = new System.Windows.Forms.TextBox();
+            this.видComboBox1 = new System.Windows.Forms.ComboBox();
             this.tabPage19 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
             this.код_отпускаComboBox1 = new System.Windows.Forms.ComboBox();
@@ -349,25 +375,33 @@
             this.Сотрудники_правки_pages = new System.Windows.Forms.TabControl();
             this.tabPage20 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
+            this.полComboBox = new System.Windows.Forms.ComboBox();
+            this.возрастComboBox = new System.Windows.Forms.ComboBox();
             this.примечаниеTextBox8 = new System.Windows.Forms.TextBox();
             this.паспортные_данныеTextBox = new System.Windows.Forms.TextBox();
             this.адресTextBox = new System.Windows.Forms.TextBox();
-            this.возрастTextBox = new System.Windows.Forms.TextBox();
-            this.полTextBox = new System.Windows.Forms.TextBox();
             this.фИОTextBox = new System.Windows.Forms.TextBox();
             this.ОбновитьButton5 = new System.Windows.Forms.Button();
             this.код_сотрудникаComboBox6 = new System.Windows.Forms.ComboBox();
             this.код_должностиComboBox2 = new System.Windows.Forms.ComboBox();
+            this.Сот_Обн_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Сот_Обн_Обяз_зап_label1 = new System.Windows.Forms.Label();
+            this.Сот_Обн_Обяз_зап_label2 = new System.Windows.Forms.Label();
+            this.Сот_Обн_Обяз_зап_label3 = new System.Windows.Forms.Label();
             this.tabPage21 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
+            this.возрастComboBox1 = new System.Windows.Forms.ComboBox();
             this.примечаниеTextBox9 = new System.Windows.Forms.TextBox();
+            this.полComboBox1 = new System.Windows.Forms.ComboBox();
             this.паспортные_данныеTextBox1 = new System.Windows.Forms.TextBox();
             this.адресTextBox1 = new System.Windows.Forms.TextBox();
-            this.возрастTextBox1 = new System.Windows.Forms.TextBox();
-            this.полTextBox1 = new System.Windows.Forms.TextBox();
             this.фИОTextBox1 = new System.Windows.Forms.TextBox();
             this.ДобавитьButton5 = new System.Windows.Forms.Button();
             this.код_должностиComboBox3 = new System.Windows.Forms.ComboBox();
+            this.Сот_Доб_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Сот_Доб_Обяз_зап_label1 = new System.Windows.Forms.Label();
+            this.Сот_Доб_Обяз_зап_label2 = new System.Windows.Forms.Label();
+            this.Сот_Доб_Обяз_зап_label3 = new System.Windows.Forms.Label();
             this.tabPage22 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
             this.код_сотрудникаComboBox7 = new System.Windows.Forms.ComboBox();
@@ -389,20 +423,24 @@
             this.Трудовые_договора_правки_pages = new System.Windows.Forms.TabControl();
             this.tabPage23 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel17 = new System.Windows.Forms.TableLayoutPanel();
+            this.Труд_Обн_Обяз_зап_label1 = new System.Windows.Forms.Label();
+            this.дата_заключенияDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.примечаниеTextBox10 = new System.Windows.Forms.TextBox();
             this.трудовыедоговораBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.длительностьTextBox4 = new System.Windows.Forms.TextBox();
-            this.дата_заключенияTextBox = new System.Windows.Forms.TextBox();
             this.код_договораComboBox = new System.Windows.Forms.ComboBox();
             this.код_сотрудникаComboBox8 = new System.Windows.Forms.ComboBox();
             this.ОбновитьButton6 = new System.Windows.Forms.Button();
+            this.длительностьComboBox4 = new System.Windows.Forms.ComboBox();
+            this.Труд_Обн_Обяз_зап_label = new System.Windows.Forms.Label();
             this.tabPage24 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
+            this.длительностьComboBox5 = new System.Windows.Forms.ComboBox();
+            this.дата_заключенияDateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.примечаниеTextBox11 = new System.Windows.Forms.TextBox();
-            this.длительностьTextBox5 = new System.Windows.Forms.TextBox();
-            this.дата_заключенияTextBox1 = new System.Windows.Forms.TextBox();
             this.код_сотрудникаComboBox9 = new System.Windows.Forms.ComboBox();
             this.ДобавитьButton6 = new System.Windows.Forms.Button();
+            this.Труд_Доб_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Труд_Доб_Обяз_зап_label1 = new System.Windows.Forms.Label();
             this.tabPage25 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel19 = new System.Windows.Forms.TableLayoutPanel();
             this.код_договораComboBox1 = new System.Windows.Forms.ComboBox();
@@ -428,6 +466,8 @@
             this.код_расписанияComboBox = new System.Windows.Forms.ComboBox();
             this.код_должностиComboBox4 = new System.Windows.Forms.ComboBox();
             this.ОбновитьButton7 = new System.Windows.Forms.Button();
+            this.Шт_Обн_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Шт_Обн_Обяз_зап_label1 = new System.Windows.Forms.Label();
             this.tabPage27 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel21 = new System.Windows.Forms.TableLayoutPanel();
             this.код_должностиComboBox5 = new System.Windows.Forms.ComboBox();
@@ -435,6 +475,8 @@
             this.примечаниеTextBox13 = new System.Windows.Forms.TextBox();
             this.количество_штатных_единицTextBox1 = new System.Windows.Forms.TextBox();
             this.наименование_структурного_подразделенияTextBox1 = new System.Windows.Forms.TextBox();
+            this.Шт_Доб_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Шт_Доб_Обяз_зап_label1 = new System.Windows.Forms.Label();
             this.tabPage28 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel22 = new System.Windows.Forms.TableLayoutPanel();
             this.код_расписанияComboBox1 = new System.Windows.Forms.ComboBox();
@@ -463,6 +505,8 @@
             this.код_пользователяComboBox = new System.Windows.Forms.ComboBox();
             this.ОбновитьButton8 = new System.Windows.Forms.Button();
             this.логинTextBox = new System.Windows.Forms.TextBox();
+            this.Пол_Обн_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Пол_Обн_Обяз_зап_label1 = new System.Windows.Forms.Label();
             this.tabPage31 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel24 = new System.Windows.Forms.TableLayoutPanel();
             this.ДобавитьButton8 = new System.Windows.Forms.Button();
@@ -473,6 +517,8 @@
             this.рольTextBox1 = new System.Windows.Forms.TextBox();
             this.фИОTextBox3 = new System.Windows.Forms.TextBox();
             this.логинTextBox1 = new System.Windows.Forms.TextBox();
+            this.Пол_Доб_Обяз_зап_label = new System.Windows.Forms.Label();
+            this.Пол_Доб_Обяз_зап_label1 = new System.Windows.Forms.Label();
             this.tabPage32 = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel25 = new System.Windows.Forms.TableLayoutPanel();
             this.УдалитьButton8 = new System.Windows.Forms.Button();
@@ -613,25 +659,25 @@
             this.ДолжностиPage.SuspendLayout();
             this.tableLayoutPanel26.SuspendLayout();
             this.Должности_правки_pages.SuspendLayout();
-            this.tabPage8.SuspendLayout();
+            this.Долж_Обн_TabPage.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.должностиBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountingOfSalariesAndPersonnelDataSet)).BeginInit();
-            this.tabPage9.SuspendLayout();
+            this.Долж_Доб_TabPage.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            this.tabPage10.SuspendLayout();
+            this.Долж_Удал_TabPage.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ДолжностиDataGrid)).BeginInit();
             this.КомандировкиPage.SuspendLayout();
             this.tableLayoutPanel27.SuspendLayout();
             this.Командировки_правки_pages.SuspendLayout();
-            this.tabPage11.SuspendLayout();
+            this.Ком_Обн_TabPage.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.командировкиBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.сотрудникиBindingSource)).BeginInit();
-            this.tabPage12.SuspendLayout();
+            this.Ком_Доб_TabPage.SuspendLayout();
             this.tableLayoutPanel6.SuspendLayout();
-            this.tabPage13.SuspendLayout();
+            this.Ком_Удал_TabPage.SuspendLayout();
             this.tableLayoutPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.КомандировкиDataGrid)).BeginInit();
             this.Начисление_зпPage.SuspendLayout();
@@ -861,7 +907,7 @@
             // 
             местоLabel.AutoSize = true;
             местоLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            местоLabel.Location = new System.Drawing.Point(428, 5);
+            местоLabel.Location = new System.Drawing.Point(588, 5);
             местоLabel.Name = "местоLabel";
             местоLabel.Padding = new System.Windows.Forms.Padding(5);
             местоLabel.Size = new System.Drawing.Size(144, 50);
@@ -872,7 +918,7 @@
             // 
             цельLabel.AutoSize = true;
             цельLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            цельLabel.Location = new System.Drawing.Point(428, 55);
+            цельLabel.Location = new System.Drawing.Point(588, 55);
             цельLabel.Name = "цельLabel";
             цельLabel.Padding = new System.Windows.Forms.Padding(5);
             цельLabel.Size = new System.Drawing.Size(144, 50);
@@ -883,7 +929,7 @@
             // 
             оплатаLabel.AutoSize = true;
             оплатаLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            оплатаLabel.Location = new System.Drawing.Point(428, 105);
+            оплатаLabel.Location = new System.Drawing.Point(588, 105);
             оплатаLabel.Name = "оплатаLabel";
             оплатаLabel.Padding = new System.Windows.Forms.Padding(5);
             оплатаLabel.Size = new System.Drawing.Size(144, 50);
@@ -894,7 +940,7 @@
             // 
             примечаниеLabel2.AutoSize = true;
             примечаниеLabel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel2.Location = new System.Drawing.Point(428, 155);
+            примечаниеLabel2.Location = new System.Drawing.Point(588, 155);
             примечаниеLabel2.Name = "примечаниеLabel2";
             примечаниеLabel2.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel2.Size = new System.Drawing.Size(144, 50);
@@ -905,7 +951,7 @@
             // 
             примечаниеLabel3.AutoSize = true;
             примечаниеLabel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel3.Location = new System.Drawing.Point(428, 105);
+            примечаниеLabel3.Location = new System.Drawing.Point(588, 105);
             примечаниеLabel3.Name = "примечаниеLabel3";
             примечаниеLabel3.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel3.Size = new System.Drawing.Size(144, 50);
@@ -927,7 +973,7 @@
             // 
             цельLabel1.AutoSize = true;
             цельLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            цельLabel1.Location = new System.Drawing.Point(428, 5);
+            цельLabel1.Location = new System.Drawing.Point(588, 5);
             цельLabel1.Name = "цельLabel1";
             цельLabel1.Padding = new System.Windows.Forms.Padding(5);
             цельLabel1.Size = new System.Drawing.Size(144, 50);
@@ -938,7 +984,7 @@
             // 
             оплатаLabel1.AutoSize = true;
             оплатаLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            оплатаLabel1.Location = new System.Drawing.Point(428, 55);
+            оплатаLabel1.Location = new System.Drawing.Point(588, 55);
             оплатаLabel1.Name = "оплатаLabel1";
             оплатаLabel1.Padding = new System.Windows.Forms.Padding(5);
             оплатаLabel1.Size = new System.Drawing.Size(144, 50);
@@ -1039,7 +1085,7 @@
             // 
             дата_выплатыLabel.AutoSize = true;
             дата_выплатыLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            дата_выплатыLabel.Location = new System.Drawing.Point(428, 5);
+            дата_выплатыLabel.Location = new System.Drawing.Point(572, 5);
             дата_выплатыLabel.Name = "дата_выплатыLabel";
             дата_выплатыLabel.Padding = new System.Windows.Forms.Padding(5);
             дата_выплатыLabel.Size = new System.Drawing.Size(144, 50);
@@ -1050,7 +1096,7 @@
             // 
             статусLabel.AutoSize = true;
             статусLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            статусLabel.Location = new System.Drawing.Point(428, 55);
+            статусLabel.Location = new System.Drawing.Point(572, 55);
             статусLabel.Name = "статусLabel";
             статусLabel.Padding = new System.Windows.Forms.Padding(5);
             статусLabel.Size = new System.Drawing.Size(144, 50);
@@ -1061,7 +1107,7 @@
             // 
             примечаниеLabel4.AutoSize = true;
             примечаниеLabel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel4.Location = new System.Drawing.Point(428, 105);
+            примечаниеLabel4.Location = new System.Drawing.Point(572, 105);
             примечаниеLabel4.Name = "примечаниеLabel4";
             примечаниеLabel4.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel4.Size = new System.Drawing.Size(144, 50);
@@ -1105,7 +1151,7 @@
             // 
             дата_выплатыLabel1.AutoSize = true;
             дата_выплатыLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            дата_выплатыLabel1.Location = new System.Drawing.Point(428, 5);
+            дата_выплатыLabel1.Location = new System.Drawing.Point(572, 5);
             дата_выплатыLabel1.Name = "дата_выплатыLabel1";
             дата_выплатыLabel1.Padding = new System.Windows.Forms.Padding(5);
             дата_выплатыLabel1.Size = new System.Drawing.Size(144, 50);
@@ -1116,7 +1162,7 @@
             // 
             статусLabel1.AutoSize = true;
             статусLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            статусLabel1.Location = new System.Drawing.Point(428, 55);
+            статусLabel1.Location = new System.Drawing.Point(572, 55);
             статусLabel1.Name = "статусLabel1";
             статусLabel1.Padding = new System.Windows.Forms.Padding(5);
             статусLabel1.Size = new System.Drawing.Size(144, 50);
@@ -1127,7 +1173,7 @@
             // 
             примечаниеLabel5.AutoSize = true;
             примечаниеLabel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel5.Location = new System.Drawing.Point(428, 105);
+            примечаниеLabel5.Location = new System.Drawing.Point(572, 105);
             примечаниеLabel5.Name = "примечаниеLabel5";
             примечаниеLabel5.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel5.Size = new System.Drawing.Size(144, 50);
@@ -1193,7 +1239,7 @@
             // 
             длительностьLabel2.AutoSize = true;
             длительностьLabel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            длительностьLabel2.Location = new System.Drawing.Point(458, 5);
+            длительностьLabel2.Location = new System.Drawing.Point(602, 5);
             длительностьLabel2.Name = "длительностьLabel2";
             длительностьLabel2.Padding = new System.Windows.Forms.Padding(5);
             длительностьLabel2.Size = new System.Drawing.Size(144, 50);
@@ -1204,7 +1250,7 @@
             // 
             видLabel.AutoSize = true;
             видLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            видLabel.Location = new System.Drawing.Point(458, 55);
+            видLabel.Location = new System.Drawing.Point(602, 55);
             видLabel.Name = "видLabel";
             видLabel.Padding = new System.Windows.Forms.Padding(5);
             видLabel.Size = new System.Drawing.Size(144, 50);
@@ -1215,7 +1261,7 @@
             // 
             выплатаLabel.AutoSize = true;
             выплатаLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            выплатаLabel.Location = new System.Drawing.Point(458, 105);
+            выплатаLabel.Location = new System.Drawing.Point(602, 105);
             выплатаLabel.Name = "выплатаLabel";
             выплатаLabel.Padding = new System.Windows.Forms.Padding(5);
             выплатаLabel.Size = new System.Drawing.Size(144, 50);
@@ -1226,7 +1272,7 @@
             // 
             примечаниеLabel6.AutoSize = true;
             примечаниеLabel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel6.Location = new System.Drawing.Point(458, 155);
+            примечаниеLabel6.Location = new System.Drawing.Point(602, 155);
             примечаниеLabel6.Name = "примечаниеLabel6";
             примечаниеLabel6.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel6.Size = new System.Drawing.Size(144, 50);
@@ -1281,7 +1327,7 @@
             // 
             видLabel1.AutoSize = true;
             видLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            видLabel1.Location = new System.Drawing.Point(458, 5);
+            видLabel1.Location = new System.Drawing.Point(602, 5);
             видLabel1.Name = "видLabel1";
             видLabel1.Padding = new System.Windows.Forms.Padding(5);
             видLabel1.Size = new System.Drawing.Size(144, 50);
@@ -1292,7 +1338,7 @@
             // 
             выплатаLabel1.AutoSize = true;
             выплатаLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            выплатаLabel1.Location = new System.Drawing.Point(458, 55);
+            выплатаLabel1.Location = new System.Drawing.Point(602, 55);
             выплатаLabel1.Name = "выплатаLabel1";
             выплатаLabel1.Padding = new System.Windows.Forms.Padding(5);
             выплатаLabel1.Size = new System.Drawing.Size(144, 50);
@@ -1303,7 +1349,7 @@
             // 
             примечаниеLabel7.AutoSize = true;
             примечаниеLabel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel7.Location = new System.Drawing.Point(458, 105);
+            примечаниеLabel7.Location = new System.Drawing.Point(602, 105);
             примечаниеLabel7.Name = "примечаниеLabel7";
             примечаниеLabel7.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel7.Size = new System.Drawing.Size(144, 50);
@@ -1369,7 +1415,7 @@
             // 
             возрастLabel.AutoSize = true;
             возрастLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            возрастLabel.Location = new System.Drawing.Point(458, 5);
+            возрастLabel.Location = new System.Drawing.Point(602, 5);
             возрастLabel.Name = "возрастLabel";
             возрастLabel.Padding = new System.Windows.Forms.Padding(5);
             возрастLabel.Size = new System.Drawing.Size(154, 51);
@@ -1380,7 +1426,7 @@
             // 
             адресLabel.AutoSize = true;
             адресLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            адресLabel.Location = new System.Drawing.Point(458, 56);
+            адресLabel.Location = new System.Drawing.Point(602, 56);
             адресLabel.Name = "адресLabel";
             адресLabel.Padding = new System.Windows.Forms.Padding(5);
             адресLabel.Size = new System.Drawing.Size(154, 51);
@@ -1391,7 +1437,7 @@
             // 
             паспортные_данныеLabel.AutoSize = true;
             паспортные_данныеLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            паспортные_данныеLabel.Location = new System.Drawing.Point(458, 107);
+            паспортные_данныеLabel.Location = new System.Drawing.Point(602, 107);
             паспортные_данныеLabel.Name = "паспортные_данныеLabel";
             паспортные_данныеLabel.Padding = new System.Windows.Forms.Padding(5);
             паспортные_данныеLabel.Size = new System.Drawing.Size(154, 51);
@@ -1402,7 +1448,7 @@
             // 
             примечаниеLabel8.AutoSize = true;
             примечаниеLabel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel8.Location = new System.Drawing.Point(458, 158);
+            примечаниеLabel8.Location = new System.Drawing.Point(602, 158);
             примечаниеLabel8.Name = "примечаниеLabel8";
             примечаниеLabel8.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel8.Size = new System.Drawing.Size(154, 51);
@@ -1457,7 +1503,7 @@
             // 
             адресLabel1.AutoSize = true;
             адресLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            адресLabel1.Location = new System.Drawing.Point(458, 5);
+            адресLabel1.Location = new System.Drawing.Point(602, 5);
             адресLabel1.Name = "адресLabel1";
             адресLabel1.Padding = new System.Windows.Forms.Padding(5);
             адресLabel1.Size = new System.Drawing.Size(154, 51);
@@ -1468,7 +1514,7 @@
             // 
             паспортные_данныеLabel1.AutoSize = true;
             паспортные_данныеLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            паспортные_данныеLabel1.Location = new System.Drawing.Point(458, 56);
+            паспортные_данныеLabel1.Location = new System.Drawing.Point(602, 56);
             паспортные_данныеLabel1.Name = "паспортные_данныеLabel1";
             паспортные_данныеLabel1.Padding = new System.Windows.Forms.Padding(5);
             паспортные_данныеLabel1.Size = new System.Drawing.Size(154, 51);
@@ -1479,7 +1525,7 @@
             // 
             примечаниеLabel9.AutoSize = true;
             примечаниеLabel9.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel9.Location = new System.Drawing.Point(458, 107);
+            примечаниеLabel9.Location = new System.Drawing.Point(602, 107);
             примечаниеLabel9.Name = "примечаниеLabel9";
             примечаниеLabel9.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel9.Size = new System.Drawing.Size(154, 51);
@@ -1534,7 +1580,7 @@
             // 
             длительностьLabel4.AutoSize = true;
             длительностьLabel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            длительностьLabel4.Location = new System.Drawing.Point(458, 5);
+            длительностьLabel4.Location = new System.Drawing.Point(602, 5);
             длительностьLabel4.Name = "длительностьLabel4";
             длительностьLabel4.Padding = new System.Windows.Forms.Padding(5);
             длительностьLabel4.Size = new System.Drawing.Size(154, 51);
@@ -1545,7 +1591,7 @@
             // 
             примечаниеLabel10.AutoSize = true;
             примечаниеLabel10.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel10.Location = new System.Drawing.Point(458, 56);
+            примечаниеLabel10.Location = new System.Drawing.Point(602, 56);
             примечаниеLabel10.Name = "примечаниеLabel10";
             примечаниеLabel10.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel10.Size = new System.Drawing.Size(154, 51);
@@ -1578,7 +1624,7 @@
             // 
             длительностьLabel5.AutoSize = true;
             длительностьLabel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            длительностьLabel5.Location = new System.Drawing.Point(458, 5);
+            длительностьLabel5.Location = new System.Drawing.Point(602, 5);
             длительностьLabel5.Name = "длительностьLabel5";
             длительностьLabel5.Padding = new System.Windows.Forms.Padding(5);
             длительностьLabel5.Size = new System.Drawing.Size(154, 51);
@@ -1589,7 +1635,7 @@
             // 
             примечаниеLabel11.AutoSize = true;
             примечаниеLabel11.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel11.Location = new System.Drawing.Point(458, 56);
+            примечаниеLabel11.Location = new System.Drawing.Point(602, 56);
             примечаниеLabel11.Name = "примечаниеLabel11";
             примечаниеLabel11.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel11.Size = new System.Drawing.Size(154, 51);
@@ -1644,7 +1690,7 @@
             // 
             количество_штатных_единицLabel.AutoSize = true;
             количество_штатных_единицLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            количество_штатных_единицLabel.Location = new System.Drawing.Point(518, 5);
+            количество_штатных_единицLabel.Location = new System.Drawing.Point(662, 5);
             количество_штатных_единицLabel.Name = "количество_штатных_единицLabel";
             количество_штатных_единицLabel.Padding = new System.Windows.Forms.Padding(5);
             количество_штатных_единицLabel.Size = new System.Drawing.Size(154, 48);
@@ -1655,7 +1701,7 @@
             // 
             примечаниеLabel12.AutoSize = true;
             примечаниеLabel12.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel12.Location = new System.Drawing.Point(518, 53);
+            примечаниеLabel12.Location = new System.Drawing.Point(662, 53);
             примечаниеLabel12.Name = "примечаниеLabel12";
             примечаниеLabel12.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel12.Size = new System.Drawing.Size(154, 48);
@@ -1688,7 +1734,7 @@
             // 
             количество_штатных_единицLabel1.AutoSize = true;
             количество_штатных_единицLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            количество_штатных_единицLabel1.Location = new System.Drawing.Point(518, 5);
+            количество_штатных_единицLabel1.Location = new System.Drawing.Point(662, 5);
             количество_штатных_единицLabel1.Name = "количество_штатных_единицLabel1";
             количество_штатных_единицLabel1.Padding = new System.Windows.Forms.Padding(5);
             количество_штатных_единицLabel1.Size = new System.Drawing.Size(154, 48);
@@ -1699,7 +1745,7 @@
             // 
             примечаниеLabel13.AutoSize = true;
             примечаниеLabel13.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel13.Location = new System.Drawing.Point(518, 53);
+            примечаниеLabel13.Location = new System.Drawing.Point(662, 53);
             примечаниеLabel13.Name = "примечаниеLabel13";
             примечаниеLabel13.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel13.Size = new System.Drawing.Size(154, 58);
@@ -1765,7 +1811,7 @@
             // 
             парольLabel.AutoSize = true;
             парольLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            парольLabel.Location = new System.Drawing.Point(458, 5);
+            парольLabel.Location = new System.Drawing.Point(602, 5);
             парольLabel.Name = "парольLabel";
             парольLabel.Padding = new System.Windows.Forms.Padding(5);
             парольLabel.Size = new System.Drawing.Size(154, 51);
@@ -1776,7 +1822,7 @@
             // 
             emailLabel.AutoSize = true;
             emailLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            emailLabel.Location = new System.Drawing.Point(458, 56);
+            emailLabel.Location = new System.Drawing.Point(602, 56);
             emailLabel.Name = "emailLabel";
             emailLabel.Padding = new System.Windows.Forms.Padding(5);
             emailLabel.Size = new System.Drawing.Size(154, 51);
@@ -1787,7 +1833,7 @@
             // 
             телефонLabel.AutoSize = true;
             телефонLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            телефонLabel.Location = new System.Drawing.Point(458, 107);
+            телефонLabel.Location = new System.Drawing.Point(602, 107);
             телефонLabel.Name = "телефонLabel";
             телефонLabel.Padding = new System.Windows.Forms.Padding(5);
             телефонLabel.Size = new System.Drawing.Size(154, 51);
@@ -1798,7 +1844,7 @@
             // 
             примечаниеLabel14.AutoSize = true;
             примечаниеLabel14.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel14.Location = new System.Drawing.Point(458, 158);
+            примечаниеLabel14.Location = new System.Drawing.Point(602, 158);
             примечаниеLabel14.Name = "примечаниеLabel14";
             примечаниеLabel14.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel14.Size = new System.Drawing.Size(154, 51);
@@ -1853,7 +1899,7 @@
             // 
             emailLabel1.AutoSize = true;
             emailLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            emailLabel1.Location = new System.Drawing.Point(458, 5);
+            emailLabel1.Location = new System.Drawing.Point(602, 5);
             emailLabel1.Name = "emailLabel1";
             emailLabel1.Padding = new System.Windows.Forms.Padding(5);
             emailLabel1.Size = new System.Drawing.Size(154, 51);
@@ -1864,7 +1910,7 @@
             // 
             телефонLabel1.AutoSize = true;
             телефонLabel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            телефонLabel1.Location = new System.Drawing.Point(458, 56);
+            телефонLabel1.Location = new System.Drawing.Point(602, 56);
             телефонLabel1.Name = "телефонLabel1";
             телефонLabel1.Padding = new System.Windows.Forms.Padding(5);
             телефонLabel1.Size = new System.Drawing.Size(154, 51);
@@ -1875,7 +1921,7 @@
             // 
             примечаниеLabel15.AutoSize = true;
             примечаниеLabel15.Dock = System.Windows.Forms.DockStyle.Fill;
-            примечаниеLabel15.Location = new System.Drawing.Point(458, 107);
+            примечаниеLabel15.Location = new System.Drawing.Point(602, 107);
             примечаниеLabel15.Name = "примечаниеLabel15";
             примечаниеLabel15.Padding = new System.Windows.Forms.Padding(5);
             примечаниеLabel15.Size = new System.Drawing.Size(154, 51);
@@ -2087,7 +2133,6 @@
             this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
             this.оПрограммеToolStripMenuItem.Size = new System.Drawing.Size(118, 24);
             this.оПрограммеToolStripMenuItem.Text = "О программе";
-            this.оПрограммеToolStripMenuItem.Click += new System.EventHandler(this.ОПрограммеToolStripMenuItem_Click);
             // 
             // tableLayoutPanel1
             // 
@@ -2176,9 +2221,9 @@
             // 
             // Должности_правки_pages
             // 
-            this.Должности_правки_pages.Controls.Add(this.tabPage8);
-            this.Должности_правки_pages.Controls.Add(this.tabPage9);
-            this.Должности_правки_pages.Controls.Add(this.tabPage10);
+            this.Должности_правки_pages.Controls.Add(this.Долж_Обн_TabPage);
+            this.Должности_правки_pages.Controls.Add(this.Долж_Доб_TabPage);
+            this.Должности_правки_pages.Controls.Add(this.Долж_Удал_TabPage);
             this.Должности_правки_pages.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Должности_правки_pages.Location = new System.Drawing.Point(4, 645);
             this.Должности_правки_pages.Multiline = true;
@@ -2187,22 +2232,23 @@
             this.Должности_правки_pages.Size = new System.Drawing.Size(1878, 288);
             this.Должности_правки_pages.TabIndex = 24;
             // 
-            // tabPage8
+            // Долж_Обн_TabPage
             // 
-            this.tabPage8.BackColor = System.Drawing.Color.Gainsboro;
-            this.tabPage8.Controls.Add(this.tableLayoutPanel2);
-            this.tabPage8.Location = new System.Drawing.Point(4, 25);
-            this.tabPage8.Name = "tabPage8";
-            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(1870, 259);
-            this.tabPage8.TabIndex = 0;
-            this.tabPage8.Text = "Обновить данные";
+            this.Долж_Обн_TabPage.BackColor = System.Drawing.Color.Gainsboro;
+            this.Долж_Обн_TabPage.Controls.Add(this.tableLayoutPanel2);
+            this.Долж_Обн_TabPage.Location = new System.Drawing.Point(4, 25);
+            this.Долж_Обн_TabPage.Name = "Долж_Обн_TabPage";
+            this.Долж_Обн_TabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.Долж_Обн_TabPage.Size = new System.Drawing.Size(1870, 259);
+            this.Долж_Обн_TabPage.TabIndex = 0;
+            this.Долж_Обн_TabPage.Text = "Обновить данные";
             // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.AutoSize = true;
-            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel2.Controls.Add(this.примечаниеTextBox, 1, 4);
             this.tableLayoutPanel2.Controls.Add(this.ОбновитьButton, 1, 5);
@@ -2215,6 +2261,9 @@
             this.tableLayoutPanel2.Controls.Add(обязанностиLabel, 0, 3);
             this.tableLayoutPanel2.Controls.Add(примечаниеLabel, 0, 4);
             this.tableLayoutPanel2.Controls.Add(this.код_должностиComboBox, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.Долж_Обн_Обяз_зап_label, 2, 1);
+            this.tableLayoutPanel2.Controls.Add(this.Долж_Обн_Обяз_зап_label1, 2, 2);
+            this.tableLayoutPanel2.Controls.Add(this.Долж_Обн_Обяз_зап_label2, 2, 3);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -2226,8 +2275,9 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(357, 253);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(571, 253);
             this.tableLayoutPanel2.TabIndex = 1;
+            this.tableLayoutPanel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.TableLayoutPanel2_MouseMove);
             // 
             // примечаниеTextBox
             // 
@@ -2279,6 +2329,7 @@
             this.окладTextBox.Name = "окладTextBox";
             this.окладTextBox.Size = new System.Drawing.Size(191, 24);
             this.окладTextBox.TabIndex = 5;
+            this.окладTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ОкладTextBox_KeyPress);
             // 
             // наименованиеTextBox
             // 
@@ -2289,6 +2340,7 @@
             this.наименованиеTextBox.Name = "наименованиеTextBox";
             this.наименованиеTextBox.Size = new System.Drawing.Size(191, 24);
             this.наименованиеTextBox.TabIndex = 3;
+            this.наименованиеTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.НаименованиеTextBox_KeyPress);
             // 
             // код_должностиComboBox
             // 
@@ -2304,22 +2356,62 @@
             this.код_должностиComboBox.TabIndex = 10;
             this.код_должностиComboBox.ValueMember = "Код_должности";
             // 
-            // tabPage9
+            // Долж_Обн_Обяз_зап_label
             // 
-            this.tabPage9.BackColor = System.Drawing.Color.Gainsboro;
-            this.tabPage9.Controls.Add(this.tableLayoutPanel3);
-            this.tabPage9.Location = new System.Drawing.Point(4, 25);
-            this.tabPage9.Name = "tabPage9";
-            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(1870, 259);
-            this.tabPage9.TabIndex = 1;
-            this.tabPage9.Text = "Добавить данные";
+            this.Долж_Обн_Обяз_зап_label.AutoSize = true;
+            this.Долж_Обн_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Долж_Обн_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Долж_Обн_Обяз_зап_label.Location = new System.Drawing.Point(355, 45);
+            this.Долж_Обн_Обяз_зап_label.Name = "Долж_Обн_Обяз_зап_label";
+            this.Долж_Обн_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Долж_Обн_Обяз_зап_label.Size = new System.Drawing.Size(208, 40);
+            this.Долж_Обн_Обяз_зап_label.TabIndex = 12;
+            this.Долж_Обн_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Долж_Обн_Обяз_зап_label.Visible = false;
+            // 
+            // Долж_Обн_Обяз_зап_label1
+            // 
+            this.Долж_Обн_Обяз_зап_label1.AutoSize = true;
+            this.Долж_Обн_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Долж_Обн_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Долж_Обн_Обяз_зап_label1.Location = new System.Drawing.Point(355, 85);
+            this.Долж_Обн_Обяз_зап_label1.Name = "Долж_Обн_Обяз_зап_label1";
+            this.Долж_Обн_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Долж_Обн_Обяз_зап_label1.Size = new System.Drawing.Size(208, 40);
+            this.Долж_Обн_Обяз_зап_label1.TabIndex = 13;
+            this.Долж_Обн_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Долж_Обн_Обяз_зап_label1.Visible = false;
+            // 
+            // Долж_Обн_Обяз_зап_label2
+            // 
+            this.Долж_Обн_Обяз_зап_label2.AutoSize = true;
+            this.Долж_Обн_Обяз_зап_label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Долж_Обн_Обяз_зап_label2.ForeColor = System.Drawing.Color.Red;
+            this.Долж_Обн_Обяз_зап_label2.Location = new System.Drawing.Point(355, 125);
+            this.Долж_Обн_Обяз_зап_label2.Name = "Долж_Обн_Обяз_зап_label2";
+            this.Долж_Обн_Обяз_зап_label2.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Долж_Обн_Обяз_зап_label2.Size = new System.Drawing.Size(208, 40);
+            this.Долж_Обн_Обяз_зап_label2.TabIndex = 14;
+            this.Долж_Обн_Обяз_зап_label2.Text = "*Обязательно для заполнение";
+            this.Долж_Обн_Обяз_зап_label2.Visible = false;
+            // 
+            // Долж_Доб_TabPage
+            // 
+            this.Долж_Доб_TabPage.BackColor = System.Drawing.Color.Gainsboro;
+            this.Долж_Доб_TabPage.Controls.Add(this.tableLayoutPanel3);
+            this.Долж_Доб_TabPage.Location = new System.Drawing.Point(4, 25);
+            this.Долж_Доб_TabPage.Name = "Долж_Доб_TabPage";
+            this.Долж_Доб_TabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.Долж_Доб_TabPage.Size = new System.Drawing.Size(1870, 259);
+            this.Долж_Доб_TabPage.TabIndex = 1;
+            this.Долж_Доб_TabPage.Text = "Добавить данные";
             // 
             // tableLayoutPanel3
             // 
             this.tableLayoutPanel3.AutoSize = true;
-            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnCount = 3;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel3.Controls.Add(наименованиеLabel1, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.примечаниеTextBox1, 1, 3);
@@ -2330,6 +2422,9 @@
             this.tableLayoutPanel3.Controls.Add(окладLabel1, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.наименованиеTextBox1, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.ДобавитьButton, 1, 4);
+            this.tableLayoutPanel3.Controls.Add(this.Долж_Доб_Обяз_зап_label1, 2, 1);
+            this.tableLayoutPanel3.Controls.Add(this.Долж_Доб_Обяз_зап_label, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Долж_Доб_Обяз_зап_label2, 2, 2);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
@@ -2340,8 +2435,9 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(357, 253);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(571, 253);
             this.tableLayoutPanel3.TabIndex = 10;
+            this.tableLayoutPanel3.MouseMove += new System.Windows.Forms.MouseEventHandler(this.TableLayoutPanel3_MouseMove);
             // 
             // примечаниеTextBox1
             // 
@@ -2372,6 +2468,7 @@
             this.окладTextBox1.Name = "окладTextBox1";
             this.окладTextBox1.Size = new System.Drawing.Size(191, 26);
             this.окладTextBox1.TabIndex = 5;
+            this.окладTextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ОкладTextBox1_KeyPress);
             // 
             // наименованиеTextBox1
             // 
@@ -2382,6 +2479,7 @@
             this.наименованиеTextBox1.Name = "наименованиеTextBox1";
             this.наименованиеTextBox1.Size = new System.Drawing.Size(191, 26);
             this.наименованиеTextBox1.TabIndex = 3;
+            this.наименованиеTextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.НаименованиеTextBox1_KeyPress);
             // 
             // ДобавитьButton
             // 
@@ -2392,17 +2490,57 @@
             this.ДобавитьButton.TabIndex = 12;
             this.ДобавитьButton.Text = "Добавить";
             this.ДобавитьButton.UseVisualStyleBackColor = true;
+            this.ДобавитьButton.Click += new System.EventHandler(this.ДобавитьButton_Click);
             // 
-            // tabPage10
+            // Долж_Доб_Обяз_зап_label1
             // 
-            this.tabPage10.BackColor = System.Drawing.Color.Gainsboro;
-            this.tabPage10.Controls.Add(this.tableLayoutPanel4);
-            this.tabPage10.Location = new System.Drawing.Point(4, 25);
-            this.tabPage10.Name = "tabPage10";
-            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage10.Size = new System.Drawing.Size(1870, 259);
-            this.tabPage10.TabIndex = 2;
-            this.tabPage10.Text = "Удалить данные";
+            this.Долж_Доб_Обяз_зап_label1.AutoSize = true;
+            this.Долж_Доб_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Долж_Доб_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Долж_Доб_Обяз_зап_label1.Location = new System.Drawing.Point(355, 55);
+            this.Долж_Доб_Обяз_зап_label1.Name = "Долж_Доб_Обяз_зап_label1";
+            this.Долж_Доб_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 9, 0, 0);
+            this.Долж_Доб_Обяз_зап_label1.Size = new System.Drawing.Size(208, 50);
+            this.Долж_Доб_Обяз_зап_label1.TabIndex = 15;
+            this.Долж_Доб_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Долж_Доб_Обяз_зап_label1.Visible = false;
+            // 
+            // Долж_Доб_Обяз_зап_label
+            // 
+            this.Долж_Доб_Обяз_зап_label.AutoSize = true;
+            this.Долж_Доб_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Долж_Доб_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Долж_Доб_Обяз_зап_label.Location = new System.Drawing.Point(355, 5);
+            this.Долж_Доб_Обяз_зап_label.Name = "Долж_Доб_Обяз_зап_label";
+            this.Долж_Доб_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 9, 0, 0);
+            this.Долж_Доб_Обяз_зап_label.Size = new System.Drawing.Size(208, 50);
+            this.Долж_Доб_Обяз_зап_label.TabIndex = 16;
+            this.Долж_Доб_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Долж_Доб_Обяз_зап_label.Visible = false;
+            // 
+            // Долж_Доб_Обяз_зап_label2
+            // 
+            this.Долж_Доб_Обяз_зап_label2.AutoSize = true;
+            this.Долж_Доб_Обяз_зап_label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Долж_Доб_Обяз_зап_label2.ForeColor = System.Drawing.Color.Red;
+            this.Долж_Доб_Обяз_зап_label2.Location = new System.Drawing.Point(355, 105);
+            this.Долж_Доб_Обяз_зап_label2.Name = "Долж_Доб_Обяз_зап_label2";
+            this.Долж_Доб_Обяз_зап_label2.Padding = new System.Windows.Forms.Padding(0, 9, 0, 0);
+            this.Долж_Доб_Обяз_зап_label2.Size = new System.Drawing.Size(208, 50);
+            this.Долж_Доб_Обяз_зап_label2.TabIndex = 17;
+            this.Долж_Доб_Обяз_зап_label2.Text = "*Обязательно для заполнение";
+            this.Долж_Доб_Обяз_зап_label2.Visible = false;
+            // 
+            // Долж_Удал_TabPage
+            // 
+            this.Долж_Удал_TabPage.BackColor = System.Drawing.Color.Gainsboro;
+            this.Долж_Удал_TabPage.Controls.Add(this.tableLayoutPanel4);
+            this.Долж_Удал_TabPage.Location = new System.Drawing.Point(4, 25);
+            this.Долж_Удал_TabPage.Name = "Долж_Удал_TabPage";
+            this.Долж_Удал_TabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.Долж_Удал_TabPage.Size = new System.Drawing.Size(1870, 259);
+            this.Долж_Удал_TabPage.TabIndex = 2;
+            this.Долж_Удал_TabPage.Text = "Удалить данные";
             // 
             // tableLayoutPanel4
             // 
@@ -2435,6 +2573,7 @@
             this.УдалитьButton.TabIndex = 12;
             this.УдалитьButton.Text = "Удалить";
             this.УдалитьButton.UseVisualStyleBackColor = true;
+            this.УдалитьButton.Click += new System.EventHandler(this.УдалитьButton_Click);
             // 
             // код_должностиComboBox1
             // 
@@ -2498,12 +2637,12 @@
             // 
             // коддолжностиDataGridViewTextBoxColumn
             // 
+            this.коддолжностиDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.коддолжностиDataGridViewTextBoxColumn.DataPropertyName = "Код_должности";
             this.коддолжностиDataGridViewTextBoxColumn.HeaderText = "Код должности";
             this.коддолжностиDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.коддолжностиDataGridViewTextBoxColumn.Name = "коддолжностиDataGridViewTextBoxColumn";
             this.коддолжностиDataGridViewTextBoxColumn.ReadOnly = true;
-            this.коддолжностиDataGridViewTextBoxColumn.Width = 125;
             // 
             // наименованиеDataGridViewTextBoxColumn
             // 
@@ -2603,9 +2742,9 @@
             // 
             // Командировки_правки_pages
             // 
-            this.Командировки_правки_pages.Controls.Add(this.tabPage11);
-            this.Командировки_правки_pages.Controls.Add(this.tabPage12);
-            this.Командировки_правки_pages.Controls.Add(this.tabPage13);
+            this.Командировки_правки_pages.Controls.Add(this.Ком_Обн_TabPage);
+            this.Командировки_правки_pages.Controls.Add(this.Ком_Доб_TabPage);
+            this.Командировки_правки_pages.Controls.Add(this.Ком_Удал_TabPage);
             this.Командировки_правки_pages.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Командировки_правки_pages.Location = new System.Drawing.Point(4, 645);
             this.Командировки_правки_pages.Name = "Командировки_правки_pages";
@@ -2613,43 +2752,47 @@
             this.Командировки_правки_pages.Size = new System.Drawing.Size(1878, 288);
             this.Командировки_правки_pages.TabIndex = 31;
             // 
-            // tabPage11
+            // Ком_Обн_TabPage
             // 
-            this.tabPage11.AutoScroll = true;
-            this.tabPage11.BackColor = System.Drawing.Color.Gainsboro;
-            this.tabPage11.Controls.Add(this.tableLayoutPanel5);
-            this.tabPage11.Location = new System.Drawing.Point(4, 25);
-            this.tabPage11.Name = "tabPage11";
-            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage11.Size = new System.Drawing.Size(1870, 259);
-            this.tabPage11.TabIndex = 0;
-            this.tabPage11.Text = "Обновить данные";
+            this.Ком_Обн_TabPage.AutoScroll = true;
+            this.Ком_Обн_TabPage.BackColor = System.Drawing.Color.Gainsboro;
+            this.Ком_Обн_TabPage.Controls.Add(this.tableLayoutPanel5);
+            this.Ком_Обн_TabPage.Location = new System.Drawing.Point(4, 25);
+            this.Ком_Обн_TabPage.Name = "Ком_Обн_TabPage";
+            this.Ком_Обн_TabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.Ком_Обн_TabPage.Size = new System.Drawing.Size(1870, 259);
+            this.Ком_Обн_TabPage.TabIndex = 0;
+            this.Ком_Обн_TabPage.Text = "Обновить данные";
             // 
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.AutoSize = true;
-            this.tableLayoutPanel5.ColumnCount = 5;
+            this.tableLayoutPanel5.ColumnCount = 6;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 230F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel5.Controls.Add(this.местоComboBox, 4, 0);
+            this.tableLayoutPanel5.Controls.Add(this.дата_командировкиDateTimePicker, 1, 2);
             this.tableLayoutPanel5.Controls.Add(this.примечаниеTextBox2, 4, 3);
             this.tableLayoutPanel5.Controls.Add(примечаниеLabel2, 3, 3);
             this.tableLayoutPanel5.Controls.Add(this.оплатаTextBox, 4, 2);
             this.tableLayoutPanel5.Controls.Add(this.цельTextBox, 4, 1);
-            this.tableLayoutPanel5.Controls.Add(this.местоTextBox, 4, 0);
             this.tableLayoutPanel5.Controls.Add(this.длительностьTextBox, 1, 3);
             this.tableLayoutPanel5.Controls.Add(местоLabel, 3, 0);
             this.tableLayoutPanel5.Controls.Add(цельLabel, 3, 1);
             this.tableLayoutPanel5.Controls.Add(оплатаLabel, 3, 2);
             this.tableLayoutPanel5.Controls.Add(код_сотрудникаLabel, 0, 1);
             this.tableLayoutPanel5.Controls.Add(код_командировкиLabel, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.дата_командировкиTextBox, 1, 2);
             this.tableLayoutPanel5.Controls.Add(дата_командировкиLabel, 0, 2);
             this.tableLayoutPanel5.Controls.Add(длительностьLabel, 0, 3);
             this.tableLayoutPanel5.Controls.Add(this.Код_командировкиComboBox, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.код_сотрудникаComboBox, 1, 1);
+            this.tableLayoutPanel5.Controls.Add(this.Ком_Обн_Обяз_зап_label1, 2, 3);
+            this.tableLayoutPanel5.Controls.Add(this.Ком_Обн_Обяз_зап_label, 2, 2);
+            this.tableLayoutPanel5.Controls.Add(this.Ком_Обн_Обяз_зап_label2, 5, 0);
             this.tableLayoutPanel5.Controls.Add(this.ОбновитьButton1, 4, 4);
             this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 3);
@@ -2661,15 +2804,1153 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(770, 253);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1144, 253);
             this.tableLayoutPanel5.TabIndex = 2;
+            this.tableLayoutPanel5.MouseMove += new System.Windows.Forms.MouseEventHandler(this.TableLayoutPanel5_MouseMove);
+            // 
+            // местоComboBox
+            // 
+            this.местоComboBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.местоComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.местоComboBox.FormattingEnabled = true;
+            this.местоComboBox.Items.AddRange(new object[] {
+            "Абаза",
+            "Абакан",
+            "Абдулино",
+            "Абинск",
+            "Агидель",
+            "Агрыз",
+            "Адыгейск",
+            "Азнакаево",
+            "Азов",
+            "Ак-Довурак",
+            "Аксай",
+            "Алагир",
+            "Алапаевск",
+            "Алатырь",
+            "Алдан",
+            "Алейск",
+            "Александров",
+            "Александровск",
+            "Александровск-Сахалинский",
+            "Алексеевка",
+            "Алексин",
+            "Алзамай",
+            "АлупкаОспаривается",
+            "АлуштаОспаривается",
+            "Альметьевск",
+            "Амурск",
+            "Анадырь",
+            "Анапа",
+            "Ангарск",
+            "Андреаполь",
+            "Анжеро-Судженск",
+            "Анива",
+            "Апатиты",
+            "Апрелевка",
+            "Апшеронск",
+            "Арамиль",
+            "Аргун",
+            "Ардатов",
+            "Ардон",
+            "Арзамас",
+            "Аркадак",
+            "Армавир",
+            "АрмянскОспаривается",
+            "Арсеньев",
+            "Арск",
+            "Артём",
+            "Артёмовск",
+            "Артёмовский",
+            "Архангельск",
+            "Асбест",
+            "Асино",
+            "Астрахань",
+            "Аткарск",
+            "Ахтубинск",
+            "Ачинск",
+            "Аша",
+            "Бабаево",
+            "Бабушкин",
+            "Бавлы",
+            "Багратионовск",
+            "Байкальск",
+            "Баймак",
+            "Бакал",
+            "Баксан",
+            "Балабаново",
+            "Балаково",
+            "Балахна",
+            "Балашиха",
+            "Балашов",
+            "Балей",
+            "Балтийск",
+            "Барабинск",
+            "Барнаул",
+            "Барыш",
+            "Батайск",
+            "БахчисарайОспаривается",
+            "Бежецк",
+            "Белая Калитва",
+            "Белая Холуница",
+            "Белгород",
+            "Белебей",
+            "Белёв",
+            "Белинский",
+            "Белово",
+            "Белогорск",
+            "БелогорскОспаривается",
+            "Белозерск",
+            "Белокуриха",
+            "Беломорск",
+            "Белоозёрский",
+            "Белорецк",
+            "Белореченск",
+            "Белоусово",
+            "Белоярский",
+            "Белый",
+            "Бердск",
+            "Березники",
+            "Берёзовский",
+            "Берёзовский",
+            "Беслан",
+            "Бийск",
+            "Бикин",
+            "Билибино",
+            "Биробиджан",
+            "Бирск",
+            "Бирюсинск",
+            "Бирюч",
+            "Благовещенск",
+            "Благовещенск",
+            "Благодарный",
+            "Бобров",
+            "Богданович",
+            "Богородицк",
+            "Богородск",
+            "Боготол",
+            "Богучар",
+            "Бодайбо",
+            "Бокситогорск",
+            "Болгар",
+            "Бологое",
+            "Болотное",
+            "Болохово",
+            "Болхов",
+            "Большой Камень",
+            "Бор",
+            "Борзя",
+            "Борисоглебск",
+            "Боровичи",
+            "Боровск",
+            "Бородино",
+            "Братск",
+            "Бронницы",
+            "Брянск",
+            "Бугульма",
+            "Бугуруслан",
+            "Будённовск",
+            "Бузулук",
+            "Буинск",
+            "Буй",
+            "Буйнакск",
+            "Бутурлиновка",
+            "Валдай",
+            "Валуйки",
+            "Велиж",
+            "Великие Луки",
+            "Великий Новгород",
+            "Великий Устюг",
+            "Вельск",
+            "Венёв",
+            "Верещагино",
+            "Верея",
+            "Верхнеуральск",
+            "Верхний Тагил",
+            "Верхний Уфалей",
+            "Верхняя Пышма",
+            "Верхняя Салда",
+            "Верхняя Тура",
+            "Верхотурье",
+            "Верхоянск",
+            "Весьегонск",
+            "Ветлуга",
+            "Видное",
+            "Вилюйск",
+            "Вилючинск",
+            "Вихоревка",
+            "Вичуга",
+            "Владивосток",
+            "Владикавказ",
+            "Владимир",
+            "Волгоград",
+            "Волгодонск",
+            "Волгореченск",
+            "Волжск",
+            "Волжский",
+            "Вологда",
+            "Володарск",
+            "Волоколамск",
+            "Волосово",
+            "Волхов",
+            "Волчанск",
+            "Вольск",
+            "Воркута",
+            "Воронеж",
+            "Ворсма",
+            "Воскресенск",
+            "Воткинск",
+            "Всеволожск",
+            "Вуктыл",
+            "Выборг",
+            "Выкса",
+            "Высоковск",
+            "Высоцк",
+            "Вытегра",
+            "Вышний Волочёк",
+            "Вяземский",
+            "Вязники",
+            "Вязьма",
+            "Вятские Поляны",
+            "Гаврилов Посад",
+            "Гаврилов-Ям",
+            "Гагарин",
+            "Гаджиево",
+            "Гай",
+            "Галич",
+            "Гатчина",
+            "Гвардейск",
+            "Гдов",
+            "Геленджик",
+            "Георгиевск",
+            "Глазов",
+            "Голицыно",
+            "Горбатов",
+            "Горно-Алтайск",
+            "Горнозаводск",
+            "Горняк",
+            "Городец",
+            "Городище",
+            "Городовиковск",
+            "Гороховец",
+            "Горячий Ключ",
+            "Грайворон",
+            "Гремячинск",
+            "Грозный",
+            "Грязи",
+            "Грязовец",
+            "Губаха",
+            "Губкин",
+            "Губкинский",
+            "Гудермес",
+            "Гуково",
+            "Гулькевичи",
+            "Гурьевск",
+            "Гурьевск",
+            "Гусев",
+            "Гусиноозёрск",
+            "Гусь-Хрустальный",
+            "Давлеканово",
+            "Дагестанские Огни",
+            "Далматово",
+            "Дальнегорск",
+            "Дальнереченск",
+            "Данилов",
+            "Данков",
+            "Дегтярск",
+            "Дедовск",
+            "Демидов",
+            "Дербент",
+            "Десногорск",
+            "ДжанкойОспаривается",
+            "Дзержинск",
+            "Дзержинский",
+            "Дивногорск",
+            "Дигора",
+            "Димитровград",
+            "Дмитриев",
+            "Дмитров",
+            "Дмитровск",
+            "Дно",
+            "Добрянка",
+            "Долгопрудный",
+            "Долинск",
+            "Домодедово",
+            "Донецк",
+            "Донской",
+            "Дорогобуж",
+            "Дрезна",
+            "Дубна",
+            "Дубовка",
+            "Дудинка",
+            "Духовщина",
+            "Дюртюли",
+            "Дятьково",
+            "ЕвпаторияОспаривается",
+            "Егорьевск",
+            "Ейск",
+            "Екатеринбург",
+            "Елабуга",
+            "Елец",
+            "Елизово",
+            "Ельня",
+            "Еманжелинск",
+            "Емва",
+            "Енисейск",
+            "Ермолино",
+            "Ершов",
+            "Ессентуки",
+            "Ефремов",
+            "Железноводск",
+            "Железногорск",
+            "Железногорск",
+            "Железногорск-Илимский",
+            "Жердевка",
+            "Жигулёвск",
+            "Жиздра",
+            "Жирновск",
+            "Жуков",
+            "Жуковка",
+            "Жуковский",
+            "Завитинск",
+            "Заводоуковск",
+            "Заволжск",
+            "Заволжье",
+            "Задонск",
+            "Заинск",
+            "Закаменск",
+            "Заозёрный",
+            "Заозёрск",
+            "Западная Двина",
+            "Заполярный",
+            "Зарайск",
+            "Заречный",
+            "Заречный",
+            "Заринск",
+            "Звенигово",
+            "Звенигород",
+            "Зверево",
+            "Зеленогорск",
+            "Зеленоградск",
+            "Зеленодольск",
+            "Зеленокумск",
+            "Зерноград",
+            "Зея",
+            "Зима",
+            "Златоуст",
+            "Злынка",
+            "Змеиногорск",
+            "Знаменск",
+            "Зубцов",
+            "Зуевка",
+            "Ивангород",
+            "Иваново",
+            "Ивантеевка",
+            "Ивдель",
+            "Игарка",
+            "Ижевск",
+            "Избербаш",
+            "Изобильный",
+            "Иланский",
+            "Инза",
+            "Иннополис",
+            "Инсар",
+            "Инта",
+            "Ипатово",
+            "Ирбит",
+            "Иркутск",
+            "Исилькуль",
+            "Искитим",
+            "Истра",
+            "Ишим",
+            "Ишимбай",
+            "Йошкар-Ола",
+            "Кадников",
+            "Казань",
+            "Калач",
+            "Калач-на-Дону",
+            "Калачинск",
+            "Калининград",
+            "Калининск",
+            "Калтан",
+            "Калуга",
+            "Калязин",
+            "Камбарка",
+            "Каменка",
+            "Каменногорск",
+            "Каменск-Уральский",
+            "Каменск-Шахтинский",
+            "Камень-на-Оби",
+            "Камешково",
+            "Камызяк",
+            "Камышин",
+            "Камышлов",
+            "Канаш",
+            "Кандалакша",
+            "Канск",
+            "Карабаново",
+            "Карабаш",
+            "Карабулак",
+            "Карасук",
+            "Карачаевск",
+            "Карачев",
+            "Каргат",
+            "Каргополь",
+            "Карпинск",
+            "Карталы",
+            "Касимов",
+            "Касли",
+            "Каспийск",
+            "Катав-Ивановск",
+            "Катайск",
+            "Качканар",
+            "Кашин",
+            "Кашира",
+            "Кедровый",
+            "Кемерово",
+            "Кемь",
+            "КерчьОспаривается",
+            "Кизел",
+            "Кизилюрт",
+            "Кизляр",
+            "Кимовск",
+            "Кимры",
+            "Кингисепп",
+            "Кинель",
+            "Кинешма",
+            "Киреевск",
+            "Киренск",
+            "Киржач",
+            "Кириллов",
+            "Кириши",
+            "Киров",
+            "Киров",
+            "Кировград",
+            "Кирово-Чепецк",
+            "Кировск",
+            "Кировск",
+            "Кирс",
+            "Кирсанов",
+            "Киселёвск",
+            "Кисловодск",
+            "Клин",
+            "Клинцы",
+            "Княгинино",
+            "Ковдор",
+            "Ковров",
+            "Ковылкино",
+            "Когалым",
+            "Кодинск",
+            "Козельск",
+            "Козловка",
+            "Козьмодемьянск",
+            "Кола",
+            "Кологрив",
+            "Коломна",
+            "Колпашево",
+            "Кольчугино",
+            "Коммунар",
+            "Комсомольск",
+            "Комсомольск-на-Амуре",
+            "Конаково",
+            "Кондопога",
+            "Кондрово",
+            "Константиновск",
+            "Копейск",
+            "Кораблино",
+            "Кореновск",
+            "Коркино",
+            "Королёв",
+            "Короча",
+            "Корсаков",
+            "Коряжма",
+            "Костерёво",
+            "Костомукша",
+            "Кострома",
+            "Котельники",
+            "Котельниково",
+            "Котельнич",
+            "Котлас",
+            "Котово",
+            "Котовск",
+            "Кохма",
+            "Красавино",
+            "Красноармейск",
+            "Красноармейск",
+            "Красновишерск",
+            "Красногорск",
+            "Краснодар",
+            "Краснозаводск",
+            "Краснознаменск",
+            "Краснознаменск",
+            "Краснокаменск",
+            "Краснокамск",
+            "КрасноперекопскОспаривается",
+            "Краснослободск",
+            "Краснослободск",
+            "Краснотурьинск",
+            "Красноуральск",
+            "Красноуфимск",
+            "Красноярск",
+            "Красный Кут",
+            "Красный Сулин",
+            "Красный Холм",
+            "Кремёнки",
+            "Кропоткин",
+            "Крымск",
+            "Кстово",
+            "Кубинка",
+            "Кувандык",
+            "Кувшиново",
+            "Кудрово",
+            "Кудымкар",
+            "Кузнецк",
+            "Куйбышев",
+            "Кукмор",
+            "Кулебаки",
+            "Кумертау",
+            "Кунгур",
+            "Купино",
+            "Курган",
+            "Курганинск",
+            "Курильск",
+            "Курлово",
+            "Куровское",
+            "Курск",
+            "Куртамыш",
+            "Курчалой",
+            "Курчатов",
+            "Куса",
+            "Кушва",
+            "Кызыл",
+            "Кыштым",
+            "Кяхта",
+            "Лабинск",
+            "Лабытнанги",
+            "Лагань",
+            "Ладушкин",
+            "Лаишево",
+            "Лакинск",
+            "Лангепас",
+            "Лахденпохья",
+            "Лебедянь",
+            "Лениногорск",
+            "Ленинск",
+            "Ленинск-Кузнецкий",
+            "Ленск",
+            "Лермонтов",
+            "Лесной",
+            "Лесозаводск",
+            "Лесосибирск",
+            "Ливны",
+            "Ликино-Дулёво",
+            "Липецк",
+            "Липки",
+            "Лиски",
+            "Лихославль",
+            "Лобня",
+            "Лодейное Поле",
+            "Лосино-Петровский",
+            "Луга",
+            "Луза",
+            "Лукоянов",
+            "Луховицы",
+            "Лысково",
+            "Лысьва",
+            "Лыткарино",
+            "Льгов",
+            "Любань",
+            "Люберцы",
+            "Любим",
+            "Людиново",
+            "Лянтор",
+            "Магадан",
+            "Магас",
+            "Магнитогорск",
+            "Майкоп",
+            "Майский",
+            "Макаров",
+            "Макарьев",
+            "Макушино",
+            "Малая Вишера",
+            "Малгобек",
+            "Малмыж",
+            "Малоархангельск",
+            "Малоярославец",
+            "Мамадыш",
+            "Мамоново",
+            "Мантурово",
+            "Мариинск",
+            "Мариинский Посад",
+            "Маркс",
+            "Махачкала",
+            "Мглин",
+            "Мегион",
+            "Медвежьегорск",
+            "Медногорск",
+            "Медынь",
+            "Межгорье",
+            "Междуреченск",
+            "Мезень",
+            "Меленки",
+            "Мелеуз",
+            "Менделеевск",
+            "Мензелинск",
+            "Мещовск",
+            "Миасс",
+            "Микунь",
+            "Миллерово",
+            "Минеральные Воды",
+            "Минусинск",
+            "Миньяр",
+            "Мирный",
+            "Мирный",
+            "Михайлов",
+            "Михайловка",
+            "Михайловск",
+            "Михайловск",
+            "Мичуринск",
+            "Могоча",
+            "Можайск",
+            "Можга",
+            "Моздок",
+            "Мончегорск",
+            "Морозовск",
+            "Моршанск",
+            "Мосальск",
+            "Москва",
+            "Муравленко",
+            "Мураши",
+            "Мурино",
+            "Мурманск",
+            "Муром",
+            "Мценск",
+            "Мыски",
+            "Мытищи",
+            "Мышкин",
+            "Набережные Челны",
+            "Навашино",
+            "Наволоки",
+            "Надым",
+            "Назарово",
+            "Назрань",
+            "Называевск",
+            "Нальчик",
+            "Нариманов",
+            "Наро-Фоминск",
+            "Нарткала",
+            "Нарьян-Мар",
+            "Находка",
+            "Невель",
+            "Невельск",
+            "Невинномысск",
+            "Невьянск",
+            "Нелидово",
+            "Неман",
+            "Нерехта",
+            "Нерчинск",
+            "Нерюнгри",
+            "Нестеров",
+            "Нефтегорск",
+            "Нефтекамск",
+            "Нефтекумск",
+            "Нефтеюганск",
+            "Нея",
+            "Нижневартовск",
+            "Нижнекамск",
+            "Нижнеудинск",
+            "Нижние Серги",
+            "Нижний Ломов",
+            "Нижний Новгород",
+            "Нижний Тагил",
+            "Нижняя Салда",
+            "Нижняя Тура",
+            "Николаевск",
+            "Николаевск-на-Амуре",
+            "Никольск",
+            "Никольск",
+            "Никольское",
+            "Новая Ладога",
+            "Новая Ляля",
+            "Новоалександровск",
+            "Новоалтайск",
+            "Новоаннинский",
+            "Нововоронеж",
+            "Новодвинск",
+            "Новозыбков",
+            "Новокубанск",
+            "Новокузнецк",
+            "Новокуйбышевск",
+            "Новомичуринск",
+            "Новомосковск",
+            "Новопавловск",
+            "Новоржев",
+            "Новороссийск",
+            "Новосибирск",
+            "Новосиль",
+            "Новосокольники",
+            "Новотроицк",
+            "Новоузенск",
+            "Новоульяновск",
+            "Новоуральск",
+            "Новохопёрск",
+            "Новочебоксарск",
+            "Новочеркасск",
+            "Новошахтинск",
+            "Новый Оскол",
+            "Новый Уренгой",
+            "Ногинск",
+            "Нолинск",
+            "Норильск",
+            "Ноябрьск",
+            "Нурлат",
+            "Нытва",
+            "Нюрба",
+            "Нягань",
+            "Нязепетровск",
+            "Няндома",
+            "Облучье",
+            "Обнинск",
+            "Обоянь",
+            "Обь",
+            "Одинцово",
+            "Озёрск",
+            "Озёрск",
+            "Озёры",
+            "Октябрьск",
+            "Октябрьский",
+            "Окуловка",
+            "Олёкминск",
+            "Оленегорск",
+            "Олонец",
+            "Омск",
+            "Омутнинск",
+            "Онега",
+            "Опочка",
+            "Орёл",
+            "Оренбург",
+            "Орехово-Зуево",
+            "Орлов",
+            "Орск",
+            "Оса",
+            "Осинники",
+            "Осташков",
+            "Остров",
+            "Островной",
+            "Острогожск",
+            "Отрадное",
+            "Отрадный",
+            "Оха",
+            "Оханск",
+            "Очёр",
+            "Павлово",
+            "Павловск",
+            "Павловский Посад",
+            "Палласовка",
+            "Партизанск",
+            "Певек",
+            "Пенза",
+            "Первомайск",
+            "Первоуральск",
+            "Перевоз",
+            "Пересвет",
+            "Переславль-Залесский",
+            "Пермь",
+            "Пестово",
+            "Петров Вал",
+            "Петровск",
+            "Петровск-Забайкальский",
+            "Петрозаводск",
+            "Петропавловск-Камчатский",
+            "Петухово",
+            "Петушки",
+            "Печора",
+            "Печоры",
+            "Пикалёво",
+            "Пионерский",
+            "Питкяранта",
+            "Плавск",
+            "Пласт",
+            "Плёс",
+            "Поворино",
+            "Подольск",
+            "Подпорожье",
+            "Покачи",
+            "Покров",
+            "Покровск",
+            "Полевской",
+            "Полесск",
+            "Полысаево",
+            "Полярные Зори",
+            "Полярный",
+            "Поронайск",
+            "Порхов",
+            "Похвистнево",
+            "Почеп",
+            "Починок",
+            "Пошехонье",
+            "Правдинск",
+            "Приволжск",
+            "Приморск",
+            "Приморск",
+            "Приморско-Ахтарск",
+            "Приозерск",
+            "Прокопьевск",
+            "Пролетарск",
+            "Протвино",
+            "Прохладный",
+            "Псков",
+            "Пугачёв",
+            "Пудож",
+            "Пустошка",
+            "Пучеж",
+            "Пушкино",
+            "Пущино",
+            "Пыталово",
+            "Пыть-Ях",
+            "Пятигорск",
+            "Радужный",
+            "Радужный",
+            "Райчихинск",
+            "Раменское",
+            "Рассказово",
+            "Ревда",
+            "Реж",
+            "Реутов",
+            "Ржев",
+            "Родники",
+            "Рославль",
+            "Россошь",
+            "Ростов-на-Дону",
+            "Ростов",
+            "Рошаль",
+            "Ртищево",
+            "Рубцовск",
+            "Рудня",
+            "Руза",
+            "Рузаевка",
+            "Рыбинск",
+            "Рыбное",
+            "Рыльск",
+            "Ряжск",
+            "Рязань",
+            "СакиОспаривается",
+            "Салават",
+            "Салаир",
+            "Салехард",
+            "Сальск",
+            "Самара",
+            "Санкт-Петербург",
+            "Саранск",
+            "Сарапул",
+            "Саратов",
+            "Саров",
+            "Сасово",
+            "Сатка",
+            "Сафоново",
+            "Саяногорск",
+            "Саянск",
+            "Светлогорск",
+            "Светлоград",
+            "Светлый",
+            "Светогорск",
+            "Свирск",
+            "Свободный",
+            "Себеж",
+            "СевастопольОспаривается",
+            "Северо-Курильск",
+            "Северобайкальск",
+            "Северодвинск",
+            "Североморск",
+            "Североуральск",
+            "Северск",
+            "Севск",
+            "Сегежа",
+            "Сельцо",
+            "Семёнов",
+            "Семикаракорск",
+            "Семилуки",
+            "Сенгилей",
+            "Серафимович",
+            "Сергач",
+            "Сергиев Посад",
+            "Сердобск",
+            "Серов",
+            "Серпухов",
+            "Сертолово",
+            "Сибай",
+            "Сим",
+            "СимферопольОспаривается",
+            "Сковородино",
+            "Скопин",
+            "Славгород",
+            "Славск",
+            "Славянск-на-Кубани",
+            "Сланцы",
+            "Слободской",
+            "Слюдянка",
+            "Смоленск",
+            "Снежинск",
+            "Снежногорск",
+            "Собинка",
+            "Советск",
+            "Советск",
+            "Советск",
+            "Советская Гавань",
+            "Советский",
+            "Сокол",
+            "Солигалич",
+            "Соликамск",
+            "Солнечногорск",
+            "Соль-Илецк",
+            "Сольвычегодск",
+            "Сольцы",
+            "Сорочинск",
+            "Сорск",
+            "Сортавала",
+            "Сосенский",
+            "Сосновка",
+            "Сосновоборск",
+            "Сосновый Бор",
+            "Сосногорск",
+            "Сочи",
+            "Спас-Деменск",
+            "Спас-Клепики",
+            "Спасск",
+            "Спасск-Дальний",
+            "Спасск-Рязанский",
+            "Среднеколымск",
+            "Среднеуральск",
+            "Сретенск",
+            "Ставрополь",
+            "Старая Купавна",
+            "Старая Русса",
+            "Старица",
+            "Стародуб",
+            "Старый КрымОспаривается",
+            "Старый Оскол",
+            "Стерлитамак",
+            "Стрежевой",
+            "Строитель",
+            "Струнино",
+            "Ступино",
+            "Суворов",
+            "СудакОспаривается",
+            "Суджа",
+            "Судогда",
+            "Суздаль",
+            "Сунжа",
+            "Суоярви",
+            "Сураж",
+            "Сургут",
+            "Суровикино",
+            "Сурск",
+            "Сусуман",
+            "Сухиничи",
+            "Сухой Лог",
+            "Сызрань",
+            "Сыктывкар",
+            "Сысерть",
+            "Сычёвка",
+            "Сясьстрой",
+            "Тавда",
+            "Таганрог",
+            "Тайга",
+            "Тайшет",
+            "Талдом",
+            "Талица",
+            "Тамбов",
+            "Тара",
+            "Тарко-Сале",
+            "Таруса",
+            "Татарск",
+            "Таштагол",
+            "Тверь",
+            "Теберда",
+            "Тейково",
+            "Темников",
+            "Темрюк",
+            "Терек",
+            "Тетюши",
+            "Тимашёвск",
+            "Тихвин",
+            "Тихорецк",
+            "Тобольск",
+            "Тогучин",
+            "Тольятти",
+            "Томари",
+            "Томмот",
+            "Томск",
+            "Топки",
+            "Торжок",
+            "Торопец",
+            "Тосно",
+            "Тотьма",
+            "Трёхгорный",
+            "Троицк",
+            "Трубчевск",
+            "Туапсе",
+            "Туймазы",
+            "Тула",
+            "Тулун",
+            "Туран",
+            "Туринск",
+            "Тутаев",
+            "Тында",
+            "Тырныауз",
+            "Тюкалинск",
+            "Тюмень",
+            "Уварово",
+            "Углегорск",
+            "Углич",
+            "Удачный",
+            "Удомля",
+            "Ужур",
+            "Узловая",
+            "Улан-Удэ",
+            "Ульяновск",
+            "Унеча",
+            "Урай",
+            "Урень",
+            "Уржум",
+            "Урус-Мартан",
+            "Урюпинск",
+            "Усинск",
+            "Усмань",
+            "Усолье-Сибирское",
+            "Усолье",
+            "Уссурийск",
+            "Усть-Джегута",
+            "Усть-Илимск",
+            "Усть-Катав",
+            "Усть-Кут",
+            "Усть-Лабинск",
+            "Устюжна",
+            "Уфа",
+            "Ухта",
+            "Учалы",
+            "Уяр",
+            "Фатеж",
+            "ФеодосияОспаривается",
+            "Фокино",
+            "Фокино",
+            "Фролово",
+            "Фрязино",
+            "Фурманов",
+            "Хабаровск",
+            "Хадыженск",
+            "Ханты-Мансийск",
+            "Харабали",
+            "Харовск",
+            "Хасавюрт",
+            "Хвалынск",
+            "Хилок",
+            "Химки",
+            "Холм",
+            "Холмск",
+            "Хотьково",
+            "Цивильск",
+            "Цимлянск",
+            "Циолковский",
+            "Чадан",
+            "Чайковский",
+            "Чапаевск",
+            "Чаплыгин",
+            "Чебаркуль",
+            "Чебоксары",
+            "Чегем",
+            "Чекалин",
+            "Челябинск",
+            "Чердынь",
+            "Черемхово",
+            "Черепаново",
+            "Череповец",
+            "Черкесск",
+            "Чёрмоз",
+            "Черноголовка",
+            "Черногорск",
+            "Чернушка",
+            "Черняховск",
+            "Чехов",
+            "Чистополь",
+            "Чита",
+            "Чкаловск",
+            "Чудово",
+            "Чулым",
+            "Чусовой",
+            "Чухлома",
+            "Шагонар",
+            "Шадринск",
+            "Шали",
+            "Шарыпово",
+            "Шарья",
+            "Шатура",
+            "Шахты",
+            "Шахунья",
+            "Шацк",
+            "Шебекино",
+            "Шелехов",
+            "Шенкурск",
+            "Шилка",
+            "Шимановск",
+            "Шиханы",
+            "Шлиссельбург",
+            "Шумерля",
+            "Шумиха",
+            "Шуя",
+            "Щёкино",
+            "ЩёлкиноОспаривается",
+            "Щёлково",
+            "Щигры",
+            "Щучье",
+            "Электрогорск",
+            "Электросталь",
+            "Электроугли",
+            "Элиста",
+            "Энгельс",
+            "Эртиль",
+            "Югорск",
+            "Южа",
+            "Южно-Сахалинск",
+            "Южно-Сухокумск",
+            "Южноуральск",
+            "Юрга",
+            "Юрьев-Польский",
+            "Юрьевец",
+            "Юрюзань",
+            "Юхнов",
+            "Ядрин",
+            "Якутск",
+            "ЯлтаОспаривается",
+            "Ялуторовск",
+            "Янаул",
+            "Яранск",
+            "Яровое",
+            "Ярославль",
+            "Ярцево",
+            "Ясногорск",
+            "Ясный",
+            "Яхрома"});
+            this.местоComboBox.Location = new System.Drawing.Point(738, 8);
+            this.местоComboBox.Name = "местоComboBox";
+            this.местоComboBox.Size = new System.Drawing.Size(184, 24);
+            this.местоComboBox.TabIndex = 3;
+            // 
+            // дата_командировкиDateTimePicker
+            // 
+            this.дата_командировкиDateTimePicker.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.дата_командировкиDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.дата_командировкиDateTimePicker.Location = new System.Drawing.Point(168, 108);
+            this.дата_командировкиDateTimePicker.Name = "дата_командировкиDateTimePicker";
+            this.дата_командировкиDateTimePicker.Size = new System.Drawing.Size(184, 22);
+            this.дата_командировкиDateTimePicker.TabIndex = 3;
             // 
             // примечаниеTextBox2
             // 
             this.примечаниеTextBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.командировкиBindingSource, "Примечание", true));
             this.примечаниеTextBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.примечаниеTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.примечаниеTextBox2.Location = new System.Drawing.Point(578, 158);
+            this.примечаниеTextBox2.Location = new System.Drawing.Point(738, 158);
             this.примечаниеTextBox2.Name = "примечаниеTextBox2";
             this.примечаниеTextBox2.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox2.TabIndex = 16;
@@ -2684,7 +3965,7 @@
             this.оплатаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.командировкиBindingSource, "Оплата", true));
             this.оплатаTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.оплатаTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.оплатаTextBox.Location = new System.Drawing.Point(578, 108);
+            this.оплатаTextBox.Location = new System.Drawing.Point(738, 108);
             this.оплатаTextBox.Name = "оплатаTextBox";
             this.оплатаTextBox.Size = new System.Drawing.Size(184, 24);
             this.оплатаTextBox.TabIndex = 15;
@@ -2694,20 +3975,10 @@
             this.цельTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.командировкиBindingSource, "Цель", true));
             this.цельTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.цельTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.цельTextBox.Location = new System.Drawing.Point(578, 58);
+            this.цельTextBox.Location = new System.Drawing.Point(738, 58);
             this.цельTextBox.Name = "цельTextBox";
             this.цельTextBox.Size = new System.Drawing.Size(184, 24);
             this.цельTextBox.TabIndex = 13;
-            // 
-            // местоTextBox
-            // 
-            this.местоTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.командировкиBindingSource, "Место", true));
-            this.местоTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.местоTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.местоTextBox.Location = new System.Drawing.Point(578, 8);
-            this.местоTextBox.Name = "местоTextBox";
-            this.местоTextBox.Size = new System.Drawing.Size(184, 24);
-            this.местоTextBox.TabIndex = 11;
             // 
             // длительностьTextBox
             // 
@@ -2718,16 +3989,7 @@
             this.длительностьTextBox.Name = "длительностьTextBox";
             this.длительностьTextBox.Size = new System.Drawing.Size(184, 24);
             this.длительностьTextBox.TabIndex = 7;
-            // 
-            // дата_командировкиTextBox
-            // 
-            this.дата_командировкиTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.должностиBindingSource, "Оклад", true));
-            this.дата_командировкиTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.дата_командировкиTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.дата_командировкиTextBox.Location = new System.Drawing.Point(168, 108);
-            this.дата_командировкиTextBox.Name = "дата_командировкиTextBox";
-            this.дата_командировкиTextBox.Size = new System.Drawing.Size(184, 24);
-            this.дата_командировкиTextBox.TabIndex = 5;
+            this.длительностьTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ДлительностьTextBox_KeyPress);
             // 
             // Код_командировкиComboBox
             // 
@@ -2765,23 +4027,63 @@
             // ОбновитьButton1
             // 
             this.ОбновитьButton1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ОбновитьButton1.Location = new System.Drawing.Point(578, 208);
+            this.ОбновитьButton1.Location = new System.Drawing.Point(738, 208);
             this.ОбновитьButton1.Name = "ОбновитьButton1";
             this.ОбновитьButton1.Size = new System.Drawing.Size(184, 37);
             this.ОбновитьButton1.TabIndex = 11;
             this.ОбновитьButton1.Text = "Обновить";
             this.ОбновитьButton1.UseVisualStyleBackColor = true;
+            this.ОбновитьButton1.Click += new System.EventHandler(this.ОбновитьButton1_Click);
             // 
-            // tabPage12
+            // Ком_Обн_Обяз_зап_label1
             // 
-            this.tabPage12.BackColor = System.Drawing.Color.Gainsboro;
-            this.tabPage12.Controls.Add(this.tableLayoutPanel6);
-            this.tabPage12.Location = new System.Drawing.Point(4, 25);
-            this.tabPage12.Name = "tabPage12";
-            this.tabPage12.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage12.Size = new System.Drawing.Size(1870, 259);
-            this.tabPage12.TabIndex = 1;
-            this.tabPage12.Text = "Добавить данные";
+            this.Ком_Обн_Обяз_зап_label1.AutoSize = true;
+            this.Ком_Обн_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Ком_Обн_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Ком_Обн_Обяз_зап_label1.Location = new System.Drawing.Point(358, 155);
+            this.Ком_Обн_Обяз_зап_label1.Name = "Ком_Обн_Обяз_зап_label1";
+            this.Ком_Обн_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Ком_Обн_Обяз_зап_label1.Size = new System.Drawing.Size(224, 50);
+            this.Ком_Обн_Обяз_зап_label1.TabIndex = 18;
+            this.Ком_Обн_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Ком_Обн_Обяз_зап_label1.Visible = false;
+            // 
+            // Ком_Обн_Обяз_зап_label
+            // 
+            this.Ком_Обн_Обяз_зап_label.AutoSize = true;
+            this.Ком_Обн_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Ком_Обн_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Ком_Обн_Обяз_зап_label.Location = new System.Drawing.Point(358, 105);
+            this.Ком_Обн_Обяз_зап_label.Name = "Ком_Обн_Обяз_зап_label";
+            this.Ком_Обн_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Ком_Обн_Обяз_зап_label.Size = new System.Drawing.Size(224, 50);
+            this.Ком_Обн_Обяз_зап_label.TabIndex = 17;
+            this.Ком_Обн_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Ком_Обн_Обяз_зап_label.Visible = false;
+            // 
+            // Ком_Обн_Обяз_зап_label2
+            // 
+            this.Ком_Обн_Обяз_зап_label2.AutoSize = true;
+            this.Ком_Обн_Обяз_зап_label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Ком_Обн_Обяз_зап_label2.ForeColor = System.Drawing.Color.Red;
+            this.Ком_Обн_Обяз_зап_label2.Location = new System.Drawing.Point(928, 5);
+            this.Ком_Обн_Обяз_зап_label2.Name = "Ком_Обн_Обяз_зап_label2";
+            this.Ком_Обн_Обяз_зап_label2.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Ком_Обн_Обяз_зап_label2.Size = new System.Drawing.Size(208, 50);
+            this.Ком_Обн_Обяз_зап_label2.TabIndex = 19;
+            this.Ком_Обн_Обяз_зап_label2.Text = "*Обязательно для заполнение";
+            this.Ком_Обн_Обяз_зап_label2.Visible = false;
+            // 
+            // Ком_Доб_TabPage
+            // 
+            this.Ком_Доб_TabPage.BackColor = System.Drawing.Color.Gainsboro;
+            this.Ком_Доб_TabPage.Controls.Add(this.tableLayoutPanel6);
+            this.Ком_Доб_TabPage.Location = new System.Drawing.Point(4, 25);
+            this.Ком_Доб_TabPage.Name = "Ком_Доб_TabPage";
+            this.Ком_Доб_TabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.Ком_Доб_TabPage.Size = new System.Drawing.Size(1870, 259);
+            this.Ком_Доб_TabPage.TabIndex = 1;
+            this.Ком_Доб_TabPage.Text = "Добавить данные";
             // 
             // tableLayoutPanel6
             // 
@@ -2789,24 +4091,27 @@
             this.tableLayoutPanel6.ColumnCount = 5;
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 230F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel6.Controls.Add(this.ДобавитьButton1, 4, 4);
+            this.tableLayoutPanel6.Controls.Add(this.местоComboBox1, 1, 3);
+            this.tableLayoutPanel6.Controls.Add(this.дата_командировкиDateTimePicker1, 1, 1);
             this.tableLayoutPanel6.Controls.Add(код_сотрудникаLabel1, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.код_сотрудникаComboBox1, 1, 0);
             this.tableLayoutPanel6.Controls.Add(дата_командировкиLabel1, 0, 1);
-            this.tableLayoutPanel6.Controls.Add(this.дата_командировкиTextBox1, 1, 1);
             this.tableLayoutPanel6.Controls.Add(длительностьLabel1, 0, 2);
             this.tableLayoutPanel6.Controls.Add(this.длительностьTextBox1, 1, 2);
             this.tableLayoutPanel6.Controls.Add(местоLabel1, 0, 3);
-            this.tableLayoutPanel6.Controls.Add(this.местоTextBox1, 1, 3);
             this.tableLayoutPanel6.Controls.Add(цельLabel1, 3, 0);
             this.tableLayoutPanel6.Controls.Add(this.цельTextBox1, 4, 0);
             this.tableLayoutPanel6.Controls.Add(оплатаLabel1, 3, 1);
             this.tableLayoutPanel6.Controls.Add(this.оплатаTextBox1, 4, 1);
             this.tableLayoutPanel6.Controls.Add(примечаниеLabel3, 3, 2);
             this.tableLayoutPanel6.Controls.Add(this.примечаниеTextBox3, 4, 2);
+            this.tableLayoutPanel6.Controls.Add(this.Ком_Доб_Обяз_зап_label, 2, 1);
+            this.tableLayoutPanel6.Controls.Add(this.Ком_Доб_Обяз_зап_label1, 2, 2);
+            this.tableLayoutPanel6.Controls.Add(this.Ком_Доб_Обяз_зап_label2, 2, 3);
+            this.tableLayoutPanel6.Controls.Add(this.ДобавитьButton1, 4, 4);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel6.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
@@ -2817,18 +4122,1156 @@
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(770, 253);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(930, 253);
             this.tableLayoutPanel6.TabIndex = 3;
+            this.tableLayoutPanel6.MouseMove += new System.Windows.Forms.MouseEventHandler(this.TableLayoutPanel6_MouseMove);
+            // 
+            // местоComboBox1
+            // 
+            this.местоComboBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.местоComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.местоComboBox1.FormattingEnabled = true;
+            this.местоComboBox1.Items.AddRange(new object[] {
+            "Абаза",
+            "Абакан",
+            "Абдулино",
+            "Абинск",
+            "Агидель",
+            "Агрыз",
+            "Адыгейск",
+            "Азнакаево",
+            "Азов",
+            "Ак-Довурак",
+            "Аксай",
+            "Алагир",
+            "Алапаевск",
+            "Алатырь",
+            "Алдан",
+            "Алейск",
+            "Александров",
+            "Александровск",
+            "Александровск-Сахалинский",
+            "Алексеевка",
+            "Алексин",
+            "Алзамай",
+            "АлупкаОспаривается",
+            "АлуштаОспаривается",
+            "Альметьевск",
+            "Амурск",
+            "Анадырь",
+            "Анапа",
+            "Ангарск",
+            "Андреаполь",
+            "Анжеро-Судженск",
+            "Анива",
+            "Апатиты",
+            "Апрелевка",
+            "Апшеронск",
+            "Арамиль",
+            "Аргун",
+            "Ардатов",
+            "Ардон",
+            "Арзамас",
+            "Аркадак",
+            "Армавир",
+            "АрмянскОспаривается",
+            "Арсеньев",
+            "Арск",
+            "Артём",
+            "Артёмовск",
+            "Артёмовский",
+            "Архангельск",
+            "Асбест",
+            "Асино",
+            "Астрахань",
+            "Аткарск",
+            "Ахтубинск",
+            "Ачинск",
+            "Аша",
+            "Бабаево",
+            "Бабушкин",
+            "Бавлы",
+            "Багратионовск",
+            "Байкальск",
+            "Баймак",
+            "Бакал",
+            "Баксан",
+            "Балабаново",
+            "Балаково",
+            "Балахна",
+            "Балашиха",
+            "Балашов",
+            "Балей",
+            "Балтийск",
+            "Барабинск",
+            "Барнаул",
+            "Барыш",
+            "Батайск",
+            "БахчисарайОспаривается",
+            "Бежецк",
+            "Белая Калитва",
+            "Белая Холуница",
+            "Белгород",
+            "Белебей",
+            "Белёв",
+            "Белинский",
+            "Белово",
+            "Белогорск",
+            "БелогорскОспаривается",
+            "Белозерск",
+            "Белокуриха",
+            "Беломорск",
+            "Белоозёрский",
+            "Белорецк",
+            "Белореченск",
+            "Белоусово",
+            "Белоярский",
+            "Белый",
+            "Бердск",
+            "Березники",
+            "Берёзовский",
+            "Берёзовский",
+            "Беслан",
+            "Бийск",
+            "Бикин",
+            "Билибино",
+            "Биробиджан",
+            "Бирск",
+            "Бирюсинск",
+            "Бирюч",
+            "Благовещенск",
+            "Благовещенск",
+            "Благодарный",
+            "Бобров",
+            "Богданович",
+            "Богородицк",
+            "Богородск",
+            "Боготол",
+            "Богучар",
+            "Бодайбо",
+            "Бокситогорск",
+            "Болгар",
+            "Бологое",
+            "Болотное",
+            "Болохово",
+            "Болхов",
+            "Большой Камень",
+            "Бор",
+            "Борзя",
+            "Борисоглебск",
+            "Боровичи",
+            "Боровск",
+            "Бородино",
+            "Братск",
+            "Бронницы",
+            "Брянск",
+            "Бугульма",
+            "Бугуруслан",
+            "Будённовск",
+            "Бузулук",
+            "Буинск",
+            "Буй",
+            "Буйнакск",
+            "Бутурлиновка",
+            "Валдай",
+            "Валуйки",
+            "Велиж",
+            "Великие Луки",
+            "Великий Новгород",
+            "Великий Устюг",
+            "Вельск",
+            "Венёв",
+            "Верещагино",
+            "Верея",
+            "Верхнеуральск",
+            "Верхний Тагил",
+            "Верхний Уфалей",
+            "Верхняя Пышма",
+            "Верхняя Салда",
+            "Верхняя Тура",
+            "Верхотурье",
+            "Верхоянск",
+            "Весьегонск",
+            "Ветлуга",
+            "Видное",
+            "Вилюйск",
+            "Вилючинск",
+            "Вихоревка",
+            "Вичуга",
+            "Владивосток",
+            "Владикавказ",
+            "Владимир",
+            "Волгоград",
+            "Волгодонск",
+            "Волгореченск",
+            "Волжск",
+            "Волжский",
+            "Вологда",
+            "Володарск",
+            "Волоколамск",
+            "Волосово",
+            "Волхов",
+            "Волчанск",
+            "Вольск",
+            "Воркута",
+            "Воронеж",
+            "Ворсма",
+            "Воскресенск",
+            "Воткинск",
+            "Всеволожск",
+            "Вуктыл",
+            "Выборг",
+            "Выкса",
+            "Высоковск",
+            "Высоцк",
+            "Вытегра",
+            "Вышний Волочёк",
+            "Вяземский",
+            "Вязники",
+            "Вязьма",
+            "Вятские Поляны",
+            "Гаврилов Посад",
+            "Гаврилов-Ям",
+            "Гагарин",
+            "Гаджиево",
+            "Гай",
+            "Галич",
+            "Гатчина",
+            "Гвардейск",
+            "Гдов",
+            "Геленджик",
+            "Георгиевск",
+            "Глазов",
+            "Голицыно",
+            "Горбатов",
+            "Горно-Алтайск",
+            "Горнозаводск",
+            "Горняк",
+            "Городец",
+            "Городище",
+            "Городовиковск",
+            "Гороховец",
+            "Горячий Ключ",
+            "Грайворон",
+            "Гремячинск",
+            "Грозный",
+            "Грязи",
+            "Грязовец",
+            "Губаха",
+            "Губкин",
+            "Губкинский",
+            "Гудермес",
+            "Гуково",
+            "Гулькевичи",
+            "Гурьевск",
+            "Гурьевск",
+            "Гусев",
+            "Гусиноозёрск",
+            "Гусь-Хрустальный",
+            "Давлеканово",
+            "Дагестанские Огни",
+            "Далматово",
+            "Дальнегорск",
+            "Дальнереченск",
+            "Данилов",
+            "Данков",
+            "Дегтярск",
+            "Дедовск",
+            "Демидов",
+            "Дербент",
+            "Десногорск",
+            "ДжанкойОспаривается",
+            "Дзержинск",
+            "Дзержинский",
+            "Дивногорск",
+            "Дигора",
+            "Димитровград",
+            "Дмитриев",
+            "Дмитров",
+            "Дмитровск",
+            "Дно",
+            "Добрянка",
+            "Долгопрудный",
+            "Долинск",
+            "Домодедово",
+            "Донецк",
+            "Донской",
+            "Дорогобуж",
+            "Дрезна",
+            "Дубна",
+            "Дубовка",
+            "Дудинка",
+            "Духовщина",
+            "Дюртюли",
+            "Дятьково",
+            "ЕвпаторияОспаривается",
+            "Егорьевск",
+            "Ейск",
+            "Екатеринбург",
+            "Елабуга",
+            "Елец",
+            "Елизово",
+            "Ельня",
+            "Еманжелинск",
+            "Емва",
+            "Енисейск",
+            "Ермолино",
+            "Ершов",
+            "Ессентуки",
+            "Ефремов",
+            "Железноводск",
+            "Железногорск",
+            "Железногорск",
+            "Железногорск-Илимский",
+            "Жердевка",
+            "Жигулёвск",
+            "Жиздра",
+            "Жирновск",
+            "Жуков",
+            "Жуковка",
+            "Жуковский",
+            "Завитинск",
+            "Заводоуковск",
+            "Заволжск",
+            "Заволжье",
+            "Задонск",
+            "Заинск",
+            "Закаменск",
+            "Заозёрный",
+            "Заозёрск",
+            "Западная Двина",
+            "Заполярный",
+            "Зарайск",
+            "Заречный",
+            "Заречный",
+            "Заринск",
+            "Звенигово",
+            "Звенигород",
+            "Зверево",
+            "Зеленогорск",
+            "Зеленоградск",
+            "Зеленодольск",
+            "Зеленокумск",
+            "Зерноград",
+            "Зея",
+            "Зима",
+            "Златоуст",
+            "Злынка",
+            "Змеиногорск",
+            "Знаменск",
+            "Зубцов",
+            "Зуевка",
+            "Ивангород",
+            "Иваново",
+            "Ивантеевка",
+            "Ивдель",
+            "Игарка",
+            "Ижевск",
+            "Избербаш",
+            "Изобильный",
+            "Иланский",
+            "Инза",
+            "Иннополис",
+            "Инсар",
+            "Инта",
+            "Ипатово",
+            "Ирбит",
+            "Иркутск",
+            "Исилькуль",
+            "Искитим",
+            "Истра",
+            "Ишим",
+            "Ишимбай",
+            "Йошкар-Ола",
+            "Кадников",
+            "Казань",
+            "Калач",
+            "Калач-на-Дону",
+            "Калачинск",
+            "Калининград",
+            "Калининск",
+            "Калтан",
+            "Калуга",
+            "Калязин",
+            "Камбарка",
+            "Каменка",
+            "Каменногорск",
+            "Каменск-Уральский",
+            "Каменск-Шахтинский",
+            "Камень-на-Оби",
+            "Камешково",
+            "Камызяк",
+            "Камышин",
+            "Камышлов",
+            "Канаш",
+            "Кандалакша",
+            "Канск",
+            "Карабаново",
+            "Карабаш",
+            "Карабулак",
+            "Карасук",
+            "Карачаевск",
+            "Карачев",
+            "Каргат",
+            "Каргополь",
+            "Карпинск",
+            "Карталы",
+            "Касимов",
+            "Касли",
+            "Каспийск",
+            "Катав-Ивановск",
+            "Катайск",
+            "Качканар",
+            "Кашин",
+            "Кашира",
+            "Кедровый",
+            "Кемерово",
+            "Кемь",
+            "КерчьОспаривается",
+            "Кизел",
+            "Кизилюрт",
+            "Кизляр",
+            "Кимовск",
+            "Кимры",
+            "Кингисепп",
+            "Кинель",
+            "Кинешма",
+            "Киреевск",
+            "Киренск",
+            "Киржач",
+            "Кириллов",
+            "Кириши",
+            "Киров",
+            "Киров",
+            "Кировград",
+            "Кирово-Чепецк",
+            "Кировск",
+            "Кировск",
+            "Кирс",
+            "Кирсанов",
+            "Киселёвск",
+            "Кисловодск",
+            "Клин",
+            "Клинцы",
+            "Княгинино",
+            "Ковдор",
+            "Ковров",
+            "Ковылкино",
+            "Когалым",
+            "Кодинск",
+            "Козельск",
+            "Козловка",
+            "Козьмодемьянск",
+            "Кола",
+            "Кологрив",
+            "Коломна",
+            "Колпашево",
+            "Кольчугино",
+            "Коммунар",
+            "Комсомольск",
+            "Комсомольск-на-Амуре",
+            "Конаково",
+            "Кондопога",
+            "Кондрово",
+            "Константиновск",
+            "Копейск",
+            "Кораблино",
+            "Кореновск",
+            "Коркино",
+            "Королёв",
+            "Короча",
+            "Корсаков",
+            "Коряжма",
+            "Костерёво",
+            "Костомукша",
+            "Кострома",
+            "Котельники",
+            "Котельниково",
+            "Котельнич",
+            "Котлас",
+            "Котово",
+            "Котовск",
+            "Кохма",
+            "Красавино",
+            "Красноармейск",
+            "Красноармейск",
+            "Красновишерск",
+            "Красногорск",
+            "Краснодар",
+            "Краснозаводск",
+            "Краснознаменск",
+            "Краснознаменск",
+            "Краснокаменск",
+            "Краснокамск",
+            "КрасноперекопскОспаривается",
+            "Краснослободск",
+            "Краснослободск",
+            "Краснотурьинск",
+            "Красноуральск",
+            "Красноуфимск",
+            "Красноярск",
+            "Красный Кут",
+            "Красный Сулин",
+            "Красный Холм",
+            "Кремёнки",
+            "Кропоткин",
+            "Крымск",
+            "Кстово",
+            "Кубинка",
+            "Кувандык",
+            "Кувшиново",
+            "Кудрово",
+            "Кудымкар",
+            "Кузнецк",
+            "Куйбышев",
+            "Кукмор",
+            "Кулебаки",
+            "Кумертау",
+            "Кунгур",
+            "Купино",
+            "Курган",
+            "Курганинск",
+            "Курильск",
+            "Курлово",
+            "Куровское",
+            "Курск",
+            "Куртамыш",
+            "Курчалой",
+            "Курчатов",
+            "Куса",
+            "Кушва",
+            "Кызыл",
+            "Кыштым",
+            "Кяхта",
+            "Лабинск",
+            "Лабытнанги",
+            "Лагань",
+            "Ладушкин",
+            "Лаишево",
+            "Лакинск",
+            "Лангепас",
+            "Лахденпохья",
+            "Лебедянь",
+            "Лениногорск",
+            "Ленинск",
+            "Ленинск-Кузнецкий",
+            "Ленск",
+            "Лермонтов",
+            "Лесной",
+            "Лесозаводск",
+            "Лесосибирск",
+            "Ливны",
+            "Ликино-Дулёво",
+            "Липецк",
+            "Липки",
+            "Лиски",
+            "Лихославль",
+            "Лобня",
+            "Лодейное Поле",
+            "Лосино-Петровский",
+            "Луга",
+            "Луза",
+            "Лукоянов",
+            "Луховицы",
+            "Лысково",
+            "Лысьва",
+            "Лыткарино",
+            "Льгов",
+            "Любань",
+            "Люберцы",
+            "Любим",
+            "Людиново",
+            "Лянтор",
+            "Магадан",
+            "Магас",
+            "Магнитогорск",
+            "Майкоп",
+            "Майский",
+            "Макаров",
+            "Макарьев",
+            "Макушино",
+            "Малая Вишера",
+            "Малгобек",
+            "Малмыж",
+            "Малоархангельск",
+            "Малоярославец",
+            "Мамадыш",
+            "Мамоново",
+            "Мантурово",
+            "Мариинск",
+            "Мариинский Посад",
+            "Маркс",
+            "Махачкала",
+            "Мглин",
+            "Мегион",
+            "Медвежьегорск",
+            "Медногорск",
+            "Медынь",
+            "Межгорье",
+            "Междуреченск",
+            "Мезень",
+            "Меленки",
+            "Мелеуз",
+            "Менделеевск",
+            "Мензелинск",
+            "Мещовск",
+            "Миасс",
+            "Микунь",
+            "Миллерово",
+            "Минеральные Воды",
+            "Минусинск",
+            "Миньяр",
+            "Мирный",
+            "Мирный",
+            "Михайлов",
+            "Михайловка",
+            "Михайловск",
+            "Михайловск",
+            "Мичуринск",
+            "Могоча",
+            "Можайск",
+            "Можга",
+            "Моздок",
+            "Мончегорск",
+            "Морозовск",
+            "Моршанск",
+            "Мосальск",
+            "Москва",
+            "Муравленко",
+            "Мураши",
+            "Мурино",
+            "Мурманск",
+            "Муром",
+            "Мценск",
+            "Мыски",
+            "Мытищи",
+            "Мышкин",
+            "Набережные Челны",
+            "Навашино",
+            "Наволоки",
+            "Надым",
+            "Назарово",
+            "Назрань",
+            "Называевск",
+            "Нальчик",
+            "Нариманов",
+            "Наро-Фоминск",
+            "Нарткала",
+            "Нарьян-Мар",
+            "Находка",
+            "Невель",
+            "Невельск",
+            "Невинномысск",
+            "Невьянск",
+            "Нелидово",
+            "Неман",
+            "Нерехта",
+            "Нерчинск",
+            "Нерюнгри",
+            "Нестеров",
+            "Нефтегорск",
+            "Нефтекамск",
+            "Нефтекумск",
+            "Нефтеюганск",
+            "Нея",
+            "Нижневартовск",
+            "Нижнекамск",
+            "Нижнеудинск",
+            "Нижние Серги",
+            "Нижний Ломов",
+            "Нижний Новгород",
+            "Нижний Тагил",
+            "Нижняя Салда",
+            "Нижняя Тура",
+            "Николаевск",
+            "Николаевск-на-Амуре",
+            "Никольск",
+            "Никольск",
+            "Никольское",
+            "Новая Ладога",
+            "Новая Ляля",
+            "Новоалександровск",
+            "Новоалтайск",
+            "Новоаннинский",
+            "Нововоронеж",
+            "Новодвинск",
+            "Новозыбков",
+            "Новокубанск",
+            "Новокузнецк",
+            "Новокуйбышевск",
+            "Новомичуринск",
+            "Новомосковск",
+            "Новопавловск",
+            "Новоржев",
+            "Новороссийск",
+            "Новосибирск",
+            "Новосиль",
+            "Новосокольники",
+            "Новотроицк",
+            "Новоузенск",
+            "Новоульяновск",
+            "Новоуральск",
+            "Новохопёрск",
+            "Новочебоксарск",
+            "Новочеркасск",
+            "Новошахтинск",
+            "Новый Оскол",
+            "Новый Уренгой",
+            "Ногинск",
+            "Нолинск",
+            "Норильск",
+            "Ноябрьск",
+            "Нурлат",
+            "Нытва",
+            "Нюрба",
+            "Нягань",
+            "Нязепетровск",
+            "Няндома",
+            "Облучье",
+            "Обнинск",
+            "Обоянь",
+            "Обь",
+            "Одинцово",
+            "Озёрск",
+            "Озёрск",
+            "Озёры",
+            "Октябрьск",
+            "Октябрьский",
+            "Окуловка",
+            "Олёкминск",
+            "Оленегорск",
+            "Олонец",
+            "Омск",
+            "Омутнинск",
+            "Онега",
+            "Опочка",
+            "Орёл",
+            "Оренбург",
+            "Орехово-Зуево",
+            "Орлов",
+            "Орск",
+            "Оса",
+            "Осинники",
+            "Осташков",
+            "Остров",
+            "Островной",
+            "Острогожск",
+            "Отрадное",
+            "Отрадный",
+            "Оха",
+            "Оханск",
+            "Очёр",
+            "Павлово",
+            "Павловск",
+            "Павловский Посад",
+            "Палласовка",
+            "Партизанск",
+            "Певек",
+            "Пенза",
+            "Первомайск",
+            "Первоуральск",
+            "Перевоз",
+            "Пересвет",
+            "Переславль-Залесский",
+            "Пермь",
+            "Пестово",
+            "Петров Вал",
+            "Петровск",
+            "Петровск-Забайкальский",
+            "Петрозаводск",
+            "Петропавловск-Камчатский",
+            "Петухово",
+            "Петушки",
+            "Печора",
+            "Печоры",
+            "Пикалёво",
+            "Пионерский",
+            "Питкяранта",
+            "Плавск",
+            "Пласт",
+            "Плёс",
+            "Поворино",
+            "Подольск",
+            "Подпорожье",
+            "Покачи",
+            "Покров",
+            "Покровск",
+            "Полевской",
+            "Полесск",
+            "Полысаево",
+            "Полярные Зори",
+            "Полярный",
+            "Поронайск",
+            "Порхов",
+            "Похвистнево",
+            "Почеп",
+            "Починок",
+            "Пошехонье",
+            "Правдинск",
+            "Приволжск",
+            "Приморск",
+            "Приморск",
+            "Приморско-Ахтарск",
+            "Приозерск",
+            "Прокопьевск",
+            "Пролетарск",
+            "Протвино",
+            "Прохладный",
+            "Псков",
+            "Пугачёв",
+            "Пудож",
+            "Пустошка",
+            "Пучеж",
+            "Пушкино",
+            "Пущино",
+            "Пыталово",
+            "Пыть-Ях",
+            "Пятигорск",
+            "Радужный",
+            "Радужный",
+            "Райчихинск",
+            "Раменское",
+            "Рассказово",
+            "Ревда",
+            "Реж",
+            "Реутов",
+            "Ржев",
+            "Родники",
+            "Рославль",
+            "Россошь",
+            "Ростов-на-Дону",
+            "Ростов",
+            "Рошаль",
+            "Ртищево",
+            "Рубцовск",
+            "Рудня",
+            "Руза",
+            "Рузаевка",
+            "Рыбинск",
+            "Рыбное",
+            "Рыльск",
+            "Ряжск",
+            "Рязань",
+            "СакиОспаривается",
+            "Салават",
+            "Салаир",
+            "Салехард",
+            "Сальск",
+            "Самара",
+            "Санкт-Петербург",
+            "Саранск",
+            "Сарапул",
+            "Саратов",
+            "Саров",
+            "Сасово",
+            "Сатка",
+            "Сафоново",
+            "Саяногорск",
+            "Саянск",
+            "Светлогорск",
+            "Светлоград",
+            "Светлый",
+            "Светогорск",
+            "Свирск",
+            "Свободный",
+            "Себеж",
+            "СевастопольОспаривается",
+            "Северо-Курильск",
+            "Северобайкальск",
+            "Северодвинск",
+            "Североморск",
+            "Североуральск",
+            "Северск",
+            "Севск",
+            "Сегежа",
+            "Сельцо",
+            "Семёнов",
+            "Семикаракорск",
+            "Семилуки",
+            "Сенгилей",
+            "Серафимович",
+            "Сергач",
+            "Сергиев Посад",
+            "Сердобск",
+            "Серов",
+            "Серпухов",
+            "Сертолово",
+            "Сибай",
+            "Сим",
+            "СимферопольОспаривается",
+            "Сковородино",
+            "Скопин",
+            "Славгород",
+            "Славск",
+            "Славянск-на-Кубани",
+            "Сланцы",
+            "Слободской",
+            "Слюдянка",
+            "Смоленск",
+            "Снежинск",
+            "Снежногорск",
+            "Собинка",
+            "Советск",
+            "Советск",
+            "Советск",
+            "Советская Гавань",
+            "Советский",
+            "Сокол",
+            "Солигалич",
+            "Соликамск",
+            "Солнечногорск",
+            "Соль-Илецк",
+            "Сольвычегодск",
+            "Сольцы",
+            "Сорочинск",
+            "Сорск",
+            "Сортавала",
+            "Сосенский",
+            "Сосновка",
+            "Сосновоборск",
+            "Сосновый Бор",
+            "Сосногорск",
+            "Сочи",
+            "Спас-Деменск",
+            "Спас-Клепики",
+            "Спасск",
+            "Спасск-Дальний",
+            "Спасск-Рязанский",
+            "Среднеколымск",
+            "Среднеуральск",
+            "Сретенск",
+            "Ставрополь",
+            "Старая Купавна",
+            "Старая Русса",
+            "Старица",
+            "Стародуб",
+            "Старый КрымОспаривается",
+            "Старый Оскол",
+            "Стерлитамак",
+            "Стрежевой",
+            "Строитель",
+            "Струнино",
+            "Ступино",
+            "Суворов",
+            "СудакОспаривается",
+            "Суджа",
+            "Судогда",
+            "Суздаль",
+            "Сунжа",
+            "Суоярви",
+            "Сураж",
+            "Сургут",
+            "Суровикино",
+            "Сурск",
+            "Сусуман",
+            "Сухиничи",
+            "Сухой Лог",
+            "Сызрань",
+            "Сыктывкар",
+            "Сысерть",
+            "Сычёвка",
+            "Сясьстрой",
+            "Тавда",
+            "Таганрог",
+            "Тайга",
+            "Тайшет",
+            "Талдом",
+            "Талица",
+            "Тамбов",
+            "Тара",
+            "Тарко-Сале",
+            "Таруса",
+            "Татарск",
+            "Таштагол",
+            "Тверь",
+            "Теберда",
+            "Тейково",
+            "Темников",
+            "Темрюк",
+            "Терек",
+            "Тетюши",
+            "Тимашёвск",
+            "Тихвин",
+            "Тихорецк",
+            "Тобольск",
+            "Тогучин",
+            "Тольятти",
+            "Томари",
+            "Томмот",
+            "Томск",
+            "Топки",
+            "Торжок",
+            "Торопец",
+            "Тосно",
+            "Тотьма",
+            "Трёхгорный",
+            "Троицк",
+            "Трубчевск",
+            "Туапсе",
+            "Туймазы",
+            "Тула",
+            "Тулун",
+            "Туран",
+            "Туринск",
+            "Тутаев",
+            "Тында",
+            "Тырныауз",
+            "Тюкалинск",
+            "Тюмень",
+            "Уварово",
+            "Углегорск",
+            "Углич",
+            "Удачный",
+            "Удомля",
+            "Ужур",
+            "Узловая",
+            "Улан-Удэ",
+            "Ульяновск",
+            "Унеча",
+            "Урай",
+            "Урень",
+            "Уржум",
+            "Урус-Мартан",
+            "Урюпинск",
+            "Усинск",
+            "Усмань",
+            "Усолье-Сибирское",
+            "Усолье",
+            "Уссурийск",
+            "Усть-Джегута",
+            "Усть-Илимск",
+            "Усть-Катав",
+            "Усть-Кут",
+            "Усть-Лабинск",
+            "Устюжна",
+            "Уфа",
+            "Ухта",
+            "Учалы",
+            "Уяр",
+            "Фатеж",
+            "ФеодосияОспаривается",
+            "Фокино",
+            "Фокино",
+            "Фролово",
+            "Фрязино",
+            "Фурманов",
+            "Хабаровск",
+            "Хадыженск",
+            "Ханты-Мансийск",
+            "Харабали",
+            "Харовск",
+            "Хасавюрт",
+            "Хвалынск",
+            "Хилок",
+            "Химки",
+            "Холм",
+            "Холмск",
+            "Хотьково",
+            "Цивильск",
+            "Цимлянск",
+            "Циолковский",
+            "Чадан",
+            "Чайковский",
+            "Чапаевск",
+            "Чаплыгин",
+            "Чебаркуль",
+            "Чебоксары",
+            "Чегем",
+            "Чекалин",
+            "Челябинск",
+            "Чердынь",
+            "Черемхово",
+            "Черепаново",
+            "Череповец",
+            "Черкесск",
+            "Чёрмоз",
+            "Черноголовка",
+            "Черногорск",
+            "Чернушка",
+            "Черняховск",
+            "Чехов",
+            "Чистополь",
+            "Чита",
+            "Чкаловск",
+            "Чудово",
+            "Чулым",
+            "Чусовой",
+            "Чухлома",
+            "Шагонар",
+            "Шадринск",
+            "Шали",
+            "Шарыпово",
+            "Шарья",
+            "Шатура",
+            "Шахты",
+            "Шахунья",
+            "Шацк",
+            "Шебекино",
+            "Шелехов",
+            "Шенкурск",
+            "Шилка",
+            "Шимановск",
+            "Шиханы",
+            "Шлиссельбург",
+            "Шумерля",
+            "Шумиха",
+            "Шуя",
+            "Щёкино",
+            "ЩёлкиноОспаривается",
+            "Щёлково",
+            "Щигры",
+            "Щучье",
+            "Электрогорск",
+            "Электросталь",
+            "Электроугли",
+            "Элиста",
+            "Энгельс",
+            "Эртиль",
+            "Югорск",
+            "Южа",
+            "Южно-Сахалинск",
+            "Южно-Сухокумск",
+            "Южноуральск",
+            "Юрга",
+            "Юрьев-Польский",
+            "Юрьевец",
+            "Юрюзань",
+            "Юхнов",
+            "Ядрин",
+            "Якутск",
+            "ЯлтаОспаривается",
+            "Ялуторовск",
+            "Янаул",
+            "Яранск",
+            "Яровое",
+            "Ярославль",
+            "Ярцево",
+            "Ясногорск",
+            "Ясный",
+            "Яхрома"});
+            this.местоComboBox1.Location = new System.Drawing.Point(168, 158);
+            this.местоComboBox1.Name = "местоComboBox1";
+            this.местоComboBox1.Size = new System.Drawing.Size(184, 24);
+            this.местоComboBox1.TabIndex = 4;
+            // 
+            // дата_командировкиDateTimePicker1
+            // 
+            this.дата_командировкиDateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.дата_командировкиDateTimePicker1.Location = new System.Drawing.Point(168, 58);
+            this.дата_командировкиDateTimePicker1.Name = "дата_командировкиDateTimePicker1";
+            this.дата_командировкиDateTimePicker1.Size = new System.Drawing.Size(184, 22);
+            this.дата_командировкиDateTimePicker1.TabIndex = 4;
             // 
             // ДобавитьButton1
             // 
             this.ДобавитьButton1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ДобавитьButton1.Location = new System.Drawing.Point(578, 208);
+            this.ДобавитьButton1.Location = new System.Drawing.Point(738, 208);
             this.ДобавитьButton1.Name = "ДобавитьButton1";
             this.ДобавитьButton1.Size = new System.Drawing.Size(184, 37);
             this.ДобавитьButton1.TabIndex = 11;
             this.ДобавитьButton1.Text = "Добавить";
             this.ДобавитьButton1.UseVisualStyleBackColor = true;
+            this.ДобавитьButton1.Click += new System.EventHandler(this.ДобавитьButton1_Click);
             // 
             // код_сотрудникаComboBox1
             // 
@@ -2844,16 +5287,6 @@
             this.код_сотрудникаComboBox1.TabIndex = 12;
             this.код_сотрудникаComboBox1.ValueMember = "Код_сотрудника";
             // 
-            // дата_командировкиTextBox1
-            // 
-            this.дата_командировкиTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.должностиBindingSource, "Оклад", true));
-            this.дата_командировкиTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.дата_командировкиTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.дата_командировкиTextBox1.Location = new System.Drawing.Point(168, 58);
-            this.дата_командировкиTextBox1.Name = "дата_командировкиTextBox1";
-            this.дата_командировкиTextBox1.Size = new System.Drawing.Size(184, 24);
-            this.дата_командировкиTextBox1.TabIndex = 5;
-            // 
             // длительностьTextBox1
             // 
             this.длительностьTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.должностиBindingSource, "Обязанности", true));
@@ -2863,23 +5296,14 @@
             this.длительностьTextBox1.Name = "длительностьTextBox1";
             this.длительностьTextBox1.Size = new System.Drawing.Size(184, 24);
             this.длительностьTextBox1.TabIndex = 7;
-            // 
-            // местоTextBox1
-            // 
-            this.местоTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.командировкиBindingSource, "Место", true));
-            this.местоTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.местоTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.местоTextBox1.Location = new System.Drawing.Point(168, 158);
-            this.местоTextBox1.Name = "местоTextBox1";
-            this.местоTextBox1.Size = new System.Drawing.Size(184, 24);
-            this.местоTextBox1.TabIndex = 11;
+            this.длительностьTextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ДлительностьTextBox1_KeyPress);
             // 
             // цельTextBox1
             // 
             this.цельTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.командировкиBindingSource, "Цель", true));
             this.цельTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.цельTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.цельTextBox1.Location = new System.Drawing.Point(578, 8);
+            this.цельTextBox1.Location = new System.Drawing.Point(738, 8);
             this.цельTextBox1.Name = "цельTextBox1";
             this.цельTextBox1.Size = new System.Drawing.Size(184, 24);
             this.цельTextBox1.TabIndex = 13;
@@ -2889,7 +5313,7 @@
             this.оплатаTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.командировкиBindingSource, "Оплата", true));
             this.оплатаTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.оплатаTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.оплатаTextBox1.Location = new System.Drawing.Point(578, 58);
+            this.оплатаTextBox1.Location = new System.Drawing.Point(738, 58);
             this.оплатаTextBox1.Name = "оплатаTextBox1";
             this.оплатаTextBox1.Size = new System.Drawing.Size(184, 24);
             this.оплатаTextBox1.TabIndex = 15;
@@ -2899,21 +5323,60 @@
             this.примечаниеTextBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.командировкиBindingSource, "Примечание", true));
             this.примечаниеTextBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.примечаниеTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.примечаниеTextBox3.Location = new System.Drawing.Point(578, 108);
+            this.примечаниеTextBox3.Location = new System.Drawing.Point(738, 108);
             this.примечаниеTextBox3.Name = "примечаниеTextBox3";
             this.примечаниеTextBox3.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox3.TabIndex = 16;
             // 
-            // tabPage13
+            // Ком_Доб_Обяз_зап_label
             // 
-            this.tabPage13.BackColor = System.Drawing.Color.Gainsboro;
-            this.tabPage13.Controls.Add(this.tableLayoutPanel7);
-            this.tabPage13.Location = new System.Drawing.Point(4, 25);
-            this.tabPage13.Name = "tabPage13";
-            this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage13.Size = new System.Drawing.Size(1870, 259);
-            this.tabPage13.TabIndex = 2;
-            this.tabPage13.Text = "Удалить данные";
+            this.Ком_Доб_Обяз_зап_label.AutoSize = true;
+            this.Ком_Доб_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Ком_Доб_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Ком_Доб_Обяз_зап_label.Location = new System.Drawing.Point(358, 55);
+            this.Ком_Доб_Обяз_зап_label.Name = "Ком_Доб_Обяз_зап_label";
+            this.Ком_Доб_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Ком_Доб_Обяз_зап_label.Size = new System.Drawing.Size(224, 50);
+            this.Ком_Доб_Обяз_зап_label.TabIndex = 18;
+            this.Ком_Доб_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Ком_Доб_Обяз_зап_label.Visible = false;
+            // 
+            // Ком_Доб_Обяз_зап_label1
+            // 
+            this.Ком_Доб_Обяз_зап_label1.AutoSize = true;
+            this.Ком_Доб_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Ком_Доб_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Ком_Доб_Обяз_зап_label1.Location = new System.Drawing.Point(358, 105);
+            this.Ком_Доб_Обяз_зап_label1.Name = "Ком_Доб_Обяз_зап_label1";
+            this.Ком_Доб_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Ком_Доб_Обяз_зап_label1.Size = new System.Drawing.Size(224, 50);
+            this.Ком_Доб_Обяз_зап_label1.TabIndex = 19;
+            this.Ком_Доб_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Ком_Доб_Обяз_зап_label1.Visible = false;
+            // 
+            // Ком_Доб_Обяз_зап_label2
+            // 
+            this.Ком_Доб_Обяз_зап_label2.AutoSize = true;
+            this.Ком_Доб_Обяз_зап_label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Ком_Доб_Обяз_зап_label2.ForeColor = System.Drawing.Color.Red;
+            this.Ком_Доб_Обяз_зап_label2.Location = new System.Drawing.Point(358, 155);
+            this.Ком_Доб_Обяз_зап_label2.Name = "Ком_Доб_Обяз_зап_label2";
+            this.Ком_Доб_Обяз_зап_label2.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Ком_Доб_Обяз_зап_label2.Size = new System.Drawing.Size(224, 50);
+            this.Ком_Доб_Обяз_зап_label2.TabIndex = 20;
+            this.Ком_Доб_Обяз_зап_label2.Text = "*Обязательно для заполнение";
+            this.Ком_Доб_Обяз_зап_label2.Visible = false;
+            // 
+            // Ком_Удал_TabPage
+            // 
+            this.Ком_Удал_TabPage.BackColor = System.Drawing.Color.Gainsboro;
+            this.Ком_Удал_TabPage.Controls.Add(this.tableLayoutPanel7);
+            this.Ком_Удал_TabPage.Location = new System.Drawing.Point(4, 25);
+            this.Ком_Удал_TabPage.Name = "Ком_Удал_TabPage";
+            this.Ком_Удал_TabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.Ком_Удал_TabPage.Size = new System.Drawing.Size(1870, 259);
+            this.Ком_Удал_TabPage.TabIndex = 2;
+            this.Ком_Удал_TabPage.Text = "Удалить данные";
             // 
             // tableLayoutPanel7
             // 
@@ -2959,6 +5422,7 @@
             this.УдалитьButton1.TabIndex = 11;
             this.УдалитьButton1.Text = "Удалить";
             this.УдалитьButton1.UseVisualStyleBackColor = true;
+            this.УдалитьButton1.Click += new System.EventHandler(this.УдалитьButton1_Click);
             // 
             // КомандировкиDataGrid
             // 
@@ -3168,15 +5632,15 @@
             // tableLayoutPanel8
             // 
             this.tableLayoutPanel8.AutoSize = true;
-            this.tableLayoutPanel8.ColumnCount = 5;
+            this.tableLayoutPanel8.ColumnCount = 6;
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel8.Controls.Add(this.дата_выплатыDateTimePicker, 4, 0);
             this.tableLayoutPanel8.Controls.Add(this.примечаниеTextBox4, 4, 2);
-            this.tableLayoutPanel8.Controls.Add(this.статусTextBox, 4, 1);
-            this.tableLayoutPanel8.Controls.Add(this.дата_выплатыTextBox, 4, 0);
             this.tableLayoutPanel8.Controls.Add(this.размер_премииTextBox, 1, 3);
             this.tableLayoutPanel8.Controls.Add(this.сумма_выплатыTextBox, 1, 2);
             this.tableLayoutPanel8.Controls.Add(сумма_выплатыLabel, 0, 2);
@@ -3189,6 +5653,10 @@
             this.tableLayoutPanel8.Controls.Add(this.код_начисленияComboBox, 1, 0);
             this.tableLayoutPanel8.Controls.Add(this.код_сотрудникаComboBox2, 1, 1);
             this.tableLayoutPanel8.Controls.Add(this.ОбновитьButton2, 4, 4);
+            this.tableLayoutPanel8.Controls.Add(this.Нач_Обн_Обяз_зап_label, 2, 2);
+            this.tableLayoutPanel8.Controls.Add(this.Нач_Обн_Обяз_зап_label1, 2, 3);
+            this.tableLayoutPanel8.Controls.Add(this.Нач_Обн_Обяз_зап_label2, 5, 0);
+            this.tableLayoutPanel8.Controls.Add(this.статусComboBox, 4, 1);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
@@ -3199,15 +5667,24 @@
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel8.Size = new System.Drawing.Size(770, 253);
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(1128, 253);
             this.tableLayoutPanel8.TabIndex = 3;
+            // 
+            // дата_выплатыDateTimePicker
+            // 
+            this.дата_выплатыDateTimePicker.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.дата_выплатыDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.дата_выплатыDateTimePicker.Location = new System.Drawing.Point(722, 8);
+            this.дата_выплатыDateTimePicker.Name = "дата_выплатыDateTimePicker";
+            this.дата_выплатыDateTimePicker.Size = new System.Drawing.Size(184, 22);
+            this.дата_выплатыDateTimePicker.TabIndex = 4;
             // 
             // примечаниеTextBox4
             // 
             this.примечаниеTextBox4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.начислениеЗПBindingSource, "Примечание", true));
             this.примечаниеTextBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.примечаниеTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.примечаниеTextBox4.Location = new System.Drawing.Point(578, 108);
+            this.примечаниеTextBox4.Location = new System.Drawing.Point(722, 108);
             this.примечаниеTextBox4.Name = "примечаниеTextBox4";
             this.примечаниеTextBox4.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox4.TabIndex = 16;
@@ -3216,26 +5693,6 @@
             // 
             this.начислениеЗПBindingSource.DataMember = "Начисление_ЗП";
             this.начислениеЗПBindingSource.DataSource = this.accountingOfSalariesAndPersonnelDataSet;
-            // 
-            // статусTextBox
-            // 
-            this.статусTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.начислениеЗПBindingSource, "Статус", true));
-            this.статусTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.статусTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.статусTextBox.Location = new System.Drawing.Point(578, 58);
-            this.статусTextBox.Name = "статусTextBox";
-            this.статусTextBox.Size = new System.Drawing.Size(184, 24);
-            this.статусTextBox.TabIndex = 14;
-            // 
-            // дата_выплатыTextBox
-            // 
-            this.дата_выплатыTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.начислениеЗПBindingSource, "Дата_выплаты", true));
-            this.дата_выплатыTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.дата_выплатыTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.дата_выплатыTextBox.Location = new System.Drawing.Point(578, 8);
-            this.дата_выплатыTextBox.Name = "дата_выплатыTextBox";
-            this.дата_выплатыTextBox.Size = new System.Drawing.Size(184, 24);
-            this.дата_выплатыTextBox.TabIndex = 12;
             // 
             // размер_премииTextBox
             // 
@@ -3288,12 +5745,64 @@
             // ОбновитьButton2
             // 
             this.ОбновитьButton2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ОбновитьButton2.Location = new System.Drawing.Point(578, 208);
+            this.ОбновитьButton2.Location = new System.Drawing.Point(722, 208);
             this.ОбновитьButton2.Name = "ОбновитьButton2";
             this.ОбновитьButton2.Size = new System.Drawing.Size(184, 37);
             this.ОбновитьButton2.TabIndex = 11;
             this.ОбновитьButton2.Text = "Обновить";
             this.ОбновитьButton2.UseVisualStyleBackColor = true;
+            // 
+            // Нач_Обн_Обяз_зап_label
+            // 
+            this.Нач_Обн_Обяз_зап_label.AutoSize = true;
+            this.Нач_Обн_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Нач_Обн_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Нач_Обн_Обяз_зап_label.Location = new System.Drawing.Point(358, 105);
+            this.Нач_Обн_Обяз_зап_label.Name = "Нач_Обн_Обяз_зап_label";
+            this.Нач_Обн_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Нач_Обн_Обяз_зап_label.Size = new System.Drawing.Size(208, 50);
+            this.Нач_Обн_Обяз_зап_label.TabIndex = 20;
+            this.Нач_Обн_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Нач_Обн_Обяз_зап_label.Visible = false;
+            // 
+            // Нач_Обн_Обяз_зап_label1
+            // 
+            this.Нач_Обн_Обяз_зап_label1.AutoSize = true;
+            this.Нач_Обн_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Нач_Обн_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Нач_Обн_Обяз_зап_label1.Location = new System.Drawing.Point(358, 155);
+            this.Нач_Обн_Обяз_зап_label1.Name = "Нач_Обн_Обяз_зап_label1";
+            this.Нач_Обн_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Нач_Обн_Обяз_зап_label1.Size = new System.Drawing.Size(208, 50);
+            this.Нач_Обн_Обяз_зап_label1.TabIndex = 21;
+            this.Нач_Обн_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Нач_Обн_Обяз_зап_label1.Visible = false;
+            // 
+            // Нач_Обн_Обяз_зап_label2
+            // 
+            this.Нач_Обн_Обяз_зап_label2.AutoSize = true;
+            this.Нач_Обн_Обяз_зап_label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Нач_Обн_Обяз_зап_label2.ForeColor = System.Drawing.Color.Red;
+            this.Нач_Обн_Обяз_зап_label2.Location = new System.Drawing.Point(912, 5);
+            this.Нач_Обн_Обяз_зап_label2.Name = "Нач_Обн_Обяз_зап_label2";
+            this.Нач_Обн_Обяз_зап_label2.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Нач_Обн_Обяз_зап_label2.Size = new System.Drawing.Size(208, 50);
+            this.Нач_Обн_Обяз_зап_label2.TabIndex = 22;
+            this.Нач_Обн_Обяз_зап_label2.Text = "*Обязательно для заполнение";
+            this.Нач_Обн_Обяз_зап_label2.Visible = false;
+            // 
+            // статусComboBox
+            // 
+            this.статусComboBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.статусComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.статусComboBox.FormattingEnabled = true;
+            this.статусComboBox.Items.AddRange(new object[] {
+            "Выплачено",
+            "Не выплачено"});
+            this.статусComboBox.Location = new System.Drawing.Point(722, 58);
+            this.статусComboBox.Name = "статусComboBox";
+            this.статусComboBox.Size = new System.Drawing.Size(184, 24);
+            this.статусComboBox.TabIndex = 4;
             // 
             // tabPage15
             // 
@@ -3309,15 +5818,16 @@
             // tableLayoutPanel9
             // 
             this.tableLayoutPanel9.AutoSize = true;
-            this.tableLayoutPanel9.ColumnCount = 5;
+            this.tableLayoutPanel9.ColumnCount = 6;
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel9.Controls.Add(this.дата_выплатыDateTimePicker1, 4, 0);
+            this.tableLayoutPanel9.Controls.Add(this.статусComboBox1, 4, 1);
             this.tableLayoutPanel9.Controls.Add(this.примечаниеTextBox5, 4, 2);
-            this.tableLayoutPanel9.Controls.Add(this.статусTextBox1, 4, 1);
-            this.tableLayoutPanel9.Controls.Add(this.дата_выплатыTextBox1, 4, 0);
             this.tableLayoutPanel9.Controls.Add(дата_выплатыLabel1, 3, 0);
             this.tableLayoutPanel9.Controls.Add(статусLabel1, 3, 1);
             this.tableLayoutPanel9.Controls.Add(примечаниеLabel5, 3, 2);
@@ -3328,6 +5838,9 @@
             this.tableLayoutPanel9.Controls.Add(код_сотрудникаLabel3, 0, 0);
             this.tableLayoutPanel9.Controls.Add(this.ДобавитьButton2, 4, 4);
             this.tableLayoutPanel9.Controls.Add(this.код_сотрудникаComboBox3, 1, 0);
+            this.tableLayoutPanel9.Controls.Add(this.Нач_Доб_Обяз_зап_label, 2, 1);
+            this.tableLayoutPanel9.Controls.Add(this.Нач_Доб_Обяз_зап_label1, 2, 2);
+            this.tableLayoutPanel9.Controls.Add(this.Нач_Доб_Обяз_зап_label2, 5, 0);
             this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel9.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
@@ -3338,35 +5851,40 @@
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel9.Size = new System.Drawing.Size(770, 253);
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(1128, 253);
             this.tableLayoutPanel9.TabIndex = 4;
+            // 
+            // дата_выплатыDateTimePicker1
+            // 
+            this.дата_выплатыDateTimePicker1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.дата_выплатыDateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.дата_выплатыDateTimePicker1.Location = new System.Drawing.Point(722, 8);
+            this.дата_выплатыDateTimePicker1.Name = "дата_выплатыDateTimePicker1";
+            this.дата_выплатыDateTimePicker1.Size = new System.Drawing.Size(184, 22);
+            this.дата_выплатыDateTimePicker1.TabIndex = 5;
+            // 
+            // статусComboBox1
+            // 
+            this.статусComboBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.статусComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.статусComboBox1.FormattingEnabled = true;
+            this.статусComboBox1.Items.AddRange(new object[] {
+            "Выплачено",
+            "Не выплачено"});
+            this.статусComboBox1.Location = new System.Drawing.Point(722, 58);
+            this.статусComboBox1.Name = "статусComboBox1";
+            this.статусComboBox1.Size = new System.Drawing.Size(184, 24);
+            this.статусComboBox1.TabIndex = 5;
             // 
             // примечаниеTextBox5
             // 
             this.примечаниеTextBox5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.начислениеЗПBindingSource, "Примечание", true));
             this.примечаниеTextBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.примечаниеTextBox5.Location = new System.Drawing.Point(578, 108);
+            this.примечаниеTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.примечаниеTextBox5.Location = new System.Drawing.Point(722, 108);
             this.примечаниеTextBox5.Name = "примечаниеTextBox5";
-            this.примечаниеTextBox5.Size = new System.Drawing.Size(184, 22);
+            this.примечаниеTextBox5.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox5.TabIndex = 17;
-            // 
-            // статусTextBox1
-            // 
-            this.статусTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.начислениеЗПBindingSource, "Статус", true));
-            this.статусTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.статусTextBox1.Location = new System.Drawing.Point(578, 58);
-            this.статусTextBox1.Name = "статусTextBox1";
-            this.статусTextBox1.Size = new System.Drawing.Size(184, 22);
-            this.статусTextBox1.TabIndex = 15;
-            // 
-            // дата_выплатыTextBox1
-            // 
-            this.дата_выплатыTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.начислениеЗПBindingSource, "Дата_выплаты", true));
-            this.дата_выплатыTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.дата_выплатыTextBox1.Location = new System.Drawing.Point(578, 8);
-            this.дата_выплатыTextBox1.Name = "дата_выплатыTextBox1";
-            this.дата_выплатыTextBox1.Size = new System.Drawing.Size(184, 22);
-            this.дата_выплатыTextBox1.TabIndex = 13;
             // 
             // размер_премииTextBox1
             // 
@@ -3391,7 +5909,7 @@
             // ДобавитьButton2
             // 
             this.ДобавитьButton2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ДобавитьButton2.Location = new System.Drawing.Point(578, 208);
+            this.ДобавитьButton2.Location = new System.Drawing.Point(722, 208);
             this.ДобавитьButton2.Name = "ДобавитьButton2";
             this.ДобавитьButton2.Size = new System.Drawing.Size(184, 37);
             this.ДобавитьButton2.TabIndex = 11;
@@ -3411,6 +5929,45 @@
             this.код_сотрудникаComboBox3.Size = new System.Drawing.Size(184, 26);
             this.код_сотрудникаComboBox3.TabIndex = 12;
             this.код_сотрудникаComboBox3.ValueMember = "Код_сотрудника";
+            // 
+            // Нач_Доб_Обяз_зап_label
+            // 
+            this.Нач_Доб_Обяз_зап_label.AutoSize = true;
+            this.Нач_Доб_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Нач_Доб_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Нач_Доб_Обяз_зап_label.Location = new System.Drawing.Point(358, 55);
+            this.Нач_Доб_Обяз_зап_label.Name = "Нач_Доб_Обяз_зап_label";
+            this.Нач_Доб_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Нач_Доб_Обяз_зап_label.Size = new System.Drawing.Size(208, 50);
+            this.Нач_Доб_Обяз_зап_label.TabIndex = 21;
+            this.Нач_Доб_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Нач_Доб_Обяз_зап_label.Visible = false;
+            // 
+            // Нач_Доб_Обяз_зап_label1
+            // 
+            this.Нач_Доб_Обяз_зап_label1.AutoSize = true;
+            this.Нач_Доб_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Нач_Доб_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Нач_Доб_Обяз_зап_label1.Location = new System.Drawing.Point(358, 105);
+            this.Нач_Доб_Обяз_зап_label1.Name = "Нач_Доб_Обяз_зап_label1";
+            this.Нач_Доб_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Нач_Доб_Обяз_зап_label1.Size = new System.Drawing.Size(208, 50);
+            this.Нач_Доб_Обяз_зап_label1.TabIndex = 22;
+            this.Нач_Доб_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Нач_Доб_Обяз_зап_label1.Visible = false;
+            // 
+            // Нач_Доб_Обяз_зап_label2
+            // 
+            this.Нач_Доб_Обяз_зап_label2.AutoSize = true;
+            this.Нач_Доб_Обяз_зап_label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Нач_Доб_Обяз_зап_label2.ForeColor = System.Drawing.Color.Red;
+            this.Нач_Доб_Обяз_зап_label2.Location = new System.Drawing.Point(912, 5);
+            this.Нач_Доб_Обяз_зап_label2.Name = "Нач_Доб_Обяз_зап_label2";
+            this.Нач_Доб_Обяз_зап_label2.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Нач_Доб_Обяз_зап_label2.Size = new System.Drawing.Size(208, 50);
+            this.Нач_Доб_Обяз_зап_label2.TabIndex = 23;
+            this.Нач_Доб_Обяз_зап_label2.Text = "*Обязательно для заполнение";
+            this.Нач_Доб_Обяз_зап_label2.Visible = false;
             // 
             // tabPage16
             // 
@@ -3667,20 +6224,21 @@
             // tableLayoutPanel11
             // 
             this.tableLayoutPanel11.AutoSize = true;
-            this.tableLayoutPanel11.ColumnCount = 5;
+            this.tableLayoutPanel11.ColumnCount = 6;
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
             this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel11.Controls.Add(this.дата_окончания_отпускаDateTimePicker, 1, 3);
+            this.tableLayoutPanel11.Controls.Add(this.видComboBox, 4, 1);
             this.tableLayoutPanel11.Controls.Add(код_отпускаLabel, 0, 0);
+            this.tableLayoutPanel11.Controls.Add(this.дата_начала_отпускаDateTimePicker, 1, 2);
             this.tableLayoutPanel11.Controls.Add(код_сотрудникаLabel4, 0, 1);
             this.tableLayoutPanel11.Controls.Add(this.примечаниеTextBox6, 4, 3);
             this.tableLayoutPanel11.Controls.Add(this.выплатаTextBox, 4, 2);
-            this.tableLayoutPanel11.Controls.Add(this.видTextBox, 4, 1);
             this.tableLayoutPanel11.Controls.Add(this.длительностьTextBox2, 4, 0);
-            this.tableLayoutPanel11.Controls.Add(this.дата_окончания_отпускаTextBox, 1, 3);
-            this.tableLayoutPanel11.Controls.Add(this.дата_начала_отпускаTextBox, 1, 2);
             this.tableLayoutPanel11.Controls.Add(дата_начала_отпускаLabel, 0, 2);
             this.tableLayoutPanel11.Controls.Add(дата_окончания_отпускаLabel, 0, 3);
             this.tableLayoutPanel11.Controls.Add(длительностьLabel2, 3, 0);
@@ -3690,6 +6248,10 @@
             this.tableLayoutPanel11.Controls.Add(this.ОбновитьButton3, 4, 4);
             this.tableLayoutPanel11.Controls.Add(this.код_отпускаComboBox, 1, 0);
             this.tableLayoutPanel11.Controls.Add(this.код_сотрудникаСomboBox4, 1, 1);
+            this.tableLayoutPanel11.Controls.Add(this.Отп_Обн_Обяз_зап_label, 2, 2);
+            this.tableLayoutPanel11.Controls.Add(this.Отп_Обн_Обяз_зап_label1, 2, 3);
+            this.tableLayoutPanel11.Controls.Add(this.Отп_Обн_Обяз_зап_label2, 5, 0);
+            this.tableLayoutPanel11.Controls.Add(this.Отп_Обн_Обяз_зап_label3, 5, 1);
             this.tableLayoutPanel11.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel11.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel11.Name = "tableLayoutPanel11";
@@ -3700,15 +6262,45 @@
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel11.Size = new System.Drawing.Size(800, 253);
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(1158, 253);
             this.tableLayoutPanel11.TabIndex = 4;
+            // 
+            // дата_окончания_отпускаDateTimePicker
+            // 
+            this.дата_окончания_отпускаDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.дата_окончания_отпускаDateTimePicker.Location = new System.Drawing.Point(198, 158);
+            this.дата_окончания_отпускаDateTimePicker.Name = "дата_окончания_отпускаDateTimePicker";
+            this.дата_окончания_отпускаDateTimePicker.Size = new System.Drawing.Size(184, 22);
+            this.дата_окончания_отпускаDateTimePicker.TabIndex = 8;
+            this.дата_окончания_отпускаDateTimePicker.ValueChanged += new System.EventHandler(this.Дата_окончания_отпускаDateTimePicker_ValueChanged);
+            // 
+            // видComboBox
+            // 
+            this.видComboBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.видComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.видComboBox.FormattingEnabled = true;
+            this.видComboBox.Items.AddRange(new object[] {
+            "Оплачиваемый",
+            "Не оплачиваемый"});
+            this.видComboBox.Location = new System.Drawing.Point(752, 58);
+            this.видComboBox.Name = "видComboBox";
+            this.видComboBox.Size = new System.Drawing.Size(184, 24);
+            this.видComboBox.TabIndex = 5;
+            // 
+            // дата_начала_отпускаDateTimePicker
+            // 
+            this.дата_начала_отпускаDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.дата_начала_отпускаDateTimePicker.Location = new System.Drawing.Point(198, 108);
+            this.дата_начала_отпускаDateTimePicker.Name = "дата_начала_отпускаDateTimePicker";
+            this.дата_начала_отпускаDateTimePicker.Size = new System.Drawing.Size(184, 22);
+            this.дата_начала_отпускаDateTimePicker.TabIndex = 7;
             // 
             // примечаниеTextBox6
             // 
             this.примечаниеTextBox6.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.отпускиBindingSource, "Примечание", true));
             this.примечаниеTextBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.примечаниеTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.примечаниеTextBox6.Location = new System.Drawing.Point(608, 158);
+            this.примечаниеTextBox6.Location = new System.Drawing.Point(752, 158);
             this.примечаниеTextBox6.Name = "примечаниеTextBox6";
             this.примечаниеTextBox6.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox6.TabIndex = 19;
@@ -3723,55 +6315,26 @@
             this.выплатаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.отпускиBindingSource, "Выплата", true));
             this.выплатаTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.выплатаTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.выплатаTextBox.Location = new System.Drawing.Point(608, 108);
+            this.выплатаTextBox.Location = new System.Drawing.Point(752, 108);
             this.выплатаTextBox.Name = "выплатаTextBox";
             this.выплатаTextBox.Size = new System.Drawing.Size(184, 24);
             this.выплатаTextBox.TabIndex = 17;
-            // 
-            // видTextBox
-            // 
-            this.видTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.отпускиBindingSource, "Вид", true));
-            this.видTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.видTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.видTextBox.Location = new System.Drawing.Point(608, 58);
-            this.видTextBox.Name = "видTextBox";
-            this.видTextBox.Size = new System.Drawing.Size(184, 24);
-            this.видTextBox.TabIndex = 15;
             // 
             // длительностьTextBox2
             // 
             this.длительностьTextBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.отпускиBindingSource, "Длительность", true));
             this.длительностьTextBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.длительностьTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.длительностьTextBox2.Location = new System.Drawing.Point(608, 8);
+            this.длительностьTextBox2.Location = new System.Drawing.Point(752, 8);
             this.длительностьTextBox2.Name = "длительностьTextBox2";
+            this.длительностьTextBox2.ReadOnly = true;
             this.длительностьTextBox2.Size = new System.Drawing.Size(184, 24);
             this.длительностьTextBox2.TabIndex = 13;
-            // 
-            // дата_окончания_отпускаTextBox
-            // 
-            this.дата_окончания_отпускаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.отпускиBindingSource, "Дата_окончания_отпуска", true));
-            this.дата_окончания_отпускаTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.дата_окончания_отпускаTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.дата_окончания_отпускаTextBox.Location = new System.Drawing.Point(198, 158);
-            this.дата_окончания_отпускаTextBox.Name = "дата_окончания_отпускаTextBox";
-            this.дата_окончания_отпускаTextBox.Size = new System.Drawing.Size(184, 24);
-            this.дата_окончания_отпускаTextBox.TabIndex = 11;
-            // 
-            // дата_начала_отпускаTextBox
-            // 
-            this.дата_начала_отпускаTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.отпускиBindingSource, "Дата_начала_отпуска", true));
-            this.дата_начала_отпускаTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.дата_начала_отпускаTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.дата_начала_отпускаTextBox.Location = new System.Drawing.Point(198, 108);
-            this.дата_начала_отпускаTextBox.Name = "дата_начала_отпускаTextBox";
-            this.дата_начала_отпускаTextBox.Size = new System.Drawing.Size(184, 24);
-            this.дата_начала_отпускаTextBox.TabIndex = 9;
             // 
             // ОбновитьButton3
             // 
             this.ОбновитьButton3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ОбновитьButton3.Location = new System.Drawing.Point(608, 208);
+            this.ОбновитьButton3.Location = new System.Drawing.Point(752, 208);
             this.ОбновитьButton3.Name = "ОбновитьButton3";
             this.ОбновитьButton3.Size = new System.Drawing.Size(184, 37);
             this.ОбновитьButton3.TabIndex = 11;
@@ -3804,6 +6367,58 @@
             this.код_сотрудникаСomboBox4.TabIndex = 21;
             this.код_сотрудникаСomboBox4.ValueMember = "Код_сотрудника";
             // 
+            // Отп_Обн_Обяз_зап_label
+            // 
+            this.Отп_Обн_Обяз_зап_label.AutoSize = true;
+            this.Отп_Обн_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Отп_Обн_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Отп_Обн_Обяз_зап_label.Location = new System.Drawing.Point(388, 105);
+            this.Отп_Обн_Обяз_зап_label.Name = "Отп_Обн_Обяз_зап_label";
+            this.Отп_Обн_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Отп_Обн_Обяз_зап_label.Size = new System.Drawing.Size(208, 50);
+            this.Отп_Обн_Обяз_зап_label.TabIndex = 22;
+            this.Отп_Обн_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Отп_Обн_Обяз_зап_label.Visible = false;
+            // 
+            // Отп_Обн_Обяз_зап_label1
+            // 
+            this.Отп_Обн_Обяз_зап_label1.AutoSize = true;
+            this.Отп_Обн_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Отп_Обн_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Отп_Обн_Обяз_зап_label1.Location = new System.Drawing.Point(388, 155);
+            this.Отп_Обн_Обяз_зап_label1.Name = "Отп_Обн_Обяз_зап_label1";
+            this.Отп_Обн_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Отп_Обн_Обяз_зап_label1.Size = new System.Drawing.Size(208, 50);
+            this.Отп_Обн_Обяз_зап_label1.TabIndex = 23;
+            this.Отп_Обн_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Отп_Обн_Обяз_зап_label1.Visible = false;
+            // 
+            // Отп_Обн_Обяз_зап_label2
+            // 
+            this.Отп_Обн_Обяз_зап_label2.AutoSize = true;
+            this.Отп_Обн_Обяз_зап_label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Отп_Обн_Обяз_зап_label2.ForeColor = System.Drawing.Color.Red;
+            this.Отп_Обн_Обяз_зап_label2.Location = new System.Drawing.Point(942, 5);
+            this.Отп_Обн_Обяз_зап_label2.Name = "Отп_Обн_Обяз_зап_label2";
+            this.Отп_Обн_Обяз_зап_label2.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Отп_Обн_Обяз_зап_label2.Size = new System.Drawing.Size(208, 50);
+            this.Отп_Обн_Обяз_зап_label2.TabIndex = 24;
+            this.Отп_Обн_Обяз_зап_label2.Text = "*Обязательно для заполнение";
+            this.Отп_Обн_Обяз_зап_label2.Visible = false;
+            // 
+            // Отп_Обн_Обяз_зап_label3
+            // 
+            this.Отп_Обн_Обяз_зап_label3.AutoSize = true;
+            this.Отп_Обн_Обяз_зап_label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Отп_Обн_Обяз_зап_label3.ForeColor = System.Drawing.Color.Red;
+            this.Отп_Обн_Обяз_зап_label3.Location = new System.Drawing.Point(942, 55);
+            this.Отп_Обн_Обяз_зап_label3.Name = "Отп_Обн_Обяз_зап_label3";
+            this.Отп_Обн_Обяз_зап_label3.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Отп_Обн_Обяз_зап_label3.Size = new System.Drawing.Size(208, 50);
+            this.Отп_Обн_Обяз_зап_label3.TabIndex = 25;
+            this.Отп_Обн_Обяз_зап_label3.Text = "*Обязательно для заполнение";
+            this.Отп_Обн_Обяз_зап_label3.Visible = false;
+            // 
             // tabPage18
             // 
             this.tabPage18.AutoScroll = true;
@@ -3819,27 +6434,32 @@
             // tableLayoutPanel12
             // 
             this.tableLayoutPanel12.AutoSize = true;
-            this.tableLayoutPanel12.ColumnCount = 5;
+            this.tableLayoutPanel12.ColumnCount = 6;
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 150F));
             this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
+            this.tableLayoutPanel12.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel12.Controls.Add(this.дата_окончания_отпускаDateTimePicker1, 1, 2);
             this.tableLayoutPanel12.Controls.Add(this.примечаниеTextBox7, 4, 2);
+            this.tableLayoutPanel12.Controls.Add(this.дата_начала_отпускаDateTimePicker1, 1, 1);
             this.tableLayoutPanel12.Controls.Add(this.выплатаTextBox1, 4, 1);
-            this.tableLayoutPanel12.Controls.Add(this.видTextBox1, 4, 0);
             this.tableLayoutPanel12.Controls.Add(видLabel1, 3, 0);
             this.tableLayoutPanel12.Controls.Add(выплатаLabel1, 3, 1);
             this.tableLayoutPanel12.Controls.Add(примечаниеLabel7, 3, 2);
-            this.tableLayoutPanel12.Controls.Add(this.длительностьTextBox3, 1, 3);
-            this.tableLayoutPanel12.Controls.Add(this.дата_окончания_отпускаTextBox1, 1, 2);
-            this.tableLayoutPanel12.Controls.Add(this.дата_начала_отпускаTextBox1, 1, 1);
             this.tableLayoutPanel12.Controls.Add(дата_начала_отпускаLabel1, 0, 1);
             this.tableLayoutPanel12.Controls.Add(дата_окончания_отпускаLabel1, 0, 2);
             this.tableLayoutPanel12.Controls.Add(длительностьLabel3, 0, 3);
             this.tableLayoutPanel12.Controls.Add(код_сотрудникаLabel5, 0, 0);
             this.tableLayoutPanel12.Controls.Add(this.ДобавитьButton3, 4, 4);
             this.tableLayoutPanel12.Controls.Add(this.код_сотрудникаComboBox5, 1, 0);
+            this.tableLayoutPanel12.Controls.Add(this.Отп_Доб_Обяз_зап_label, 2, 1);
+            this.tableLayoutPanel12.Controls.Add(this.Отп_Доб_Обяз_зап_label1, 2, 2);
+            this.tableLayoutPanel12.Controls.Add(this.Отп_Доб_Обяз_зап_label2, 2, 3);
+            this.tableLayoutPanel12.Controls.Add(this.Отп_Доб_Обяз_зап_label3, 5, 0);
+            this.tableLayoutPanel12.Controls.Add(this.длительностьTextBox3, 1, 3);
+            this.tableLayoutPanel12.Controls.Add(this.видComboBox1, 4, 0);
             this.tableLayoutPanel12.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel12.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel12.Name = "tableLayoutPanel12";
@@ -3850,73 +6470,52 @@
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel12.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel12.Size = new System.Drawing.Size(800, 253);
+            this.tableLayoutPanel12.Size = new System.Drawing.Size(1158, 253);
             this.tableLayoutPanel12.TabIndex = 5;
+            // 
+            // дата_окончания_отпускаDateTimePicker1
+            // 
+            this.дата_окончания_отпускаDateTimePicker1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.дата_окончания_отпускаDateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.дата_окончания_отпускаDateTimePicker1.Location = new System.Drawing.Point(198, 108);
+            this.дата_окончания_отпускаDateTimePicker1.Name = "дата_окончания_отпускаDateTimePicker1";
+            this.дата_окончания_отпускаDateTimePicker1.Size = new System.Drawing.Size(184, 22);
+            this.дата_окончания_отпускаDateTimePicker1.TabIndex = 10;
+            this.дата_окончания_отпускаDateTimePicker1.ValueChanged += new System.EventHandler(this.Дата_окончания_отпускаDateTimePicker1_ValueChanged);
             // 
             // примечаниеTextBox7
             // 
             this.примечаниеTextBox7.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.отпускиBindingSource, "Примечание", true));
             this.примечаниеTextBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.примечаниеTextBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.примечаниеTextBox7.Location = new System.Drawing.Point(608, 108);
+            this.примечаниеTextBox7.Location = new System.Drawing.Point(752, 108);
             this.примечаниеTextBox7.Name = "примечаниеTextBox7";
             this.примечаниеTextBox7.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox7.TabIndex = 20;
+            // 
+            // дата_начала_отпускаDateTimePicker1
+            // 
+            this.дата_начала_отпускаDateTimePicker1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.дата_начала_отпускаDateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.дата_начала_отпускаDateTimePicker1.Location = new System.Drawing.Point(198, 58);
+            this.дата_начала_отпускаDateTimePicker1.Name = "дата_начала_отпускаDateTimePicker1";
+            this.дата_начала_отпускаDateTimePicker1.Size = new System.Drawing.Size(184, 22);
+            this.дата_начала_отпускаDateTimePicker1.TabIndex = 9;
             // 
             // выплатаTextBox1
             // 
             this.выплатаTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.отпускиBindingSource, "Выплата", true));
             this.выплатаTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.выплатаTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.выплатаTextBox1.Location = new System.Drawing.Point(608, 58);
+            this.выплатаTextBox1.Location = new System.Drawing.Point(752, 58);
             this.выплатаTextBox1.Name = "выплатаTextBox1";
             this.выплатаTextBox1.Size = new System.Drawing.Size(184, 24);
             this.выплатаTextBox1.TabIndex = 18;
             // 
-            // видTextBox1
-            // 
-            this.видTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.отпускиBindingSource, "Вид", true));
-            this.видTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.видTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.видTextBox1.Location = new System.Drawing.Point(608, 8);
-            this.видTextBox1.Name = "видTextBox1";
-            this.видTextBox1.Size = new System.Drawing.Size(184, 24);
-            this.видTextBox1.TabIndex = 16;
-            // 
-            // длительностьTextBox3
-            // 
-            this.длительностьTextBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.отпускиBindingSource, "Длительность", true));
-            this.длительностьTextBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.длительностьTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.длительностьTextBox3.Location = new System.Drawing.Point(198, 158);
-            this.длительностьTextBox3.Name = "длительностьTextBox3";
-            this.длительностьTextBox3.Size = new System.Drawing.Size(184, 24);
-            this.длительностьTextBox3.TabIndex = 14;
-            // 
-            // дата_окончания_отпускаTextBox1
-            // 
-            this.дата_окончания_отпускаTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.отпускиBindingSource, "Дата_окончания_отпуска", true));
-            this.дата_окончания_отпускаTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.дата_окончания_отпускаTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.дата_окончания_отпускаTextBox1.Location = new System.Drawing.Point(198, 108);
-            this.дата_окончания_отпускаTextBox1.Name = "дата_окончания_отпускаTextBox1";
-            this.дата_окончания_отпускаTextBox1.Size = new System.Drawing.Size(184, 24);
-            this.дата_окончания_отпускаTextBox1.TabIndex = 12;
-            // 
-            // дата_начала_отпускаTextBox1
-            // 
-            this.дата_начала_отпускаTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.отпускиBindingSource, "Дата_начала_отпуска", true));
-            this.дата_начала_отпускаTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.дата_начала_отпускаTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.дата_начала_отпускаTextBox1.Location = new System.Drawing.Point(198, 58);
-            this.дата_начала_отпускаTextBox1.Name = "дата_начала_отпускаTextBox1";
-            this.дата_начала_отпускаTextBox1.Size = new System.Drawing.Size(184, 24);
-            this.дата_начала_отпускаTextBox1.TabIndex = 10;
-            // 
             // ДобавитьButton3
             // 
             this.ДобавитьButton3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ДобавитьButton3.Location = new System.Drawing.Point(608, 208);
+            this.ДобавитьButton3.Location = new System.Drawing.Point(752, 208);
             this.ДобавитьButton3.Name = "ДобавитьButton3";
             this.ДобавитьButton3.Size = new System.Drawing.Size(184, 37);
             this.ДобавитьButton3.TabIndex = 11;
@@ -3935,6 +6534,82 @@
             this.код_сотрудникаComboBox5.Size = new System.Drawing.Size(184, 24);
             this.код_сотрудникаComboBox5.TabIndex = 20;
             this.код_сотрудникаComboBox5.ValueMember = "Код_сотрудника";
+            // 
+            // Отп_Доб_Обяз_зап_label
+            // 
+            this.Отп_Доб_Обяз_зап_label.AutoSize = true;
+            this.Отп_Доб_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Отп_Доб_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Отп_Доб_Обяз_зап_label.Location = new System.Drawing.Point(388, 55);
+            this.Отп_Доб_Обяз_зап_label.Name = "Отп_Доб_Обяз_зап_label";
+            this.Отп_Доб_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Отп_Доб_Обяз_зап_label.Size = new System.Drawing.Size(208, 50);
+            this.Отп_Доб_Обяз_зап_label.TabIndex = 23;
+            this.Отп_Доб_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Отп_Доб_Обяз_зап_label.Visible = false;
+            // 
+            // Отп_Доб_Обяз_зап_label1
+            // 
+            this.Отп_Доб_Обяз_зап_label1.AutoSize = true;
+            this.Отп_Доб_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Отп_Доб_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Отп_Доб_Обяз_зап_label1.Location = new System.Drawing.Point(388, 105);
+            this.Отп_Доб_Обяз_зап_label1.Name = "Отп_Доб_Обяз_зап_label1";
+            this.Отп_Доб_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Отп_Доб_Обяз_зап_label1.Size = new System.Drawing.Size(208, 50);
+            this.Отп_Доб_Обяз_зап_label1.TabIndex = 24;
+            this.Отп_Доб_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Отп_Доб_Обяз_зап_label1.Visible = false;
+            // 
+            // Отп_Доб_Обяз_зап_label2
+            // 
+            this.Отп_Доб_Обяз_зап_label2.AutoSize = true;
+            this.Отп_Доб_Обяз_зап_label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Отп_Доб_Обяз_зап_label2.ForeColor = System.Drawing.Color.Red;
+            this.Отп_Доб_Обяз_зап_label2.Location = new System.Drawing.Point(388, 155);
+            this.Отп_Доб_Обяз_зап_label2.Name = "Отп_Доб_Обяз_зап_label2";
+            this.Отп_Доб_Обяз_зап_label2.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Отп_Доб_Обяз_зап_label2.Size = new System.Drawing.Size(208, 50);
+            this.Отп_Доб_Обяз_зап_label2.TabIndex = 25;
+            this.Отп_Доб_Обяз_зап_label2.Text = "*Обязательно для заполнение";
+            this.Отп_Доб_Обяз_зап_label2.Visible = false;
+            // 
+            // Отп_Доб_Обяз_зап_label3
+            // 
+            this.Отп_Доб_Обяз_зап_label3.AutoSize = true;
+            this.Отп_Доб_Обяз_зап_label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Отп_Доб_Обяз_зап_label3.ForeColor = System.Drawing.Color.Red;
+            this.Отп_Доб_Обяз_зап_label3.Location = new System.Drawing.Point(942, 5);
+            this.Отп_Доб_Обяз_зап_label3.Name = "Отп_Доб_Обяз_зап_label3";
+            this.Отп_Доб_Обяз_зап_label3.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Отп_Доб_Обяз_зап_label3.Size = new System.Drawing.Size(208, 50);
+            this.Отп_Доб_Обяз_зап_label3.TabIndex = 26;
+            this.Отп_Доб_Обяз_зап_label3.Text = "*Обязательно для заполнение";
+            this.Отп_Доб_Обяз_зап_label3.Visible = false;
+            // 
+            // длительностьTextBox3
+            // 
+            this.длительностьTextBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.отпускиBindingSource, "Длительность", true));
+            this.длительностьTextBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.длительностьTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.длительностьTextBox3.Location = new System.Drawing.Point(198, 158);
+            this.длительностьTextBox3.Name = "длительностьTextBox3";
+            this.длительностьTextBox3.ReadOnly = true;
+            this.длительностьTextBox3.Size = new System.Drawing.Size(184, 24);
+            this.длительностьTextBox3.TabIndex = 27;
+            // 
+            // видComboBox1
+            // 
+            this.видComboBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.видComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.видComboBox1.FormattingEnabled = true;
+            this.видComboBox1.Items.AddRange(new object[] {
+            "Оплачиваемый",
+            "Не оплачиваемый"});
+            this.видComboBox1.Location = new System.Drawing.Point(752, 8);
+            this.видComboBox1.Name = "видComboBox1";
+            this.видComboBox1.Size = new System.Drawing.Size(184, 24);
+            this.видComboBox1.TabIndex = 28;
             // 
             // tabPage19
             // 
@@ -4199,19 +6874,20 @@
             // tableLayoutPanel14
             // 
             this.tableLayoutPanel14.AutoSize = true;
-            this.tableLayoutPanel14.ColumnCount = 5;
+            this.tableLayoutPanel14.ColumnCount = 6;
             this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
             this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
             this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel14.Controls.Add(this.полComboBox, 1, 3);
+            this.tableLayoutPanel14.Controls.Add(this.возрастComboBox, 4, 0);
             this.tableLayoutPanel14.Controls.Add(код_сотрудникаLabel6, 0, 0);
             this.tableLayoutPanel14.Controls.Add(код_должностиLabel2, 0, 1);
             this.tableLayoutPanel14.Controls.Add(this.примечаниеTextBox8, 4, 3);
             this.tableLayoutPanel14.Controls.Add(this.паспортные_данныеTextBox, 4, 2);
             this.tableLayoutPanel14.Controls.Add(this.адресTextBox, 4, 1);
-            this.tableLayoutPanel14.Controls.Add(this.возрастTextBox, 4, 0);
-            this.tableLayoutPanel14.Controls.Add(this.полTextBox, 1, 3);
             this.tableLayoutPanel14.Controls.Add(this.фИОTextBox, 1, 2);
             this.tableLayoutPanel14.Controls.Add(фИОLabel, 0, 2);
             this.tableLayoutPanel14.Controls.Add(полLabel, 0, 3);
@@ -4222,6 +6898,10 @@
             this.tableLayoutPanel14.Controls.Add(this.ОбновитьButton5, 4, 4);
             this.tableLayoutPanel14.Controls.Add(this.код_сотрудникаComboBox6, 1, 0);
             this.tableLayoutPanel14.Controls.Add(this.код_должностиComboBox2, 1, 1);
+            this.tableLayoutPanel14.Controls.Add(this.Сот_Обн_Обяз_зап_label, 2, 2);
+            this.tableLayoutPanel14.Controls.Add(this.Сот_Обн_Обяз_зап_label1, 2, 3);
+            this.tableLayoutPanel14.Controls.Add(this.Сот_Обн_Обяз_зап_label2, 5, 0);
+            this.tableLayoutPanel14.Controls.Add(this.Сот_Обн_Обяз_зап_label3, 5, 2);
             this.tableLayoutPanel14.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel14.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel14.Name = "tableLayoutPanel14";
@@ -4232,15 +6912,92 @@
             this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel14.Size = new System.Drawing.Size(810, 255);
+            this.tableLayoutPanel14.Size = new System.Drawing.Size(1168, 255);
             this.tableLayoutPanel14.TabIndex = 5;
+            // 
+            // полComboBox
+            // 
+            this.полComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.полComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.полComboBox.FormattingEnabled = true;
+            this.полComboBox.Items.AddRange(new object[] {
+            "Мужской",
+            "Женский"});
+            this.полComboBox.Location = new System.Drawing.Point(198, 161);
+            this.полComboBox.Name = "полComboBox";
+            this.полComboBox.Size = new System.Drawing.Size(184, 24);
+            this.полComboBox.TabIndex = 71;
+            // 
+            // возрастComboBox
+            // 
+            this.возрастComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.возрастComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.возрастComboBox.FormattingEnabled = true;
+            this.возрастComboBox.Items.AddRange(new object[] {
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70"});
+            this.возрастComboBox.Location = new System.Drawing.Point(762, 8);
+            this.возрастComboBox.Name = "возрастComboBox";
+            this.возрастComboBox.Size = new System.Drawing.Size(184, 24);
+            this.возрастComboBox.TabIndex = 72;
             // 
             // примечаниеTextBox8
             // 
             this.примечаниеTextBox8.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Примечание", true));
             this.примечаниеTextBox8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.примечаниеTextBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.примечаниеTextBox8.Location = new System.Drawing.Point(618, 161);
+            this.примечаниеTextBox8.Location = new System.Drawing.Point(762, 161);
             this.примечаниеTextBox8.Name = "примечаниеTextBox8";
             this.примечаниеTextBox8.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox8.TabIndex = 20;
@@ -4250,7 +7007,7 @@
             this.паспортные_данныеTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Паспортные_данные", true));
             this.паспортные_данныеTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.паспортные_данныеTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.паспортные_данныеTextBox.Location = new System.Drawing.Point(618, 110);
+            this.паспортные_данныеTextBox.Location = new System.Drawing.Point(762, 110);
             this.паспортные_данныеTextBox.Name = "паспортные_данныеTextBox";
             this.паспортные_данныеTextBox.Size = new System.Drawing.Size(184, 24);
             this.паспортные_данныеTextBox.TabIndex = 18;
@@ -4260,30 +7017,10 @@
             this.адресTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Адрес", true));
             this.адресTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.адресTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.адресTextBox.Location = new System.Drawing.Point(618, 59);
+            this.адресTextBox.Location = new System.Drawing.Point(762, 59);
             this.адресTextBox.Name = "адресTextBox";
             this.адресTextBox.Size = new System.Drawing.Size(184, 24);
             this.адресTextBox.TabIndex = 16;
-            // 
-            // возрастTextBox
-            // 
-            this.возрастTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Возраст", true));
-            this.возрастTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.возрастTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.возрастTextBox.Location = new System.Drawing.Point(618, 8);
-            this.возрастTextBox.Name = "возрастTextBox";
-            this.возрастTextBox.Size = new System.Drawing.Size(184, 24);
-            this.возрастTextBox.TabIndex = 14;
-            // 
-            // полTextBox
-            // 
-            this.полTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Пол", true));
-            this.полTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.полTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.полTextBox.Location = new System.Drawing.Point(198, 161);
-            this.полTextBox.Name = "полTextBox";
-            this.полTextBox.Size = new System.Drawing.Size(184, 24);
-            this.полTextBox.TabIndex = 12;
             // 
             // фИОTextBox
             // 
@@ -4298,7 +7035,7 @@
             // ОбновитьButton5
             // 
             this.ОбновитьButton5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ОбновитьButton5.Location = new System.Drawing.Point(618, 212);
+            this.ОбновитьButton5.Location = new System.Drawing.Point(762, 212);
             this.ОбновитьButton5.Name = "ОбновитьButton5";
             this.ОбновитьButton5.Size = new System.Drawing.Size(184, 35);
             this.ОбновитьButton5.TabIndex = 11;
@@ -4331,6 +7068,58 @@
             this.код_должностиComboBox2.TabIndex = 21;
             this.код_должностиComboBox2.ValueMember = "Код_должности";
             // 
+            // Сот_Обн_Обяз_зап_label
+            // 
+            this.Сот_Обн_Обяз_зап_label.AutoSize = true;
+            this.Сот_Обн_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Сот_Обн_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Сот_Обн_Обяз_зап_label.Location = new System.Drawing.Point(388, 107);
+            this.Сот_Обн_Обяз_зап_label.Name = "Сот_Обн_Обяз_зап_label";
+            this.Сот_Обн_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Сот_Обн_Обяз_зап_label.Size = new System.Drawing.Size(208, 51);
+            this.Сот_Обн_Обяз_зап_label.TabIndex = 24;
+            this.Сот_Обн_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Сот_Обн_Обяз_зап_label.Visible = false;
+            // 
+            // Сот_Обн_Обяз_зап_label1
+            // 
+            this.Сот_Обн_Обяз_зап_label1.AutoSize = true;
+            this.Сот_Обн_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Сот_Обн_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Сот_Обн_Обяз_зап_label1.Location = new System.Drawing.Point(388, 158);
+            this.Сот_Обн_Обяз_зап_label1.Name = "Сот_Обн_Обяз_зап_label1";
+            this.Сот_Обн_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Сот_Обн_Обяз_зап_label1.Size = new System.Drawing.Size(208, 51);
+            this.Сот_Обн_Обяз_зап_label1.TabIndex = 25;
+            this.Сот_Обн_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Сот_Обн_Обяз_зап_label1.Visible = false;
+            // 
+            // Сот_Обн_Обяз_зап_label2
+            // 
+            this.Сот_Обн_Обяз_зап_label2.AutoSize = true;
+            this.Сот_Обн_Обяз_зап_label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Сот_Обн_Обяз_зап_label2.ForeColor = System.Drawing.Color.Red;
+            this.Сот_Обн_Обяз_зап_label2.Location = new System.Drawing.Point(952, 5);
+            this.Сот_Обн_Обяз_зап_label2.Name = "Сот_Обн_Обяз_зап_label2";
+            this.Сот_Обн_Обяз_зап_label2.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Сот_Обн_Обяз_зап_label2.Size = new System.Drawing.Size(208, 51);
+            this.Сот_Обн_Обяз_зап_label2.TabIndex = 26;
+            this.Сот_Обн_Обяз_зап_label2.Text = "*Обязательно для заполнение";
+            this.Сот_Обн_Обяз_зап_label2.Visible = false;
+            // 
+            // Сот_Обн_Обяз_зап_label3
+            // 
+            this.Сот_Обн_Обяз_зап_label3.AutoSize = true;
+            this.Сот_Обн_Обяз_зап_label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Сот_Обн_Обяз_зап_label3.ForeColor = System.Drawing.Color.Red;
+            this.Сот_Обн_Обяз_зап_label3.Location = new System.Drawing.Point(952, 107);
+            this.Сот_Обн_Обяз_зап_label3.Name = "Сот_Обн_Обяз_зап_label3";
+            this.Сот_Обн_Обяз_зап_label3.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Сот_Обн_Обяз_зап_label3.Size = new System.Drawing.Size(208, 51);
+            this.Сот_Обн_Обяз_зап_label3.TabIndex = 27;
+            this.Сот_Обн_Обяз_зап_label3.Text = "*Обязательно для заполнение";
+            this.Сот_Обн_Обяз_зап_label3.Visible = false;
+            // 
             // tabPage21
             // 
             this.tabPage21.AutoScroll = true;
@@ -4346,17 +7135,18 @@
             // tableLayoutPanel15
             // 
             this.tableLayoutPanel15.AutoSize = true;
-            this.tableLayoutPanel15.ColumnCount = 5;
+            this.tableLayoutPanel15.ColumnCount = 6;
             this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
             this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
             this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel15.Controls.Add(this.возрастComboBox1, 1, 3);
             this.tableLayoutPanel15.Controls.Add(this.примечаниеTextBox9, 4, 2);
+            this.tableLayoutPanel15.Controls.Add(this.полComboBox1, 1, 2);
             this.tableLayoutPanel15.Controls.Add(this.паспортные_данныеTextBox1, 4, 1);
             this.tableLayoutPanel15.Controls.Add(this.адресTextBox1, 4, 0);
-            this.tableLayoutPanel15.Controls.Add(this.возрастTextBox1, 1, 3);
-            this.tableLayoutPanel15.Controls.Add(this.полTextBox1, 1, 2);
             this.tableLayoutPanel15.Controls.Add(this.фИОTextBox1, 1, 1);
             this.tableLayoutPanel15.Controls.Add(фИОLabel1, 0, 1);
             this.tableLayoutPanel15.Controls.Add(полLabel1, 0, 2);
@@ -4367,6 +7157,10 @@
             this.tableLayoutPanel15.Controls.Add(this.ДобавитьButton5, 4, 4);
             this.tableLayoutPanel15.Controls.Add(this.код_должностиComboBox3, 1, 0);
             this.tableLayoutPanel15.Controls.Add(код_должностиLabel3, 0, 0);
+            this.tableLayoutPanel15.Controls.Add(this.Сот_Доб_Обяз_зап_label, 2, 1);
+            this.tableLayoutPanel15.Controls.Add(this.Сот_Доб_Обяз_зап_label1, 2, 2);
+            this.tableLayoutPanel15.Controls.Add(this.Сот_Доб_Обяз_зап_label2, 2, 3);
+            this.tableLayoutPanel15.Controls.Add(this.Сот_Доб_Обяз_зап_label3, 5, 1);
             this.tableLayoutPanel15.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel15.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel15.Name = "tableLayoutPanel15";
@@ -4377,25 +7171,104 @@
             this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel15.Size = new System.Drawing.Size(810, 255);
+            this.tableLayoutPanel15.Size = new System.Drawing.Size(1168, 255);
             this.tableLayoutPanel15.TabIndex = 6;
+            // 
+            // возрастComboBox1
+            // 
+            this.возрастComboBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.возрастComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.возрастComboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.возрастComboBox1.FormattingEnabled = true;
+            this.возрастComboBox1.Items.AddRange(new object[] {
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70"});
+            this.возрастComboBox1.Location = new System.Drawing.Point(198, 161);
+            this.возрастComboBox1.Name = "возрастComboBox1";
+            this.возрастComboBox1.Size = new System.Drawing.Size(184, 24);
+            this.возрастComboBox1.TabIndex = 70;
             // 
             // примечаниеTextBox9
             // 
             this.примечаниеTextBox9.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Примечание", true));
             this.примечаниеTextBox9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.примечаниеTextBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.примечаниеTextBox9.Location = new System.Drawing.Point(618, 110);
+            this.примечаниеTextBox9.Location = new System.Drawing.Point(762, 110);
             this.примечаниеTextBox9.Name = "примечаниеTextBox9";
             this.примечаниеTextBox9.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox9.TabIndex = 21;
+            // 
+            // полComboBox1
+            // 
+            this.полComboBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.полComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.полComboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.полComboBox1.FormattingEnabled = true;
+            this.полComboBox1.Items.AddRange(new object[] {
+            "Мужской",
+            "Женский"});
+            this.полComboBox1.Location = new System.Drawing.Point(198, 110);
+            this.полComboBox1.Name = "полComboBox1";
+            this.полComboBox1.Size = new System.Drawing.Size(184, 24);
+            this.полComboBox1.TabIndex = 69;
             // 
             // паспортные_данныеTextBox1
             // 
             this.паспортные_данныеTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Паспортные_данные", true));
             this.паспортные_данныеTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.паспортные_данныеTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.паспортные_данныеTextBox1.Location = new System.Drawing.Point(618, 59);
+            this.паспортные_данныеTextBox1.Location = new System.Drawing.Point(762, 59);
             this.паспортные_данныеTextBox1.Name = "паспортные_данныеTextBox1";
             this.паспортные_данныеTextBox1.Size = new System.Drawing.Size(184, 24);
             this.паспортные_данныеTextBox1.TabIndex = 19;
@@ -4405,30 +7278,10 @@
             this.адресTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Адрес", true));
             this.адресTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.адресTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.адресTextBox1.Location = new System.Drawing.Point(618, 8);
+            this.адресTextBox1.Location = new System.Drawing.Point(762, 8);
             this.адресTextBox1.Name = "адресTextBox1";
             this.адресTextBox1.Size = new System.Drawing.Size(184, 24);
             this.адресTextBox1.TabIndex = 17;
-            // 
-            // возрастTextBox1
-            // 
-            this.возрастTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Возраст", true));
-            this.возрастTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.возрастTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.возрастTextBox1.Location = new System.Drawing.Point(198, 161);
-            this.возрастTextBox1.Name = "возрастTextBox1";
-            this.возрастTextBox1.Size = new System.Drawing.Size(184, 24);
-            this.возрастTextBox1.TabIndex = 15;
-            // 
-            // полTextBox1
-            // 
-            this.полTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.сотрудникиBindingSource, "Пол", true));
-            this.полTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.полTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.полTextBox1.Location = new System.Drawing.Point(198, 110);
-            this.полTextBox1.Name = "полTextBox1";
-            this.полTextBox1.Size = new System.Drawing.Size(184, 24);
-            this.полTextBox1.TabIndex = 13;
             // 
             // фИОTextBox1
             // 
@@ -4443,7 +7296,7 @@
             // ДобавитьButton5
             // 
             this.ДобавитьButton5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ДобавитьButton5.Location = new System.Drawing.Point(618, 212);
+            this.ДобавитьButton5.Location = new System.Drawing.Point(762, 212);
             this.ДобавитьButton5.Name = "ДобавитьButton5";
             this.ДобавитьButton5.Size = new System.Drawing.Size(184, 35);
             this.ДобавитьButton5.TabIndex = 11;
@@ -4462,6 +7315,58 @@
             this.код_должностиComboBox3.Size = new System.Drawing.Size(184, 24);
             this.код_должностиComboBox3.TabIndex = 20;
             this.код_должностиComboBox3.ValueMember = "Код_должности";
+            // 
+            // Сот_Доб_Обяз_зап_label
+            // 
+            this.Сот_Доб_Обяз_зап_label.AutoSize = true;
+            this.Сот_Доб_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Сот_Доб_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Сот_Доб_Обяз_зап_label.Location = new System.Drawing.Point(388, 56);
+            this.Сот_Доб_Обяз_зап_label.Name = "Сот_Доб_Обяз_зап_label";
+            this.Сот_Доб_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Сот_Доб_Обяз_зап_label.Size = new System.Drawing.Size(208, 51);
+            this.Сот_Доб_Обяз_зап_label.TabIndex = 23;
+            this.Сот_Доб_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Сот_Доб_Обяз_зап_label.Visible = false;
+            // 
+            // Сот_Доб_Обяз_зап_label1
+            // 
+            this.Сот_Доб_Обяз_зап_label1.AutoSize = true;
+            this.Сот_Доб_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Сот_Доб_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Сот_Доб_Обяз_зап_label1.Location = new System.Drawing.Point(388, 107);
+            this.Сот_Доб_Обяз_зап_label1.Name = "Сот_Доб_Обяз_зап_label1";
+            this.Сот_Доб_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Сот_Доб_Обяз_зап_label1.Size = new System.Drawing.Size(208, 51);
+            this.Сот_Доб_Обяз_зап_label1.TabIndex = 24;
+            this.Сот_Доб_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Сот_Доб_Обяз_зап_label1.Visible = false;
+            // 
+            // Сот_Доб_Обяз_зап_label2
+            // 
+            this.Сот_Доб_Обяз_зап_label2.AutoSize = true;
+            this.Сот_Доб_Обяз_зап_label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Сот_Доб_Обяз_зап_label2.ForeColor = System.Drawing.Color.Red;
+            this.Сот_Доб_Обяз_зап_label2.Location = new System.Drawing.Point(388, 158);
+            this.Сот_Доб_Обяз_зап_label2.Name = "Сот_Доб_Обяз_зап_label2";
+            this.Сот_Доб_Обяз_зап_label2.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Сот_Доб_Обяз_зап_label2.Size = new System.Drawing.Size(208, 51);
+            this.Сот_Доб_Обяз_зап_label2.TabIndex = 25;
+            this.Сот_Доб_Обяз_зап_label2.Text = "*Обязательно для заполнение";
+            this.Сот_Доб_Обяз_зап_label2.Visible = false;
+            // 
+            // Сот_Доб_Обяз_зап_label3
+            // 
+            this.Сот_Доб_Обяз_зап_label3.AutoSize = true;
+            this.Сот_Доб_Обяз_зап_label3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Сот_Доб_Обяз_зап_label3.ForeColor = System.Drawing.Color.Red;
+            this.Сот_Доб_Обяз_зап_label3.Location = new System.Drawing.Point(952, 56);
+            this.Сот_Доб_Обяз_зап_label3.Name = "Сот_Доб_Обяз_зап_label3";
+            this.Сот_Доб_Обяз_зап_label3.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Сот_Доб_Обяз_зап_label3.Size = new System.Drawing.Size(208, 51);
+            this.Сот_Доб_Обяз_зап_label3.TabIndex = 26;
+            this.Сот_Доб_Обяз_зап_label3.Text = "*Обязательно для заполнение";
+            this.Сот_Доб_Обяз_зап_label3.Visible = false;
             // 
             // tabPage22
             // 
@@ -4725,23 +7630,26 @@
             // tableLayoutPanel17
             // 
             this.tableLayoutPanel17.AutoSize = true;
-            this.tableLayoutPanel17.ColumnCount = 5;
+            this.tableLayoutPanel17.ColumnCount = 6;
             this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
             this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
             this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
+            this.tableLayoutPanel17.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel17.Controls.Add(this.Труд_Обн_Обяз_зап_label1, 5, 0);
+            this.tableLayoutPanel17.Controls.Add(this.дата_заключенияDateTimePicker, 1, 2);
             this.tableLayoutPanel17.Controls.Add(this.примечаниеTextBox10, 4, 1);
-            this.tableLayoutPanel17.Controls.Add(this.длительностьTextBox4, 4, 0);
             this.tableLayoutPanel17.Controls.Add(длительностьLabel4, 3, 0);
             this.tableLayoutPanel17.Controls.Add(примечаниеLabel10, 3, 1);
-            this.tableLayoutPanel17.Controls.Add(this.дата_заключенияTextBox, 1, 2);
             this.tableLayoutPanel17.Controls.Add(дата_заключенияLabel, 0, 2);
             this.tableLayoutPanel17.Controls.Add(код_договораLabel, 0, 0);
             this.tableLayoutPanel17.Controls.Add(код_сотрудникаLabel8, 0, 1);
             this.tableLayoutPanel17.Controls.Add(this.код_договораComboBox, 1, 0);
             this.tableLayoutPanel17.Controls.Add(this.код_сотрудникаComboBox8, 1, 1);
             this.tableLayoutPanel17.Controls.Add(this.ОбновитьButton6, 4, 4);
+            this.tableLayoutPanel17.Controls.Add(this.длительностьComboBox4, 4, 0);
+            this.tableLayoutPanel17.Controls.Add(this.Труд_Обн_Обяз_зап_label, 2, 2);
             this.tableLayoutPanel17.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel17.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel17.Name = "tableLayoutPanel17";
@@ -4752,15 +7660,37 @@
             this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel17.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel17.Size = new System.Drawing.Size(810, 255);
+            this.tableLayoutPanel17.Size = new System.Drawing.Size(1168, 255);
             this.tableLayoutPanel17.TabIndex = 6;
+            // 
+            // Труд_Обн_Обяз_зап_label1
+            // 
+            this.Труд_Обн_Обяз_зап_label1.AutoSize = true;
+            this.Труд_Обн_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Труд_Обн_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Труд_Обн_Обяз_зап_label1.Location = new System.Drawing.Point(952, 5);
+            this.Труд_Обн_Обяз_зап_label1.Name = "Труд_Обн_Обяз_зап_label1";
+            this.Труд_Обн_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Труд_Обн_Обяз_зап_label1.Size = new System.Drawing.Size(208, 51);
+            this.Труд_Обн_Обяз_зап_label1.TabIndex = 26;
+            this.Труд_Обн_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Труд_Обн_Обяз_зап_label1.Visible = false;
+            // 
+            // дата_заключенияDateTimePicker
+            // 
+            this.дата_заключенияDateTimePicker.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.дата_заключенияDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.дата_заключенияDateTimePicker.Location = new System.Drawing.Point(198, 110);
+            this.дата_заключенияDateTimePicker.Name = "дата_заключенияDateTimePicker";
+            this.дата_заключенияDateTimePicker.Size = new System.Drawing.Size(184, 22);
+            this.дата_заключенияDateTimePicker.TabIndex = 7;
             // 
             // примечаниеTextBox10
             // 
             this.примечаниеTextBox10.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.трудовыедоговораBindingSource, "Примечание", true));
             this.примечаниеTextBox10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.примечаниеTextBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.примечаниеTextBox10.Location = new System.Drawing.Point(618, 59);
+            this.примечаниеTextBox10.Location = new System.Drawing.Point(762, 59);
             this.примечаниеTextBox10.Name = "примечаниеTextBox10";
             this.примечаниеTextBox10.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox10.TabIndex = 15;
@@ -4769,26 +7699,6 @@
             // 
             this.трудовыедоговораBindingSource.DataMember = "Трудовые_договора";
             this.трудовыедоговораBindingSource.DataSource = this.accountingOfSalariesAndPersonnelDataSet;
-            // 
-            // длительностьTextBox4
-            // 
-            this.длительностьTextBox4.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.трудовыедоговораBindingSource, "Длительность", true));
-            this.длительностьTextBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.длительностьTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.длительностьTextBox4.Location = new System.Drawing.Point(618, 8);
-            this.длительностьTextBox4.Name = "длительностьTextBox4";
-            this.длительностьTextBox4.Size = new System.Drawing.Size(184, 24);
-            this.длительностьTextBox4.TabIndex = 13;
-            // 
-            // дата_заключенияTextBox
-            // 
-            this.дата_заключенияTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.трудовыедоговораBindingSource, "Дата_заключения", true));
-            this.дата_заключенияTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.дата_заключенияTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.дата_заключенияTextBox.Location = new System.Drawing.Point(198, 110);
-            this.дата_заключенияTextBox.Name = "дата_заключенияTextBox";
-            this.дата_заключенияTextBox.Size = new System.Drawing.Size(184, 24);
-            this.дата_заключенияTextBox.TabIndex = 11;
             // 
             // код_договораComboBox
             // 
@@ -4819,12 +7729,47 @@
             // ОбновитьButton6
             // 
             this.ОбновитьButton6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ОбновитьButton6.Location = new System.Drawing.Point(618, 212);
+            this.ОбновитьButton6.Location = new System.Drawing.Point(762, 212);
             this.ОбновитьButton6.Name = "ОбновитьButton6";
             this.ОбновитьButton6.Size = new System.Drawing.Size(184, 35);
             this.ОбновитьButton6.TabIndex = 11;
             this.ОбновитьButton6.Text = "Обновить";
             this.ОбновитьButton6.UseVisualStyleBackColor = true;
+            // 
+            // длительностьComboBox4
+            // 
+            this.длительностьComboBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.длительностьComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.длительностьComboBox4.FormattingEnabled = true;
+            this.длительностьComboBox4.Items.AddRange(new object[] {
+            "3 месяца ",
+            "6 месяцев",
+            "12 месяцев",
+            "18 месяцев",
+            "24 месяца",
+            "30 месяцев",
+            "36 месяцев",
+            "42 месяцев",
+            "48 месяцев",
+            "54 месяцев",
+            "60 месяцев"});
+            this.длительностьComboBox4.Location = new System.Drawing.Point(762, 8);
+            this.длительностьComboBox4.Name = "длительностьComboBox4";
+            this.длительностьComboBox4.Size = new System.Drawing.Size(184, 24);
+            this.длительностьComboBox4.TabIndex = 22;
+            // 
+            // Труд_Обн_Обяз_зап_label
+            // 
+            this.Труд_Обн_Обяз_зап_label.AutoSize = true;
+            this.Труд_Обн_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Труд_Обн_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Труд_Обн_Обяз_зап_label.Location = new System.Drawing.Point(388, 107);
+            this.Труд_Обн_Обяз_зап_label.Name = "Труд_Обн_Обяз_зап_label";
+            this.Труд_Обн_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Труд_Обн_Обяз_зап_label.Size = new System.Drawing.Size(208, 51);
+            this.Труд_Обн_Обяз_зап_label.TabIndex = 27;
+            this.Труд_Обн_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Труд_Обн_Обяз_зап_label.Visible = false;
             // 
             // tabPage24
             // 
@@ -4840,21 +7785,24 @@
             // tableLayoutPanel18
             // 
             this.tableLayoutPanel18.AutoSize = true;
-            this.tableLayoutPanel18.ColumnCount = 5;
+            this.tableLayoutPanel18.ColumnCount = 6;
             this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
             this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
             this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
+            this.tableLayoutPanel18.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
+            this.tableLayoutPanel18.Controls.Add(this.длительностьComboBox5, 4, 0);
+            this.tableLayoutPanel18.Controls.Add(this.дата_заключенияDateTimePicker1, 1, 1);
             this.tableLayoutPanel18.Controls.Add(this.примечаниеTextBox11, 4, 1);
-            this.tableLayoutPanel18.Controls.Add(this.длительностьTextBox5, 4, 0);
             this.tableLayoutPanel18.Controls.Add(длительностьLabel5, 3, 0);
             this.tableLayoutPanel18.Controls.Add(примечаниеLabel11, 3, 1);
-            this.tableLayoutPanel18.Controls.Add(this.дата_заключенияTextBox1, 1, 1);
             this.tableLayoutPanel18.Controls.Add(дата_заключенияLabel1, 0, 1);
             this.tableLayoutPanel18.Controls.Add(код_сотрудникаLabel9, 0, 0);
             this.tableLayoutPanel18.Controls.Add(this.код_сотрудникаComboBox9, 1, 0);
             this.tableLayoutPanel18.Controls.Add(this.ДобавитьButton6, 4, 4);
+            this.tableLayoutPanel18.Controls.Add(this.Труд_Доб_Обяз_зап_label, 2, 1);
+            this.tableLayoutPanel18.Controls.Add(this.Труд_Доб_Обяз_зап_label1, 5, 0);
             this.tableLayoutPanel18.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel18.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel18.Name = "tableLayoutPanel18";
@@ -4865,38 +7813,49 @@
             this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel18.Size = new System.Drawing.Size(810, 255);
+            this.tableLayoutPanel18.Size = new System.Drawing.Size(1168, 255);
             this.tableLayoutPanel18.TabIndex = 7;
+            // 
+            // длительностьComboBox5
+            // 
+            this.длительностьComboBox5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.длительностьComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.длительностьComboBox5.FormattingEnabled = true;
+            this.длительностьComboBox5.Items.AddRange(new object[] {
+            "3 месяца ",
+            "6 месяцев",
+            "12 месяцев",
+            "18 месяцев",
+            "24 месяца",
+            "30 месяцев",
+            "36 месяцев",
+            "42 месяцев",
+            "48 месяцев",
+            "54 месяцев",
+            "60 месяцев"});
+            this.длительностьComboBox5.Location = new System.Drawing.Point(762, 8);
+            this.длительностьComboBox5.Name = "длительностьComboBox5";
+            this.длительностьComboBox5.Size = new System.Drawing.Size(184, 24);
+            this.длительностьComboBox5.TabIndex = 23;
+            // 
+            // дата_заключенияDateTimePicker1
+            // 
+            this.дата_заключенияDateTimePicker1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.дата_заключенияDateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.дата_заключенияDateTimePicker1.Location = new System.Drawing.Point(198, 59);
+            this.дата_заключенияDateTimePicker1.Name = "дата_заключенияDateTimePicker1";
+            this.дата_заключенияDateTimePicker1.Size = new System.Drawing.Size(184, 22);
+            this.дата_заключенияDateTimePicker1.TabIndex = 8;
             // 
             // примечаниеTextBox11
             // 
             this.примечаниеTextBox11.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.трудовыедоговораBindingSource, "Примечание", true));
             this.примечаниеTextBox11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.примечаниеTextBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.примечаниеTextBox11.Location = new System.Drawing.Point(618, 59);
+            this.примечаниеTextBox11.Location = new System.Drawing.Point(762, 59);
             this.примечаниеTextBox11.Name = "примечаниеTextBox11";
             this.примечаниеTextBox11.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox11.TabIndex = 16;
-            // 
-            // длительностьTextBox5
-            // 
-            this.длительностьTextBox5.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.трудовыедоговораBindingSource, "Длительность", true));
-            this.длительностьTextBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.длительностьTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.длительностьTextBox5.Location = new System.Drawing.Point(618, 8);
-            this.длительностьTextBox5.Name = "длительностьTextBox5";
-            this.длительностьTextBox5.Size = new System.Drawing.Size(184, 24);
-            this.длительностьTextBox5.TabIndex = 14;
-            // 
-            // дата_заключенияTextBox1
-            // 
-            this.дата_заключенияTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.трудовыедоговораBindingSource, "Дата_заключения", true));
-            this.дата_заключенияTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.дата_заключенияTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.дата_заключенияTextBox1.Location = new System.Drawing.Point(198, 59);
-            this.дата_заключенияTextBox1.Name = "дата_заключенияTextBox1";
-            this.дата_заключенияTextBox1.Size = new System.Drawing.Size(184, 24);
-            this.дата_заключенияTextBox1.TabIndex = 12;
             // 
             // код_сотрудникаComboBox9
             // 
@@ -4914,12 +7873,38 @@
             // ДобавитьButton6
             // 
             this.ДобавитьButton6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ДобавитьButton6.Location = new System.Drawing.Point(618, 212);
+            this.ДобавитьButton6.Location = new System.Drawing.Point(762, 212);
             this.ДобавитьButton6.Name = "ДобавитьButton6";
             this.ДобавитьButton6.Size = new System.Drawing.Size(184, 35);
             this.ДобавитьButton6.TabIndex = 11;
             this.ДобавитьButton6.Text = "Добавить";
             this.ДобавитьButton6.UseVisualStyleBackColor = true;
+            // 
+            // Труд_Доб_Обяз_зап_label
+            // 
+            this.Труд_Доб_Обяз_зап_label.AutoSize = true;
+            this.Труд_Доб_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Труд_Доб_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Труд_Доб_Обяз_зап_label.Location = new System.Drawing.Point(388, 56);
+            this.Труд_Доб_Обяз_зап_label.Name = "Труд_Доб_Обяз_зап_label";
+            this.Труд_Доб_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Труд_Доб_Обяз_зап_label.Size = new System.Drawing.Size(208, 51);
+            this.Труд_Доб_Обяз_зап_label.TabIndex = 25;
+            this.Труд_Доб_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Труд_Доб_Обяз_зап_label.Visible = false;
+            // 
+            // Труд_Доб_Обяз_зап_label1
+            // 
+            this.Труд_Доб_Обяз_зап_label1.AutoSize = true;
+            this.Труд_Доб_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Труд_Доб_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Труд_Доб_Обяз_зап_label1.Location = new System.Drawing.Point(952, 5);
+            this.Труд_Доб_Обяз_зап_label1.Name = "Труд_Доб_Обяз_зап_label1";
+            this.Труд_Доб_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Труд_Доб_Обяз_зап_label1.Size = new System.Drawing.Size(208, 51);
+            this.Труд_Доб_Обяз_зап_label1.TabIndex = 26;
+            this.Труд_Доб_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Труд_Доб_Обяз_зап_label1.Visible = false;
             // 
             // tabPage25
             // 
@@ -5153,12 +8138,13 @@
             // tableLayoutPanel20
             // 
             this.tableLayoutPanel20.AutoSize = true;
-            this.tableLayoutPanel20.ColumnCount = 5;
+            this.tableLayoutPanel20.ColumnCount = 6;
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
             this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
+            this.tableLayoutPanel20.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel20.Controls.Add(код_расписанияLabel, 0, 0);
             this.tableLayoutPanel20.Controls.Add(код_должностиLabel4, 0, 1);
             this.tableLayoutPanel20.Controls.Add(this.примечаниеTextBox12, 4, 1);
@@ -5170,6 +8156,8 @@
             this.tableLayoutPanel20.Controls.Add(this.код_расписанияComboBox, 1, 0);
             this.tableLayoutPanel20.Controls.Add(this.код_должностиComboBox4, 1, 1);
             this.tableLayoutPanel20.Controls.Add(this.ОбновитьButton7, 4, 4);
+            this.tableLayoutPanel20.Controls.Add(this.Шт_Обн_Обяз_зап_label, 2, 2);
+            this.tableLayoutPanel20.Controls.Add(this.Шт_Обн_Обяз_зап_label1, 5, 0);
             this.tableLayoutPanel20.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel20.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel20.Name = "tableLayoutPanel20";
@@ -5180,7 +8168,7 @@
             this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 28.57143F));
             this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.80952F));
             this.tableLayoutPanel20.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel20.Size = new System.Drawing.Size(870, 255);
+            this.tableLayoutPanel20.Size = new System.Drawing.Size(1228, 255);
             this.tableLayoutPanel20.TabIndex = 7;
             // 
             // примечаниеTextBox12
@@ -5188,7 +8176,7 @@
             this.примечаниеTextBox12.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.штатноерасписаниеBindingSource, "Примечание", true));
             this.примечаниеTextBox12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.примечаниеTextBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.примечаниеTextBox12.Location = new System.Drawing.Point(678, 56);
+            this.примечаниеTextBox12.Location = new System.Drawing.Point(822, 56);
             this.примечаниеTextBox12.Name = "примечаниеTextBox12";
             this.примечаниеTextBox12.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox12.TabIndex = 16;
@@ -5203,7 +8191,7 @@
             this.количество_штатных_единицTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.штатноерасписаниеBindingSource, "Количество_штатных_единиц", true));
             this.количество_штатных_единицTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.количество_штатных_единицTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.количество_штатных_единицTextBox.Location = new System.Drawing.Point(678, 8);
+            this.количество_штатных_единицTextBox.Location = new System.Drawing.Point(822, 8);
             this.количество_штатных_единицTextBox.Name = "количество_штатных_единицTextBox";
             this.количество_штатных_единицTextBox.Size = new System.Drawing.Size(184, 24);
             this.количество_штатных_единицTextBox.TabIndex = 14;
@@ -5247,12 +8235,38 @@
             // ОбновитьButton7
             // 
             this.ОбновитьButton7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ОбновитьButton7.Location = new System.Drawing.Point(678, 210);
+            this.ОбновитьButton7.Location = new System.Drawing.Point(822, 210);
             this.ОбновитьButton7.Name = "ОбновитьButton7";
             this.ОбновитьButton7.Size = new System.Drawing.Size(184, 37);
             this.ОбновитьButton7.TabIndex = 11;
             this.ОбновитьButton7.Text = "Обновить";
             this.ОбновитьButton7.UseVisualStyleBackColor = true;
+            // 
+            // Шт_Обн_Обяз_зап_label
+            // 
+            this.Шт_Обн_Обяз_зап_label.AutoSize = true;
+            this.Шт_Обн_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Шт_Обн_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Шт_Обн_Обяз_зап_label.Location = new System.Drawing.Point(448, 101);
+            this.Шт_Обн_Обяз_зап_label.Name = "Шт_Обн_Обяз_зап_label";
+            this.Шт_Обн_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Шт_Обн_Обяз_зап_label.Size = new System.Drawing.Size(208, 58);
+            this.Шт_Обн_Обяз_зап_label.TabIndex = 28;
+            this.Шт_Обн_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Шт_Обн_Обяз_зап_label.Visible = false;
+            // 
+            // Шт_Обн_Обяз_зап_label1
+            // 
+            this.Шт_Обн_Обяз_зап_label1.AutoSize = true;
+            this.Шт_Обн_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Шт_Обн_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Шт_Обн_Обяз_зап_label1.Location = new System.Drawing.Point(1012, 5);
+            this.Шт_Обн_Обяз_зап_label1.Name = "Шт_Обн_Обяз_зап_label1";
+            this.Шт_Обн_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Шт_Обн_Обяз_зап_label1.Size = new System.Drawing.Size(208, 48);
+            this.Шт_Обн_Обяз_зап_label1.TabIndex = 29;
+            this.Шт_Обн_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Шт_Обн_Обяз_зап_label1.Visible = false;
             // 
             // tabPage27
             // 
@@ -5268,12 +8282,13 @@
             // tableLayoutPanel21
             // 
             this.tableLayoutPanel21.AutoSize = true;
-            this.tableLayoutPanel21.ColumnCount = 5;
+            this.tableLayoutPanel21.ColumnCount = 6;
             this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 250F));
             this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
             this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
+            this.tableLayoutPanel21.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel21.Controls.Add(this.код_должностиComboBox5, 1, 0);
             this.tableLayoutPanel21.Controls.Add(this.ДобавитьButton7, 4, 4);
             this.tableLayoutPanel21.Controls.Add(код_должностиLabel5, 0, 0);
@@ -5283,6 +8298,8 @@
             this.tableLayoutPanel21.Controls.Add(наименование_структурного_подразделенияLabel1, 0, 1);
             this.tableLayoutPanel21.Controls.Add(количество_штатных_единицLabel1, 3, 0);
             this.tableLayoutPanel21.Controls.Add(примечаниеLabel13, 3, 1);
+            this.tableLayoutPanel21.Controls.Add(this.Шт_Доб_Обяз_зап_label, 2, 1);
+            this.tableLayoutPanel21.Controls.Add(this.Шт_Доб_Обяз_зап_label1, 5, 0);
             this.tableLayoutPanel21.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel21.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel21.Name = "tableLayoutPanel21";
@@ -5293,7 +8310,7 @@
             this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.80952F));
             this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.80952F));
             this.tableLayoutPanel21.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel21.Size = new System.Drawing.Size(870, 255);
+            this.tableLayoutPanel21.Size = new System.Drawing.Size(1228, 255);
             this.tableLayoutPanel21.TabIndex = 8;
             // 
             // код_должностиComboBox5
@@ -5312,7 +8329,7 @@
             // ДобавитьButton7
             // 
             this.ДобавитьButton7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ДобавитьButton7.Location = new System.Drawing.Point(678, 210);
+            this.ДобавитьButton7.Location = new System.Drawing.Point(822, 210);
             this.ДобавитьButton7.Name = "ДобавитьButton7";
             this.ДобавитьButton7.Size = new System.Drawing.Size(184, 37);
             this.ДобавитьButton7.TabIndex = 11;
@@ -5324,7 +8341,7 @@
             this.примечаниеTextBox13.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.штатноерасписаниеBindingSource, "Примечание", true));
             this.примечаниеTextBox13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.примечаниеTextBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.примечаниеTextBox13.Location = new System.Drawing.Point(678, 56);
+            this.примечаниеTextBox13.Location = new System.Drawing.Point(822, 56);
             this.примечаниеTextBox13.Name = "примечаниеTextBox13";
             this.примечаниеTextBox13.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox13.TabIndex = 17;
@@ -5334,7 +8351,7 @@
             this.количество_штатных_единицTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.штатноерасписаниеBindingSource, "Количество_штатных_единиц", true));
             this.количество_штатных_единицTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.количество_штатных_единицTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.количество_штатных_единицTextBox1.Location = new System.Drawing.Point(678, 8);
+            this.количество_штатных_единицTextBox1.Location = new System.Drawing.Point(822, 8);
             this.количество_штатных_единицTextBox1.Name = "количество_штатных_единицTextBox1";
             this.количество_штатных_единицTextBox1.Size = new System.Drawing.Size(184, 24);
             this.количество_штатных_единицTextBox1.TabIndex = 15;
@@ -5348,6 +8365,32 @@
             this.наименование_структурного_подразделенияTextBox1.Name = "наименование_структурного_подразделенияTextBox1";
             this.наименование_структурного_подразделенияTextBox1.Size = new System.Drawing.Size(184, 24);
             this.наименование_структурного_подразделенияTextBox1.TabIndex = 13;
+            // 
+            // Шт_Доб_Обяз_зап_label
+            // 
+            this.Шт_Доб_Обяз_зап_label.AutoSize = true;
+            this.Шт_Доб_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Шт_Доб_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Шт_Доб_Обяз_зап_label.Location = new System.Drawing.Point(448, 53);
+            this.Шт_Доб_Обяз_зап_label.Name = "Шт_Доб_Обяз_зап_label";
+            this.Шт_Доб_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Шт_Доб_Обяз_зап_label.Size = new System.Drawing.Size(208, 58);
+            this.Шт_Доб_Обяз_зап_label.TabIndex = 29;
+            this.Шт_Доб_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Шт_Доб_Обяз_зап_label.Visible = false;
+            // 
+            // Шт_Доб_Обяз_зап_label1
+            // 
+            this.Шт_Доб_Обяз_зап_label1.AutoSize = true;
+            this.Шт_Доб_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Шт_Доб_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Шт_Доб_Обяз_зап_label1.Location = new System.Drawing.Point(1012, 5);
+            this.Шт_Доб_Обяз_зап_label1.Name = "Шт_Доб_Обяз_зап_label1";
+            this.Шт_Доб_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Шт_Доб_Обяз_зап_label1.Size = new System.Drawing.Size(208, 48);
+            this.Шт_Доб_Обяз_зап_label1.TabIndex = 30;
+            this.Шт_Доб_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Шт_Доб_Обяз_зап_label1.Visible = false;
             // 
             // tabPage28
             // 
@@ -5582,12 +8625,13 @@
             // tableLayoutPanel23
             // 
             this.tableLayoutPanel23.AutoSize = true;
-            this.tableLayoutPanel23.ColumnCount = 5;
+            this.tableLayoutPanel23.ColumnCount = 6;
             this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
             this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
             this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
+            this.tableLayoutPanel23.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel23.Controls.Add(телефонLabel, 3, 2);
             this.tableLayoutPanel23.Controls.Add(примечаниеLabel14, 3, 3);
             this.tableLayoutPanel23.Controls.Add(emailLabel, 3, 1);
@@ -5605,6 +8649,8 @@
             this.tableLayoutPanel23.Controls.Add(this.код_пользователяComboBox, 1, 0);
             this.tableLayoutPanel23.Controls.Add(this.ОбновитьButton8, 4, 4);
             this.tableLayoutPanel23.Controls.Add(this.логинTextBox, 1, 1);
+            this.tableLayoutPanel23.Controls.Add(this.Пол_Обн_Обяз_зап_label, 2, 1);
+            this.tableLayoutPanel23.Controls.Add(this.Пол_Обн_Обяз_зап_label1, 5, 0);
             this.tableLayoutPanel23.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel23.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel23.Name = "tableLayoutPanel23";
@@ -5615,7 +8661,7 @@
             this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel23.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel23.Size = new System.Drawing.Size(810, 255);
+            this.tableLayoutPanel23.Size = new System.Drawing.Size(1168, 255);
             this.tableLayoutPanel23.TabIndex = 9;
             // 
             // рольTextBox
@@ -5638,7 +8684,7 @@
             this.парольTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.пользователиBindingSource, "Пароль", true));
             this.парольTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.парольTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.парольTextBox.Location = new System.Drawing.Point(618, 8);
+            this.парольTextBox.Location = new System.Drawing.Point(762, 8);
             this.парольTextBox.Name = "парольTextBox";
             this.парольTextBox.Size = new System.Drawing.Size(184, 24);
             this.парольTextBox.TabIndex = 18;
@@ -5648,7 +8694,7 @@
             this.emailTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.пользователиBindingSource, "Email", true));
             this.emailTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.emailTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.emailTextBox.Location = new System.Drawing.Point(618, 59);
+            this.emailTextBox.Location = new System.Drawing.Point(762, 59);
             this.emailTextBox.Name = "emailTextBox";
             this.emailTextBox.Size = new System.Drawing.Size(184, 24);
             this.emailTextBox.TabIndex = 20;
@@ -5668,7 +8714,7 @@
             this.телефонTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.пользователиBindingSource, "Телефон", true));
             this.телефонTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.телефонTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.телефонTextBox.Location = new System.Drawing.Point(618, 110);
+            this.телефонTextBox.Location = new System.Drawing.Point(762, 110);
             this.телефонTextBox.Name = "телефонTextBox";
             this.телефонTextBox.Size = new System.Drawing.Size(184, 24);
             this.телефонTextBox.TabIndex = 22;
@@ -5678,7 +8724,7 @@
             this.примечаниеTextBox14.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.пользователиBindingSource, "Примечание", true));
             this.примечаниеTextBox14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.примечаниеTextBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.примечаниеTextBox14.Location = new System.Drawing.Point(618, 161);
+            this.примечаниеTextBox14.Location = new System.Drawing.Point(762, 161);
             this.примечаниеTextBox14.Name = "примечаниеTextBox14";
             this.примечаниеTextBox14.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox14.TabIndex = 24;
@@ -5699,7 +8745,7 @@
             // ОбновитьButton8
             // 
             this.ОбновитьButton8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ОбновитьButton8.Location = new System.Drawing.Point(618, 212);
+            this.ОбновитьButton8.Location = new System.Drawing.Point(762, 212);
             this.ОбновитьButton8.Name = "ОбновитьButton8";
             this.ОбновитьButton8.Size = new System.Drawing.Size(184, 35);
             this.ОбновитьButton8.TabIndex = 11;
@@ -5715,6 +8761,32 @@
             this.логинTextBox.Name = "логинTextBox";
             this.логинTextBox.Size = new System.Drawing.Size(184, 24);
             this.логинTextBox.TabIndex = 12;
+            // 
+            // Пол_Обн_Обяз_зап_label
+            // 
+            this.Пол_Обн_Обяз_зап_label.AutoSize = true;
+            this.Пол_Обн_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Пол_Обн_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Пол_Обн_Обяз_зап_label.Location = new System.Drawing.Point(388, 56);
+            this.Пол_Обн_Обяз_зап_label.Name = "Пол_Обн_Обяз_зап_label";
+            this.Пол_Обн_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Пол_Обн_Обяз_зап_label.Size = new System.Drawing.Size(208, 51);
+            this.Пол_Обн_Обяз_зап_label.TabIndex = 30;
+            this.Пол_Обн_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Пол_Обн_Обяз_зап_label.Visible = false;
+            // 
+            // Пол_Обн_Обяз_зап_label1
+            // 
+            this.Пол_Обн_Обяз_зап_label1.AutoSize = true;
+            this.Пол_Обн_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Пол_Обн_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Пол_Обн_Обяз_зап_label1.Location = new System.Drawing.Point(952, 5);
+            this.Пол_Обн_Обяз_зап_label1.Name = "Пол_Обн_Обяз_зап_label1";
+            this.Пол_Обн_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Пол_Обн_Обяз_зап_label1.Size = new System.Drawing.Size(208, 51);
+            this.Пол_Обн_Обяз_зап_label1.TabIndex = 31;
+            this.Пол_Обн_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Пол_Обн_Обяз_зап_label1.Visible = false;
             // 
             // tabPage31
             // 
@@ -5733,7 +8805,7 @@
             this.tableLayoutPanel24.ColumnCount = 5;
             this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
             this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
-            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 70F));
+            this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
             this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 160F));
             this.tableLayoutPanel24.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 190F));
             this.tableLayoutPanel24.Controls.Add(this.ДобавитьButton8, 4, 4);
@@ -5751,6 +8823,8 @@
             this.tableLayoutPanel24.Controls.Add(this.фИОTextBox3, 1, 1);
             this.tableLayoutPanel24.Controls.Add(фИОLabel3, 0, 1);
             this.tableLayoutPanel24.Controls.Add(this.логинTextBox1, 1, 0);
+            this.tableLayoutPanel24.Controls.Add(this.Пол_Доб_Обяз_зап_label, 2, 0);
+            this.tableLayoutPanel24.Controls.Add(this.Пол_Доб_Обяз_зап_label1, 2, 3);
             this.tableLayoutPanel24.Dock = System.Windows.Forms.DockStyle.Left;
             this.tableLayoutPanel24.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel24.Name = "tableLayoutPanel24";
@@ -5761,13 +8835,13 @@
             this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel24.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel24.Size = new System.Drawing.Size(810, 255);
+            this.tableLayoutPanel24.Size = new System.Drawing.Size(954, 255);
             this.tableLayoutPanel24.TabIndex = 10;
             // 
             // ДобавитьButton8
             // 
             this.ДобавитьButton8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ДобавитьButton8.Location = new System.Drawing.Point(618, 212);
+            this.ДобавитьButton8.Location = new System.Drawing.Point(762, 212);
             this.ДобавитьButton8.Name = "ДобавитьButton8";
             this.ДобавитьButton8.Size = new System.Drawing.Size(184, 35);
             this.ДобавитьButton8.TabIndex = 11;
@@ -5779,7 +8853,7 @@
             this.примечаниеTextBox15.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.пользователиBindingSource, "Примечание", true));
             this.примечаниеTextBox15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.примечаниеTextBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.примечаниеTextBox15.Location = new System.Drawing.Point(618, 110);
+            this.примечаниеTextBox15.Location = new System.Drawing.Point(762, 110);
             this.примечаниеTextBox15.Name = "примечаниеTextBox15";
             this.примечаниеTextBox15.Size = new System.Drawing.Size(184, 24);
             this.примечаниеTextBox15.TabIndex = 25;
@@ -5789,7 +8863,7 @@
             this.телефонTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.пользователиBindingSource, "Телефон", true));
             this.телефонTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.телефонTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.телефонTextBox1.Location = new System.Drawing.Point(618, 59);
+            this.телефонTextBox1.Location = new System.Drawing.Point(762, 59);
             this.телефонTextBox1.Name = "телефонTextBox1";
             this.телефонTextBox1.Size = new System.Drawing.Size(184, 24);
             this.телефонTextBox1.TabIndex = 23;
@@ -5799,7 +8873,7 @@
             this.emailTextBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.пользователиBindingSource, "Email", true));
             this.emailTextBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.emailTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.emailTextBox1.Location = new System.Drawing.Point(618, 8);
+            this.emailTextBox1.Location = new System.Drawing.Point(762, 8);
             this.emailTextBox1.Name = "emailTextBox1";
             this.emailTextBox1.Size = new System.Drawing.Size(184, 24);
             this.emailTextBox1.TabIndex = 21;
@@ -5843,6 +8917,32 @@
             this.логинTextBox1.Name = "логинTextBox1";
             this.логинTextBox1.Size = new System.Drawing.Size(184, 24);
             this.логинTextBox1.TabIndex = 13;
+            // 
+            // Пол_Доб_Обяз_зап_label
+            // 
+            this.Пол_Доб_Обяз_зап_label.AutoSize = true;
+            this.Пол_Доб_Обяз_зап_label.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Пол_Доб_Обяз_зап_label.ForeColor = System.Drawing.Color.Red;
+            this.Пол_Доб_Обяз_зап_label.Location = new System.Drawing.Point(388, 5);
+            this.Пол_Доб_Обяз_зап_label.Name = "Пол_Доб_Обяз_зап_label";
+            this.Пол_Доб_Обяз_зап_label.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Пол_Доб_Обяз_зап_label.Size = new System.Drawing.Size(208, 51);
+            this.Пол_Доб_Обяз_зап_label.TabIndex = 31;
+            this.Пол_Доб_Обяз_зап_label.Text = "*Обязательно для заполнение";
+            this.Пол_Доб_Обяз_зап_label.Visible = false;
+            // 
+            // Пол_Доб_Обяз_зап_label1
+            // 
+            this.Пол_Доб_Обяз_зап_label1.AutoSize = true;
+            this.Пол_Доб_Обяз_зап_label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Пол_Доб_Обяз_зап_label1.ForeColor = System.Drawing.Color.Red;
+            this.Пол_Доб_Обяз_зап_label1.Location = new System.Drawing.Point(388, 158);
+            this.Пол_Доб_Обяз_зап_label1.Name = "Пол_Доб_Обяз_зап_label1";
+            this.Пол_Доб_Обяз_зап_label1.Padding = new System.Windows.Forms.Padding(0, 6, 0, 0);
+            this.Пол_Доб_Обяз_зап_label1.Size = new System.Drawing.Size(208, 51);
+            this.Пол_Доб_Обяз_зап_label1.TabIndex = 32;
+            this.Пол_Доб_Обяз_зап_label1.Text = "*Обязательно для заполнение";
+            this.Пол_Доб_Обяз_зап_label1.Visible = false;
             // 
             // tabPage32
             // 
@@ -6131,18 +9231,18 @@
             this.tableLayoutPanel26.ResumeLayout(false);
             this.tableLayoutPanel26.PerformLayout();
             this.Должности_правки_pages.ResumeLayout(false);
-            this.tabPage8.ResumeLayout(false);
-            this.tabPage8.PerformLayout();
+            this.Долж_Обн_TabPage.ResumeLayout(false);
+            this.Долж_Обн_TabPage.PerformLayout();
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.должностиBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.accountingOfSalariesAndPersonnelDataSet)).EndInit();
-            this.tabPage9.ResumeLayout(false);
-            this.tabPage9.PerformLayout();
+            this.Долж_Доб_TabPage.ResumeLayout(false);
+            this.Долж_Доб_TabPage.PerformLayout();
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
-            this.tabPage10.ResumeLayout(false);
-            this.tabPage10.PerformLayout();
+            this.Долж_Удал_TabPage.ResumeLayout(false);
+            this.Долж_Удал_TabPage.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
             this.tableLayoutPanel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ДолжностиDataGrid)).EndInit();
@@ -6151,18 +9251,18 @@
             this.tableLayoutPanel27.ResumeLayout(false);
             this.tableLayoutPanel27.PerformLayout();
             this.Командировки_правки_pages.ResumeLayout(false);
-            this.tabPage11.ResumeLayout(false);
-            this.tabPage11.PerformLayout();
+            this.Ком_Обн_TabPage.ResumeLayout(false);
+            this.Ком_Обн_TabPage.PerformLayout();
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.командировкиBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.сотрудникиBindingSource)).EndInit();
-            this.tabPage12.ResumeLayout(false);
-            this.tabPage12.PerformLayout();
+            this.Ком_Доб_TabPage.ResumeLayout(false);
+            this.Ком_Доб_TabPage.PerformLayout();
             this.tableLayoutPanel6.ResumeLayout(false);
             this.tableLayoutPanel6.PerformLayout();
-            this.tabPage13.ResumeLayout(false);
-            this.tabPage13.PerformLayout();
+            this.Ком_Удал_TabPage.ResumeLayout(false);
+            this.Ком_Удал_TabPage.PerformLayout();
             this.tableLayoutPanel7.ResumeLayout(false);
             this.tableLayoutPanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.КомандировкиDataGrid)).EndInit();
@@ -6295,17 +9395,17 @@
         private System.Windows.Forms.TabControl DB_pages;
         private System.Windows.Forms.TabPage ДолжностиPage;
         private System.Windows.Forms.TabControl Должности_правки_pages;
-        private System.Windows.Forms.TabPage tabPage8;
-        private System.Windows.Forms.TabPage tabPage9;
-        private System.Windows.Forms.TabPage tabPage10;
+        private System.Windows.Forms.TabPage Долж_Обн_TabPage;
+        private System.Windows.Forms.TabPage Долж_Доб_TabPage;
+        private System.Windows.Forms.TabPage Долж_Удал_TabPage;
         private System.Windows.Forms.TextBox Должности_SearchTextBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.ToolStrip ДолжностиDataPage;
         private System.Windows.Forms.TabPage КомандировкиPage;
         private System.Windows.Forms.TabControl Командировки_правки_pages;
-        private System.Windows.Forms.TabPage tabPage11;
-        private System.Windows.Forms.TabPage tabPage12;
-        private System.Windows.Forms.TabPage tabPage13;
+        private System.Windows.Forms.TabPage Ком_Обн_TabPage;
+        private System.Windows.Forms.TabPage Ком_Доб_TabPage;
+        private System.Windows.Forms.TabPage Ком_Удал_TabPage;
         private System.Windows.Forms.DataGridView КомандировкиDataGrid;
         private System.Windows.Forms.ToolStrip КомандировкиDataPage;
         private System.Windows.Forms.TabPage Начисление_зпPage;
@@ -6354,11 +9454,6 @@
         private AccountingOfSalariesAndPersonnelDataSet accountingOfSalariesAndPersonnelDataSet;
         private System.Windows.Forms.BindingSource должностиBindingSource;
         private AccountingOfSalariesAndPersonnelDataSetTableAdapters.ДолжностиTableAdapter должностиTableAdapter;
-        private System.Windows.Forms.DataGridViewTextBoxColumn коддолжностиDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn наименованиеDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn окладDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn обязанностиDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn примечаниеDataGridViewTextBoxColumn;
         private System.Windows.Forms.BindingSource командировкиBindingSource;
         private AccountingOfSalariesAndPersonnelDataSetTableAdapters.КомандировкиTableAdapter командировкиTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn кодкомандировкиDataGridViewTextBoxColumn;
@@ -6443,12 +9538,10 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.Button УдалитьButton;
         private System.Windows.Forms.ComboBox код_должностиComboBox1;
-        private System.Windows.Forms.TextBox местоTextBox;
         private System.Windows.Forms.TextBox цельTextBox;
         private System.Windows.Forms.TextBox оплатаTextBox;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
         private System.Windows.Forms.TextBox длительностьTextBox;
-        private System.Windows.Forms.TextBox дата_командировкиTextBox;
         private System.Windows.Forms.ComboBox Код_командировкиComboBox;
         private System.Windows.Forms.ComboBox код_сотрудникаComboBox;
         private System.Windows.Forms.TextBox примечаниеTextBox2;
@@ -6456,9 +9549,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel6;
         private System.Windows.Forms.Button ДобавитьButton1;
         private System.Windows.Forms.ComboBox код_сотрудникаComboBox1;
-        private System.Windows.Forms.TextBox дата_командировкиTextBox1;
         private System.Windows.Forms.TextBox длительностьTextBox1;
-        private System.Windows.Forms.TextBox местоTextBox1;
         private System.Windows.Forms.TextBox цельTextBox1;
         private System.Windows.Forms.TextBox оплатаTextBox1;
         private System.Windows.Forms.TextBox примечаниеTextBox3;
@@ -6467,8 +9558,6 @@
         private System.Windows.Forms.Button УдалитьButton1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
         private System.Windows.Forms.TextBox примечаниеTextBox4;
-        private System.Windows.Forms.TextBox статусTextBox;
-        private System.Windows.Forms.TextBox дата_выплатыTextBox;
         private System.Windows.Forms.TextBox размер_премииTextBox;
         private System.Windows.Forms.TextBox сумма_выплатыTextBox;
         private System.Windows.Forms.ComboBox код_начисленияComboBox;
@@ -6476,8 +9565,6 @@
         private System.Windows.Forms.Button ОбновитьButton2;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
         private System.Windows.Forms.TextBox примечаниеTextBox5;
-        private System.Windows.Forms.TextBox статусTextBox1;
-        private System.Windows.Forms.TextBox дата_выплатыTextBox1;
         private System.Windows.Forms.TextBox размер_премииTextBox1;
         private System.Windows.Forms.TextBox сумма_выплатыTextBox1;
         private System.Windows.Forms.Button ДобавитьButton2;
@@ -6488,20 +9575,13 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel11;
         private System.Windows.Forms.TextBox примечаниеTextBox6;
         private System.Windows.Forms.TextBox выплатаTextBox;
-        private System.Windows.Forms.TextBox видTextBox;
         private System.Windows.Forms.TextBox длительностьTextBox2;
-        private System.Windows.Forms.TextBox дата_окончания_отпускаTextBox;
-        private System.Windows.Forms.TextBox дата_начала_отпускаTextBox;
         private System.Windows.Forms.Button ОбновитьButton3;
         private System.Windows.Forms.ComboBox код_отпускаComboBox;
         private System.Windows.Forms.ComboBox код_сотрудникаСomboBox4;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel12;
         private System.Windows.Forms.TextBox примечаниеTextBox7;
         private System.Windows.Forms.TextBox выплатаTextBox1;
-        private System.Windows.Forms.TextBox видTextBox1;
-        private System.Windows.Forms.TextBox длительностьTextBox3;
-        private System.Windows.Forms.TextBox дата_окончания_отпускаTextBox1;
-        private System.Windows.Forms.TextBox дата_начала_отпускаTextBox1;
         private System.Windows.Forms.Button ДобавитьButton3;
         private System.Windows.Forms.ComboBox код_сотрудникаComboBox5;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel13;
@@ -6511,8 +9591,6 @@
         private System.Windows.Forms.TextBox примечаниеTextBox8;
         private System.Windows.Forms.TextBox паспортные_данныеTextBox;
         private System.Windows.Forms.TextBox адресTextBox;
-        private System.Windows.Forms.TextBox возрастTextBox;
-        private System.Windows.Forms.TextBox полTextBox;
         private System.Windows.Forms.TextBox фИОTextBox;
         private System.Windows.Forms.Button ОбновитьButton5;
         private System.Windows.Forms.ComboBox код_сотрудникаComboBox6;
@@ -6521,8 +9599,6 @@
         private System.Windows.Forms.Button ДобавитьButton5;
         private System.Windows.Forms.ComboBox код_должностиComboBox3;
         private System.Windows.Forms.TextBox фИОTextBox1;
-        private System.Windows.Forms.TextBox полTextBox1;
-        private System.Windows.Forms.TextBox возрастTextBox1;
         private System.Windows.Forms.TextBox адресTextBox1;
         private System.Windows.Forms.TextBox паспортные_данныеTextBox1;
         private System.Windows.Forms.TextBox примечаниеTextBox9;
@@ -6531,15 +9607,11 @@
         private System.Windows.Forms.Button УдалитьButton5;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel17;
         private System.Windows.Forms.TextBox примечаниеTextBox10;
-        private System.Windows.Forms.TextBox длительностьTextBox4;
-        private System.Windows.Forms.TextBox дата_заключенияTextBox;
         private System.Windows.Forms.ComboBox код_договораComboBox;
         private System.Windows.Forms.ComboBox код_сотрудникаComboBox8;
         private System.Windows.Forms.Button ОбновитьButton6;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel18;
         private System.Windows.Forms.TextBox примечаниеTextBox11;
-        private System.Windows.Forms.TextBox длительностьTextBox5;
-        private System.Windows.Forms.TextBox дата_заключенияTextBox1;
         private System.Windows.Forms.ComboBox код_сотрудникаComboBox9;
         private System.Windows.Forms.Button ДобавитьButton6;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel19;
@@ -6624,6 +9696,80 @@
         private System.Windows.Forms.ToolStripMenuItem трудовыеДоговораToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem штатноеРасписаниеToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem пользователиToolStripMenuItem1;
+        private System.Windows.Forms.Label Долж_Обн_Обяз_зап_label;
+        private System.Windows.Forms.Label Долж_Обн_Обяз_зап_label1;
+        private System.Windows.Forms.Label Долж_Обн_Обяз_зап_label2;
+        private System.Windows.Forms.Label Долж_Доб_Обяз_зап_label1;
+        private System.Windows.Forms.Label Долж_Доб_Обяз_зап_label;
+        private System.Windows.Forms.Label Долж_Доб_Обяз_зап_label2;
+        private System.Windows.Forms.DateTimePicker дата_командировкиDateTimePicker;
+        private System.Windows.Forms.Label Ком_Обн_Обяз_зап_label1;
+        private System.Windows.Forms.Label Ком_Обн_Обяз_зап_label;
+        private System.Windows.Forms.Label Ком_Обн_Обяз_зап_label2;
+        private System.Windows.Forms.DateTimePicker дата_командировкиDateTimePicker1;
+        private System.Windows.Forms.Label Ком_Доб_Обяз_зап_label;
+        private System.Windows.Forms.Label Ком_Доб_Обяз_зап_label1;
+        private System.Windows.Forms.Label Ком_Доб_Обяз_зап_label2;
+        private System.Windows.Forms.Label Нач_Обн_Обяз_зап_label;
+        private System.Windows.Forms.Label Нач_Обн_Обяз_зап_label1;
+        private System.Windows.Forms.Label Нач_Обн_Обяз_зап_label2;
+        private System.Windows.Forms.Label Нач_Доб_Обяз_зап_label;
+        private System.Windows.Forms.Label Нач_Доб_Обяз_зап_label1;
+        private System.Windows.Forms.Label Нач_Доб_Обяз_зап_label2;
+        private System.Windows.Forms.DateTimePicker дата_выплатыDateTimePicker;
+        private System.Windows.Forms.ComboBox статусComboBox;
+        private System.Windows.Forms.ComboBox статусComboBox1;
+        private System.Windows.Forms.DateTimePicker дата_выплатыDateTimePicker1;
+        private System.Windows.Forms.ComboBox местоComboBox;
+        private System.Windows.Forms.ComboBox местоComboBox1;
+        private System.Windows.Forms.Label Отп_Обн_Обяз_зап_label;
+        private System.Windows.Forms.Label Отп_Обн_Обяз_зап_label1;
+        private System.Windows.Forms.Label Отп_Обн_Обяз_зап_label2;
+        private System.Windows.Forms.Label Отп_Обн_Обяз_зап_label3;
+        private System.Windows.Forms.Label Отп_Доб_Обяз_зап_label;
+        private System.Windows.Forms.Label Отп_Доб_Обяз_зап_label1;
+        private System.Windows.Forms.Label Отп_Доб_Обяз_зап_label2;
+        private System.Windows.Forms.Label Отп_Доб_Обяз_зап_label3;
+        private System.Windows.Forms.DateTimePicker дата_окончания_отпускаDateTimePicker;
+        private System.Windows.Forms.ComboBox видComboBox;
+        private System.Windows.Forms.DateTimePicker дата_начала_отпускаDateTimePicker;
+        private System.Windows.Forms.DateTimePicker дата_окончания_отпускаDateTimePicker1;
+        private System.Windows.Forms.DateTimePicker дата_начала_отпускаDateTimePicker1;
+        private System.Windows.Forms.TextBox длительностьTextBox3;
+        private System.Windows.Forms.ComboBox видComboBox1;
+        private System.Windows.Forms.Label Сот_Доб_Обяз_зап_label;
+        private System.Windows.Forms.Label Сот_Доб_Обяз_зап_label1;
+        private System.Windows.Forms.Label Сот_Доб_Обяз_зап_label2;
+        private System.Windows.Forms.Label Сот_Доб_Обяз_зап_label3;
+        private System.Windows.Forms.ComboBox возрастComboBox1;
+        private System.Windows.Forms.ComboBox полComboBox1;
+        private System.Windows.Forms.Label Сот_Обн_Обяз_зап_label;
+        private System.Windows.Forms.Label Сот_Обн_Обяз_зап_label1;
+        private System.Windows.Forms.Label Сот_Обн_Обяз_зап_label2;
+        private System.Windows.Forms.Label Сот_Обн_Обяз_зап_label3;
+        private System.Windows.Forms.ComboBox полComboBox;
+        private System.Windows.Forms.ComboBox возрастComboBox;
+        private System.Windows.Forms.ComboBox длительностьComboBox4;
+        private System.Windows.Forms.DateTimePicker дата_заключенияDateTimePicker;
+        private System.Windows.Forms.Label Труд_Обн_Обяз_зап_label;
+        private System.Windows.Forms.Label Труд_Обн_Обяз_зап_label1;
+        private System.Windows.Forms.Label Труд_Доб_Обяз_зап_label1;
+        private System.Windows.Forms.Label Труд_Доб_Обяз_зап_label;
+        private System.Windows.Forms.DateTimePicker дата_заключенияDateTimePicker1;
+        private System.Windows.Forms.ComboBox длительностьComboBox5;
+        private System.Windows.Forms.Label Шт_Обн_Обяз_зап_label;
+        private System.Windows.Forms.Label Шт_Обн_Обяз_зап_label1;
+        private System.Windows.Forms.Label Шт_Доб_Обяз_зап_label;
+        private System.Windows.Forms.Label Шт_Доб_Обяз_зап_label1;
+        private System.Windows.Forms.Label Пол_Обн_Обяз_зап_label;
+        private System.Windows.Forms.Label Пол_Обн_Обяз_зап_label1;
+        private System.Windows.Forms.Label Пол_Доб_Обяз_зап_label;
+        private System.Windows.Forms.Label Пол_Доб_Обяз_зап_label1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn коддолжностиDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn наименованиеDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn окладDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn обязанностиDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn примечаниеDataGridViewTextBoxColumn;
     }
 }
 
