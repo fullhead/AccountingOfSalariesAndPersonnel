@@ -240,7 +240,7 @@ namespace AccountingOfSalariesAndPersonnel
             {
                 sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
                 sqlConnection.Open();
-                adapter = new SqlDataAdapter("SELECT * from Пользователи where ФИО like'%" + Должности_SearchTextBox.Text + "%'", sqlConnection);
+                adapter = new SqlDataAdapter("SELECT * from Пользователи where ФИО like'%" + Пользователи_SearchTextBox.Text + "%'", sqlConnection);
                 table = new DataTable();
                 adapter.Fill(table);
                 ПользователиDataGrid.DataSource = table;
@@ -897,7 +897,7 @@ namespace AccountingOfSalariesAndPersonnel
             }
 
         }
-        private void TableLayoutPanel2_MouseMove(object sender, MouseEventArgs e)
+        private void TableLayoutPanel2_MouseMove_1(object sender, MouseEventArgs e)
         {
             Долж_Обн_Обяз_зап_label.Hide();
             Долж_Обн_Обяз_зап_label1.Hide();
@@ -1061,7 +1061,7 @@ namespace AccountingOfSalariesAndPersonnel
         //Ком_Доб_TabPage
         private async void ДобавитьButton1_Click(object sender, EventArgs e)
         {
-            if (дата_командировкиDateTimePicker.Text == "" || this.длительностьTextBox.Text == "" || this.местоComboBox.Text == "")
+            if (дата_командировкиDateTimePicker1.Text == "" || this.длительностьTextBox1.Text == "" || this.местоComboBox1.Text == "")
             {
                 Ком_Доб_Обяз_зап_label.Show();
                 Ком_Доб_Обяз_зап_label1.Show();
@@ -1132,21 +1132,354 @@ namespace AccountingOfSalariesAndPersonnel
             adapter = new SqlDataAdapter("SELECT * FROM Командировки", sqlConnection);
             table = new DataTable();
             adapter.Fill(table);
-            ДолжностиDataGrid.DataSource = table;
-            код_должностиComboBox.DataSource = table;
-            код_должностиComboBox1.DataSource = table;
+            КомандировкиDataGrid.DataSource = table;
+            Код_командировкиComboBox.DataSource = table;
+            Код_командировкиComboBox1.DataSource = table;
+        }
+
+        ////СОТРУДНИКИ
+        //Сот_Обн_TabPage
+        private async void ОбновитьButton5_Click(object sender, EventArgs e)
+        {
+            if (фИОTextBox.Text == "" || this.полComboBox.Text == "" || this.возрастComboBox.Text == "" || this.паспортные_данныеTextBox.Text == "")
+            {
+                Сот_Обн_Обяз_зап_label.Show();
+                Сот_Обн_Обяз_зап_label1.Show();
+                Сот_Обн_Обяз_зап_label2.Show();
+                Сот_Обн_Обяз_зап_label3.Show();
+            }
+            else
+            {
+                sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+                sqlConnection.Open();
+                SqlCommand command = new SqlCommand("UPDATE Сотрудники SET Код_должности=@Код_должности, ФИО=@ФИО, Пол=@Пол, Возраст=@Возраст, Адрес=@Адрес, Паспортные_данные=@Паспортные_данные, Примечание=@Примечание WHERE Код_сотрудника=@Код_сотрудника", sqlConnection);
+                command.Parameters.AddWithValue("Код_сотрудника", код_сотрудникаComboBox6.Text);
+                command.Parameters.AddWithValue("Код_должности", код_должностиComboBox2.Text);
+                command.Parameters.AddWithValue("ФИО", фИОTextBox.Text);
+                command.Parameters.AddWithValue("Пол", полComboBox.Text);
+                command.Parameters.AddWithValue("Возраст", возрастComboBox.Text);
+                command.Parameters.AddWithValue("Адрес", адресTextBox.Text);
+                command.Parameters.AddWithValue("Паспортные_данные", паспортные_данныеTextBox.Text);
+                command.Parameters.AddWithValue("Примечание", примечаниеTextBox8.Text);
+                popup = new PopupNotifier
+                {
+                    Image = Properties.Resources.connected,
+                    ImageSize = new Size(96, 96),
+                    TitleText = "Сотрудники",
+                    ContentText = "Данные успешно обновлены!"
+                };
+                popup.Popup();
+                await command.ExecuteNonQueryAsync();
+                adapter = new SqlDataAdapter("SELECT * FROM Сотрудники", sqlConnection);
+                table = new DataTable();
+                adapter.Fill(table);
+                СотрудникиDataGrid.DataSource = table;
+            }
+        }
+        private void TableLayoutPanel14_MouseMove(object sender, MouseEventArgs e)
+        {
+            Сот_Обн_Обяз_зап_label.Hide();
+            Сот_Обн_Обяз_зап_label1.Hide();
+            Сот_Обн_Обяз_зап_label2.Hide();
+            Сот_Обн_Обяз_зап_label3.Hide();
+        }
+        private void ФИОTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < 'А' || l > 'я') && l != '\b' && l != ' ')
+            {
+                e.Handled = true;
+            }
+        }
+        private void Паспортные_данныеTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            _ = e.KeyChar;
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
+            {
+                e.Handled = true;
+            }
+        }
+
+        //Сот_Доб_TabPage
+        private async void ДобавитьButton5_Click(object sender, EventArgs e)
+        {
+            if (фИОTextBox1.Text == "" || this.полComboBox1.Text == "" || this.возрастComboBox1.Text == "" || this.паспортные_данныеTextBox1.Text == "")
+            {
+                Сот_Доб_Обяз_зап_label.Show();
+                Сот_Доб_Обяз_зап_label1.Show();
+                Сот_Доб_Обяз_зап_label2.Show();
+                Сот_Доб_Обяз_зап_label3.Show();
+            }
+            else
+            {
+                sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+                sqlConnection.Open();
+                SqlCommand command = new SqlCommand("INSERT INTO Сотрудники (Код_должности, ФИО, Пол, Возраст, Адрес, Паспортные_данные, Примечание) VALUES (@Код_должности, @ФИО, @Пол, @Возраст, @Адрес, @Паспортные_данные, @Примечание)", sqlConnection);
+                command.Parameters.AddWithValue("Код_должности", код_должностиComboBox3.Text);
+                command.Parameters.AddWithValue("ФИО", фИОTextBox1.Text);
+                command.Parameters.AddWithValue("Пол", полComboBox1.Text);
+                command.Parameters.AddWithValue("Возраст", возрастComboBox1.Text);
+                command.Parameters.AddWithValue("Адрес", адресTextBox1.Text);
+                command.Parameters.AddWithValue("Паспортные_данные", паспортные_данныеTextBox1.Text);
+                command.Parameters.AddWithValue("Примечание", примечаниеTextBox9.Text);
+                popup = new PopupNotifier
+                {
+                    Image = Properties.Resources.connected,
+                    ImageSize = new Size(96, 96),
+                    TitleText = "Сотрудники",
+                    ContentText = "Данные успешно добавлены!"
+                };
+                popup.Popup();
+                await command.ExecuteNonQueryAsync();
+                adapter = new SqlDataAdapter("SELECT * FROM Сотрудники", sqlConnection);
+                table = new DataTable();
+                adapter.Fill(table);
+                СотрудникиDataGrid.DataSource = table;
+                код_сотрудникаComboBox6.DataSource = table;
+                код_сотрудникаComboBox7.DataSource = table;
+            }
+        }
+        private void TableLayoutPanel15_MouseMove(object sender, MouseEventArgs e)
+        {
+            Сот_Доб_Обяз_зап_label.Hide();
+            Сот_Доб_Обяз_зап_label1.Hide();
+            Сот_Доб_Обяз_зап_label2.Hide();
+            Сот_Доб_Обяз_зап_label3.Hide();
+        }
+        private void ФИОTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < 'А' || l > 'я') && l != '\b' && l != ' ')
+            {
+                e.Handled = true;
+            }
+
+        }
+
+        private void Паспортные_данныеTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            _ = e.KeyChar;
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
+            {
+                e.Handled = true;
+            }
+        }
+
+        //Сот_Удал_TabPage
+        private async void УдалитьButton5_Click(object sender, EventArgs e)
+        {
+            sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+            sqlConnection.Open();
+            SqlCommand command = new SqlCommand("DELETE FROM Сотрудники WHERE Код_сотрудника=@Код_сотрудника", sqlConnection);
+            command.Parameters.AddWithValue("Код_сотрудника", код_сотрудникаComboBox7.Text);
+            popup = new PopupNotifier
+            {
+                Image = Properties.Resources.connected,
+                ImageSize = new Size(96, 96),
+                TitleText = "Сотрудники",
+                ContentText = "Данные успешно удалены!"
+            };
+            popup.Popup();
+            await command.ExecuteNonQueryAsync();
+            adapter = new SqlDataAdapter("SELECT * FROM Сотрудники", sqlConnection);
+            table = new DataTable();
+            adapter.Fill(table);
+            СотрудникиDataGrid.DataSource = table;
+            код_сотрудникаComboBox6.DataSource = table;
+            код_сотрудникаComboBox7.DataSource = table;
         }
 
         ////НАЧИСЛЕНИЕ ЗП
-        //
-        private void Дата_окончания_отпускаDateTimePicker_ValueChanged(object sender, EventArgs e)
+        //Нач_Обн_TabPage
+        private async void ОбновитьButton2_Click(object sender, EventArgs e)
         {
-            DateTime dt1 = дата_начала_отпускаDateTimePicker.Value;
-            DateTime dt2 = дата_окончания_отпускаDateTimePicker.Value;
-            TimeSpan x = dt2 - dt1;
-            длительностьTextBox2.Text = ((int)x.TotalDays).ToString() + " дней";
+            if (сумма_выплатыTextBox.Text == "" || this.размер_премииTextBox.Text == "" || this.дата_выплатыDateTimePicker.Text == "")
+            {
+                Нач_Обн_Обяз_зап_label.Show();
+                Нач_Обн_Обяз_зап_label1.Show();
+                Нач_Обн_Обяз_зап_label2.Show();
+            }
+            else
+            {
+                sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+                sqlConnection.Open();
+                SqlCommand command = new SqlCommand("UPDATE Начисление_ЗП SET Код_сотрудника=@Код_сотрудника, Сумма_выплаты=@Сумма_выплаты, Размер_премии=@Размер_премии, Дата_выплаты=@Дата_выплаты, Статус=@Статус, Примечание=@Примечание WHERE Код_начисления=@Код_начисления", sqlConnection);
+                command.Parameters.AddWithValue("Код_начисления", код_начисленияComboBox.Text);
+                command.Parameters.AddWithValue("Код_сотрудника", код_сотрудникаComboBox2.Text);
+                command.Parameters.AddWithValue("Сумма_выплаты", сумма_выплатыTextBox.Text);
+                command.Parameters.AddWithValue("Размер_премии", размер_премииTextBox.Text);
+                command.Parameters.AddWithValue("Дата_выплаты", дата_выплатыDateTimePicker.Text);
+                command.Parameters.AddWithValue("Статус", статусComboBox.Text);
+                command.Parameters.AddWithValue("Примечание", примечаниеTextBox4.Text);
+                popup = new PopupNotifier
+                {
+                    Image = Properties.Resources.connected,
+                    ImageSize = new Size(96, 96),
+                    TitleText = "Начисление ЗП",
+                    ContentText = "Данные успешно обновлены!"
+                };
+                popup.Popup();
+                await command.ExecuteNonQueryAsync();
+                adapter = new SqlDataAdapter("SELECT * FROM Начисление_ЗП", sqlConnection);
+                table = new DataTable();
+                adapter.Fill(table);
+                Начисление_зпDataGrid.DataSource = table;
+            }
+        }
+        private void TableLayoutPanel8_MouseMove(object sender, MouseEventArgs e)
+        {
+            Нач_Обн_Обяз_зап_label.Hide();
+            Нач_Обн_Обяз_зап_label1.Hide();
+            Нач_Обн_Обяз_зап_label2.Hide();
+        }
+        private void Сумма_выплатыTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            _ = e.KeyChar;
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
+            {
+                e.Handled = true;
+            }
         }
 
+        private void Размер_премииTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            _ = e.KeyChar;
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
+            {
+                e.Handled = true;
+            }
+        }
+        //Нач_Доб_TabPage
+        private async void ДобавитьButton2_Click(object sender, EventArgs e)
+        {
+            if (сумма_выплатыTextBox1.Text == "" || this.размер_премииTextBox1.Text == "" || this.дата_выплатыDateTimePicker1.Text == "")
+            {
+                Нач_Доб_Обяз_зап_label.Show();
+                Нач_Доб_Обяз_зап_label1.Show();
+                Нач_Доб_Обяз_зап_label2.Show();
+            }
+            else
+            {
+                sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+                sqlConnection.Open();
+                SqlCommand command = new SqlCommand("INSERT INTO Начисление_ЗП (Код_сотрудника, Сумма_выплаты, Размер_премии, Дата_выплаты, Статус, Примечание) VALUES (@Код_сотрудника, @Сумма_выплаты, @Размер_премии, @Дата_выплаты, @Статус, @Примечание)", sqlConnection);
+                command.Parameters.AddWithValue("Код_сотрудника", код_сотрудникаComboBox3.Text);
+                command.Parameters.AddWithValue("Сумма_выплаты", сумма_выплатыTextBox1.Text);
+                command.Parameters.AddWithValue("Размер_премии", размер_премииTextBox1.Text);
+                command.Parameters.AddWithValue("Дата_выплаты", дата_выплатыDateTimePicker1.Text);
+                command.Parameters.AddWithValue("Статус", статусComboBox1.Text);
+                command.Parameters.AddWithValue("Примечание", примечаниеTextBox5.Text);
+                popup = new PopupNotifier
+                {
+                    Image = Properties.Resources.connected,
+                    ImageSize = new Size(96, 96),
+                    TitleText = "Начисление ЗП",
+                    ContentText = "Данные успешно добавлены!"
+                };
+                popup.Popup();
+                await command.ExecuteNonQueryAsync();
+                adapter = new SqlDataAdapter("SELECT * FROM Начисление_ЗП", sqlConnection);
+                table = new DataTable();
+                adapter.Fill(table);
+                Начисление_зпDataGrid.DataSource = table;
+                код_начисленияComboBox.DataSource = table;
+                код_начисленияComboBox1.DataSource = table;
+            }
+        }
+        private void TableLayoutPanel9_MouseMove(object sender, MouseEventArgs e)
+        {
+            Нач_Доб_Обяз_зап_label.Hide();
+            Нач_Доб_Обяз_зап_label1.Hide();
+            Нач_Доб_Обяз_зап_label2.Hide();
+        }
+        private void Сумма_выплатыTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            _ = e.KeyChar;
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Размер_премииTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            _ = e.KeyChar;
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
+            {
+                e.Handled = true;
+            }
+        }
+
+        //Нач_Доб_TabPage
+        private async void УдалитьButton2_Click(object sender, EventArgs e)
+        {
+            sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+            sqlConnection.Open();
+            SqlCommand command = new SqlCommand("DELETE FROM Начисление_ЗП WHERE Код_начисления=@Код_начисления", sqlConnection);
+            command.Parameters.AddWithValue("Код_начисления", код_начисленияComboBox1.Text);
+            popup = new PopupNotifier
+            {
+                Image = Properties.Resources.connected,
+                ImageSize = new Size(96, 96),
+                TitleText = "Начисление ЗП",
+                ContentText = "Данные успешно удалены!"
+            };
+            popup.Popup();
+            await command.ExecuteNonQueryAsync();
+            adapter = new SqlDataAdapter("SELECT * FROM Начисление_ЗП", sqlConnection);
+            table = new DataTable();
+            adapter.Fill(table);
+            Начисление_зпDataGrid.DataSource = table;
+            код_начисленияComboBox.DataSource = table;
+            код_начисленияComboBox1.DataSource = table;
+        }
+
+        ////ОТПУСКИ
+        //Отп_Обн_TabPage
+        private async void ОбновитьButton3_Click(object sender, EventArgs e)
+        {
+            if (дата_начала_отпускаDateTimePicker.Text == "" || this.дата_окончания_отпускаDateTimePicker.Text == "" || this.длительностьTextBox2.Text == "" || this.видComboBox.Text == "")
+            {
+                Отп_Обн_Обяз_зап_label.Show();
+                Отп_Обн_Обяз_зап_label1.Show();
+                Отп_Обн_Обяз_зап_label2.Show();
+                Отп_Обн_Обяз_зап_label3.Show();
+            }
+            else
+            {
+                sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+                sqlConnection.Open();
+                SqlCommand command = new SqlCommand("UPDATE Отпуски SET Код_сотрудника=@Код_сотрудника, Дата_начала_отпуска=@Дата_начала_отпуска, Дата_окончания_отпуска=@Дата_окончания_отпуска, Длительность=@Длительность, Вид=@Вид, Выплата=@Выплата, Примечание=@Примечание WHERE Код_отпуска=@Код_отпуска", sqlConnection);
+                command.Parameters.AddWithValue("Код_отпуска", код_отпускаComboBox.Text);
+                command.Parameters.AddWithValue("Код_сотрудника", код_сотрудникаСomboBox4.Text);
+                command.Parameters.AddWithValue("Дата_начала_отпуска", дата_начала_отпускаDateTimePicker.Text);
+                command.Parameters.AddWithValue("Дата_окончания_отпуска", дата_окончания_отпускаDateTimePicker.Text);
+                command.Parameters.AddWithValue("Длительность", длительностьTextBox2.Text);
+                command.Parameters.AddWithValue("Вид", видComboBox.Text);
+                command.Parameters.AddWithValue("Выплата", выплатаTextBox.Text);
+                command.Parameters.AddWithValue("Примечание", примечаниеTextBox6.Text);
+                popup = new PopupNotifier
+                {
+                    Image = Properties.Resources.connected,
+                    ImageSize = new Size(96, 96),
+                    TitleText = "Отпуски",
+                    ContentText = "Данные успешно обновлены!"
+                };
+                popup.Popup();
+                await command.ExecuteNonQueryAsync();
+                adapter = new SqlDataAdapter("SELECT * FROM Отпуски", sqlConnection);
+                table = new DataTable();
+                adapter.Fill(table);
+                ОтпускиDataGrid.DataSource = table;
+            }
+        }
+        private void TableLayoutPanel11_MouseMove(object sender, MouseEventArgs e)
+        {
+            Отп_Обн_Обяз_зап_label.Hide();
+            Отп_Обн_Обяз_зап_label1.Hide();
+            Отп_Обн_Обяз_зап_label2.Hide();
+            Отп_Обн_Обяз_зап_label3.Hide();
+        }
         private void Дата_окончания_отпускаDateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
             DateTime dt1 = дата_начала_отпускаDateTimePicker1.Value;
@@ -1154,6 +1487,493 @@ namespace AccountingOfSalariesAndPersonnel
             TimeSpan x = dt2 - dt1;
             длительностьTextBox3.Text = ((int)x.TotalDays).ToString() + " дней";
         }
+        private void ВыплатаTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < '0' || l > '9') && l != '\b' && l != ',' && l != ' ')
+            {
+                e.Handled = true;
+            }
+        }
+        //Отп_Доб_TabPage
+        private async void ДобавитьButton3_Click(object sender, EventArgs e)
+        {
+            if (дата_начала_отпускаDateTimePicker1.Text == "" || this.дата_окончания_отпускаDateTimePicker1.Text == "" || this.длительностьTextBox3.Text == "" || this.видComboBox1.Text == "")
+            {
+                Отп_Доб_Обяз_зап_label.Show();
+                Отп_Доб_Обяз_зап_label1.Show();
+                Отп_Доб_Обяз_зап_label2.Show();
+                Отп_Доб_Обяз_зап_label3.Show();
+            }
+            else
+            {
+                sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+                sqlConnection.Open();
+                SqlCommand command = new SqlCommand("INSERT INTO Отпуски (Код_сотрудника, Дата_начала_отпуска, Дата_окончания_отпуска, Длительность, Вид, Выплата, Примечание) VALUES (@Код_сотрудника, @Дата_начала_отпуска, @Дата_окончания_отпуска, @Длительность, @Вид, @Выплата, @Примечание)", sqlConnection);
+                command.Parameters.AddWithValue("Код_сотрудника", код_сотрудникаComboBox5.Text);
+                command.Parameters.AddWithValue("Дата_начала_отпуска", дата_начала_отпускаDateTimePicker1.Text);
+                command.Parameters.AddWithValue("Дата_окончания_отпуска", дата_окончания_отпускаDateTimePicker1.Text);
+                command.Parameters.AddWithValue("Длительность", длительностьTextBox3.Text);
+                command.Parameters.AddWithValue("Вид", видComboBox1.Text);
+                command.Parameters.AddWithValue("Выплата", выплатаTextBox1.Text);
+                command.Parameters.AddWithValue("Примечание", примечаниеTextBox7.Text);
+                popup = new PopupNotifier
+                {
+                    Image = Properties.Resources.connected,
+                    ImageSize = new Size(96, 96),
+                    TitleText = "Отпуски",
+                    ContentText = "Данные успешно добавлены!"
+                };
+                popup.Popup();
+                await command.ExecuteNonQueryAsync();
+                adapter = new SqlDataAdapter("SELECT * FROM Отпуски", sqlConnection);
+                table = new DataTable();
+                adapter.Fill(table);
+                ОтпускиDataGrid.DataSource = table;
+                код_отпускаComboBox.DataSource = table;
+                код_отпускаComboBox1.DataSource = table;
+            }
+        }
+        private void TableLayoutPanel12_MouseMove(object sender, MouseEventArgs e)
+        {
+            Отп_Доб_Обяз_зап_label.Hide();
+            Отп_Доб_Обяз_зап_label1.Hide();
+            Отп_Доб_Обяз_зап_label2.Hide();
+            Отп_Доб_Обяз_зап_label3.Hide();
+        }
+        private void Дата_окончания_отпускаDateTimePicker_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime dt1 = дата_начала_отпускаDateTimePicker.Value;
+            DateTime dt2 = дата_окончания_отпускаDateTimePicker.Value;
+            TimeSpan x = dt2 - dt1;
+            длительностьTextBox2.Text = ((int)x.TotalDays).ToString() + " дней";
+        }
+        private void ВыплатаTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < '0' || l > '9') && l != '\b' && l != ',' && l != ' ')
+            {
+                e.Handled = true;
+            }
+        }
+        //Отп_Удал_TabPage
+        private async void УдалитьButton3_Click(object sender, EventArgs e)
+        {
+            sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+            sqlConnection.Open();
+            SqlCommand command = new SqlCommand("DELETE FROM Отпуски WHERE Код_отпуска=@Код_отпуска", sqlConnection);
+            command.Parameters.AddWithValue("Код_отпуска", код_отпускаComboBox.Text);
+            popup = new PopupNotifier
+            {
+                Image = Properties.Resources.connected,
+                ImageSize = new Size(96, 96),
+                TitleText = "Отпуски",
+                ContentText = "Данные успешно удалены!"
+            };
+            popup.Popup();
+            await command.ExecuteNonQueryAsync();
+            adapter = new SqlDataAdapter("SELECT * FROM Отпуски", sqlConnection);
+            table = new DataTable();
+            adapter.Fill(table);
+            ОтпускиDataGrid.DataSource = table;
+            код_отпускаComboBox.DataSource = table;
+            код_отпускаComboBox1.DataSource = table;
+        }
 
+        ////ТРУДОВЫЕ ДОГОВОРА
+        //Труд_Обн_TabPage
+        private async void ОбновитьButton6_Click(object sender, EventArgs e)
+        {
+            if (дата_заключенияDateTimePicker.Text == "" || this.длительностьComboBox4.Text == "")
+            {
+                Труд_Обн_Обяз_зап_label.Show();
+                Труд_Обн_Обяз_зап_label1.Show();
+            }
+            else
+            {
+                sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+                sqlConnection.Open();
+                SqlCommand command = new SqlCommand("UPDATE Трудовые_договора SET Код_сотрудника=@Код_сотрудника, Дата_заключения=@Дата_заключения, Длительность=@Длительность, Примечание=@Примечание WHERE Код_договора=@Код_договора", sqlConnection);
+                command.Parameters.AddWithValue("Код_договора", код_договораComboBox.Text);
+                command.Parameters.AddWithValue("Код_сотрудника", код_сотрудникаComboBox8.Text);
+                command.Parameters.AddWithValue("Дата_заключения", дата_заключенияDateTimePicker.Text);
+                command.Parameters.AddWithValue("Длительность", длительностьComboBox4.Text);
+                command.Parameters.AddWithValue("Примечание", примечаниеTextBox10.Text);
+                popup = new PopupNotifier
+                {
+                    Image = Properties.Resources.connected,
+                    ImageSize = new Size(96, 96),
+                    TitleText = "Трудовые договора",
+                    ContentText = "Данные успешно обновлены!"
+                };
+                popup.Popup();
+                await command.ExecuteNonQueryAsync();
+                adapter = new SqlDataAdapter("SELECT * FROM Трудовые_договора", sqlConnection);
+                table = new DataTable();
+                adapter.Fill(table);
+                Трудовые_договораDataGrid.DataSource = table;
+            }
+        }
+        private void TableLayoutPanel17_MouseMove(object sender, MouseEventArgs e)
+        {
+            Труд_Обн_Обяз_зап_label.Hide();
+            Труд_Обн_Обяз_зап_label1.Hide();
+        }
+
+        //Труд_Доб_TabPage
+        private async void ДобавитьButton6_Click(object sender, EventArgs e)
+        {
+            if (дата_заключенияDateTimePicker1.Text == "" || this.длительностьComboBox5.Text == "")
+            {
+                Труд_Доб_Обяз_зап_label.Show();
+                Труд_Доб_Обяз_зап_label1.Show();
+            }
+            else
+            {
+                sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+                sqlConnection.Open();
+                SqlCommand command = new SqlCommand("INSERT INTO Трудовые_договора (Код_сотрудника, Дата_заключения, Длительность, Примечание) VALUES (@Код_сотрудника, @Дата_заключения, @Длительность, @Примечание)", sqlConnection);
+                command.Parameters.AddWithValue("Код_сотрудника", код_сотрудникаComboBox9.Text);
+                command.Parameters.AddWithValue("Дата_заключения", дата_заключенияDateTimePicker1.Text);
+                command.Parameters.AddWithValue("Длительность", длительностьComboBox5.Text);
+                command.Parameters.AddWithValue("Примечание", примечаниеTextBox11.Text);
+                popup = new PopupNotifier
+                {
+                    Image = Properties.Resources.connected,
+                    ImageSize = new Size(96, 96),
+                    TitleText = "Трудовые договора",
+                    ContentText = "Данные успешно добавлены!"
+                };
+                popup.Popup();
+                await command.ExecuteNonQueryAsync();
+                adapter = new SqlDataAdapter("SELECT * FROM Трудовые_договора", sqlConnection);
+                table = new DataTable();
+                adapter.Fill(table);
+                Трудовые_договораDataGrid.DataSource = table;
+                код_договораComboBox.DataSource = table;
+                код_договораComboBox1.DataSource = table;
+            }
+        }
+        private void TableLayoutPanel18_MouseMove(object sender, MouseEventArgs e)
+        {
+            Труд_Доб_Обяз_зап_label.Hide();
+            Труд_Доб_Обяз_зап_label1.Hide();
+        }
+
+        //Труд_Удал_TabPage
+        private async void УдалитьButton6_Click(object sender, EventArgs e)
+        {
+            sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+            sqlConnection.Open();
+            SqlCommand command = new SqlCommand("DELETE FROM Трудовые_договора WHERE Код_договора=@Код_договора", sqlConnection);
+            command.Parameters.AddWithValue("Код_договора", код_договораComboBox1.Text);
+            popup = new PopupNotifier
+            {
+                Image = Properties.Resources.connected,
+                ImageSize = new Size(96, 96),
+                TitleText = "Трудовые договора",
+                ContentText = "Данные успешно удалены!"
+            };
+            popup.Popup();
+            await command.ExecuteNonQueryAsync();
+            adapter = new SqlDataAdapter("SELECT * FROM Трудовые_договора", sqlConnection);
+            table = new DataTable();
+            adapter.Fill(table);
+            Трудовые_договораDataGrid.DataSource = table;
+            код_договораComboBox.DataSource = table;
+            код_договораComboBox1.DataSource = table;
+        }
+
+        ////ШТАТНОЕ РАСПИСАНИЕ
+        //Штат_Обн_TabPage
+        private async void ОбновитьButton7_Click(object sender, EventArgs e)
+        {
+            if (наименование_структурного_подразделенияTextBox.Text == "" || this.количество_штатных_единицTextBox.Text == "")
+            {
+                Шт_Обн_Обяз_зап_label.Show();
+                Шт_Обн_Обяз_зап_label1.Show();
+            }
+            else
+            {
+                sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+                sqlConnection.Open();
+                SqlCommand command = new SqlCommand("UPDATE Штатное_расписание SET Код_должности=@Код_должности, Наименование_структурного_подразделения=@Наименование_структурного_подразделения, Количество_штатных_единиц=@Количество_штатных_единиц, Примечание=@Примечание WHERE Код_расписания=@Код_расписания", sqlConnection);
+                command.Parameters.AddWithValue("Код_расписания", код_расписанияComboBox.Text);
+                command.Parameters.AddWithValue("Код_должности", код_должностиComboBox4.Text);
+                command.Parameters.AddWithValue("Наименование_структурного_подразделения", наименование_структурного_подразделенияTextBox.Text);
+                command.Parameters.AddWithValue("Количество_штатных_единиц", количество_штатных_единицTextBox.Text);
+                command.Parameters.AddWithValue("Примечание", примечаниеTextBox12.Text);
+                popup = new PopupNotifier
+                {
+                    Image = Properties.Resources.connected,
+                    ImageSize = new Size(96, 96),
+                    TitleText = "Штатное расписание",
+                    ContentText = "Данные успешно обновлены!"
+                };
+                popup.Popup();
+                await command.ExecuteNonQueryAsync();
+                adapter = new SqlDataAdapter("SELECT * FROM Штатное_расписание", sqlConnection);
+                table = new DataTable();
+                adapter.Fill(table);
+                Штатное_расписаниеDataGrid.DataSource = table;
+            }
+        }
+
+        private void TableLayoutPanel20_MouseMove(object sender, MouseEventArgs e)
+        {
+            Шт_Обн_Обяз_зап_label.Hide();
+            Шт_Обн_Обяз_зап_label1.Hide();
+        }
+
+        private void Наименование_структурного_подразделенияTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < 'А' || l > 'я') && (l < '0' || l > '9') && l != '\b' && l != '.' && l != ',' && l != ' ' && l != '"')
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Количество_штатных_единицTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            _ = e.KeyChar;
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
+            {
+                e.Handled = true;
+            }
+        }
+
+        //Штат_Доб_TabPage
+        private async void ДобавитьButton7_Click(object sender, EventArgs e)
+        {
+            if (наименование_структурного_подразделенияTextBox1.Text == "" || this.количество_штатных_единицTextBox1.Text == "")
+            {
+                Шт_Доб_Обяз_зап_label.Show();
+                Шт_Доб_Обяз_зап_label1.Show();
+            }
+            else
+            {
+                sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+                sqlConnection.Open();
+                SqlCommand command = new SqlCommand("INSERT INTO Штатное_расписание (Код_должности, Наименование_структурного_подразделения, Количество_штатных_единиц, Примечание) VALUES (@Код_должности, @Наименование_структурного_подразделения, @Количество_штатных_единиц, @Примечание)", sqlConnection);
+                command.Parameters.AddWithValue("Код_должности", код_должностиComboBox5.Text);
+                command.Parameters.AddWithValue("Наименование_структурного_подразделения", наименование_структурного_подразделенияTextBox1.Text);
+                command.Parameters.AddWithValue("Количество_штатных_единиц", количество_штатных_единицTextBox1.Text);
+                command.Parameters.AddWithValue("Примечание", примечаниеTextBox13.Text);
+                popup = new PopupNotifier
+                {
+                    Image = Properties.Resources.connected,
+                    ImageSize = new Size(96, 96),
+                    TitleText = "Штатное расписание",
+                    ContentText = "Данные успешно добавлены!"
+                };
+                popup.Popup();
+                await command.ExecuteNonQueryAsync();
+                adapter = new SqlDataAdapter("SELECT * FROM Штатное_расписание", sqlConnection);
+                table = new DataTable();
+                adapter.Fill(table);
+                Штатное_расписаниеDataGrid.DataSource = table;
+                код_расписанияComboBox.DataSource = table;
+                код_расписанияComboBox1.DataSource = table;
+            }
+        }
+
+        private void TableLayoutPanel21_MouseMove(object sender, MouseEventArgs e)
+        {
+            Шт_Доб_Обяз_зап_label.Hide();
+            Шт_Доб_Обяз_зап_label1.Hide();
+        }
+
+        private void Наименование_структурного_подразделенияTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < 'А' || l > 'я') && (l < '0' || l > '9') && l != '\b' && l != '.' && l != ',' && l != ' ' && l != '"')
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Количество_штатных_единицTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            _ = e.KeyChar;
+            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
+            {
+                e.Handled = true;
+            }
+        }
+
+        //Штат_Удал_TabPage
+        private async void УдалитьButton7_Click(object sender, EventArgs e)
+        {
+            sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+            sqlConnection.Open();
+            SqlCommand command = new SqlCommand("DELETE FROM Штатное_расписание WHERE Код_расписания=@Код_расписания", sqlConnection);
+            command.Parameters.AddWithValue("Код_расписания", код_расписанияComboBox1.Text);
+            popup = new PopupNotifier
+            {
+                Image = Properties.Resources.connected,
+                ImageSize = new Size(96, 96),
+                TitleText = "Штатное расписание",
+                ContentText = "Данные успешно удалены!"
+            };
+            popup.Popup();
+            await command.ExecuteNonQueryAsync();
+            adapter = new SqlDataAdapter("SELECT * FROM Штатное_расписание", sqlConnection);
+            table = new DataTable();
+            adapter.Fill(table);
+            Штатное_расписаниеDataGrid.DataSource = table;
+            код_расписанияComboBox.DataSource = table;
+            код_расписанияComboBox1.DataSource = table;
+        }
+
+        ////ПОЛЬЗОВАТЕЛИ
+        //Пол_Обн_TabPage
+        private async void ОбновитьButton8_Click(object sender, EventArgs e)
+        {
+            if (логинTextBox.Text == "" || this.парольTextBox.Text == "")
+            {
+                Пол_Обн_Обяз_зап_label.Show();
+                Пол_Обн_Обяз_зап_label1.Show();
+            }
+            else
+            {
+                sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+                sqlConnection.Open();
+                SqlCommand command = new SqlCommand("UPDATE Пользователи SET Логин=@Логин, ФИО=@ФИО, Роль=@Роль, Пароль=@Пароль," +
+                    " Email=@Email, Телефон=@Телефон, Примечание=@Примечание WHERE Код_пользователя=@Код_пользователя", sqlConnection);
+                command.Parameters.AddWithValue("Код_пользователя", код_пользователяComboBox.Text);
+                command.Parameters.AddWithValue("Логин", логинTextBox.Text);
+                command.Parameters.AddWithValue("ФИО", фИОTextBox2.Text);
+                command.Parameters.AddWithValue("Роль", рольTextBox.Text);
+                command.Parameters.AddWithValue("Пароль", парольTextBox.Text);
+                command.Parameters.AddWithValue("Email", emailTextBox.Text);
+                command.Parameters.AddWithValue("Телефон", телефонTextBox.Text);
+                command.Parameters.AddWithValue("Примечание", примечаниеTextBox14.Text);
+                popup = new PopupNotifier
+                {
+                    Image = Properties.Resources.connected,
+                    ImageSize = new Size(96, 96),
+                    TitleText = "Пользователи",
+                    ContentText = "Данные успешно обновлены!"
+                };
+                popup.Popup();
+                await command.ExecuteNonQueryAsync();
+                adapter = new SqlDataAdapter("SELECT * FROM Пользователи", sqlConnection);
+                table = new DataTable();
+                adapter.Fill(table);
+                ПользователиDataGrid.DataSource = table;
+            }
+        }
+
+        private void TableLayoutPanel23_MouseMove(object sender, MouseEventArgs e)
+        {
+            Пол_Обн_Обяз_зап_label.Hide();
+            Пол_Обн_Обяз_зап_label1.Hide();
+        }
+
+        private void ЛогинTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < 'A' || l > 'z') && (l < '0' || l > '9') && l != '\b' && l != '@')
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void ПарольTextBox_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < 'A' || l > 'z') && (l < '0' || l > '9') && l != '\b' && l != '@' && l != '%' && l != '$' && l != '&')
+            {
+                e.Handled = true;
+            }
+        }
+
+        //Пол_Доб_TabPage
+        private async void ДобавитьButton8_Click(object sender, EventArgs e)
+        {
+            if (this.логинTextBox1.Text == "" || this.парольTextBox1.Text == "")
+            {
+                Пол_Доб_Обяз_зап_label.Show();
+                Пол_Доб_Обяз_зап_label1.Show();
+            }
+            else
+            {
+                sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+                sqlConnection.Open();
+                SqlCommand command = new SqlCommand("INSERT INTO Пользователи (Логин, ФИО, Роль, Пароль, Email, Телефон, Примечание) VALUES (@Логин, @ФИО, @Роль, @Пароль, @Email, @Телефон, @Примечание)", sqlConnection);
+                command.Parameters.AddWithValue("Логин", логинTextBox1.Text);
+                command.Parameters.AddWithValue("ФИО", фИОTextBox3.Text);
+                command.Parameters.AddWithValue("Роль", рольTextBox1.Text);
+                command.Parameters.AddWithValue("Пароль", парольTextBox1.Text);
+                command.Parameters.AddWithValue("Email", emailTextBox1.Text);
+                command.Parameters.AddWithValue("Телефон", телефонTextBox1.Text);
+                command.Parameters.AddWithValue("Примечание", примечаниеTextBox15.Text);
+                popup = new PopupNotifier
+                {
+                    Image = Properties.Resources.connected,
+                    ImageSize = new Size(96, 96),
+                    TitleText = "Пользователи",
+                    ContentText = "Данные успешно добавлены!"
+                };
+                popup.Popup();
+                await command.ExecuteNonQueryAsync();
+
+                adapter = new SqlDataAdapter("SELECT * FROM Пользователи", sqlConnection);
+                table = new DataTable();
+                adapter.Fill(table);
+                ПользователиDataGrid.DataSource = table;
+                код_пользователяComboBox.DataSource = table;
+                код_пользователяComboBox1.DataSource = table;
+            }
+        }
+
+        private void TableLayoutPanel24_MouseMove(object sender, MouseEventArgs e)
+        {
+            Пол_Доб_Обяз_зап_label.Hide();
+            Пол_Доб_Обяз_зап_label1.Hide();
+        }
+
+        private void ЛогинTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < 'A' || l > 'z') && (l < '0' || l > '9') && l != '\b' && l != '@')
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void ПарольTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char l = e.KeyChar;
+            if ((l < 'A' || l > 'z') && (l < '0' || l > '9') && l != '\b' && l != '@' && l != '%' && l != '$' && l != '&')
+            {
+                e.Handled = true;
+            }
+        }
+
+        //Пол_Удал_TabPage
+        private async void УдалитьButton8_Click(object sender, EventArgs e)
+        {
+            sqlConnection = new SqlConnection(ConfigurationManager.ConnectionStrings["AccountingOfSalariesAndPersonnel.Properties.Settings.AccountingOfSalariesAndPersonnelConnectionString"].ConnectionString);
+            sqlConnection.Open();
+            SqlCommand command = new SqlCommand("DELETE FROM Пользователи WHERE Код_пользователя=@Код_пользователя", sqlConnection);
+            command.Parameters.AddWithValue("Код_пользователя", код_пользователяComboBox1.Text);
+            popup = new PopupNotifier
+            {
+                Image = Properties.Resources.connected,
+                ImageSize = new Size(96, 96),
+                TitleText = "Пользователи",
+                ContentText = "Данные успешно удалены!"
+            };
+            popup.Popup();
+            await command.ExecuteNonQueryAsync();
+            adapter = new SqlDataAdapter("SELECT * FROM Пользователи", sqlConnection);
+            table = new DataTable();
+            adapter.Fill(table);
+            ПользователиDataGrid.DataSource = table;
+            код_пользователяComboBox.DataSource = table;
+            код_пользователяComboBox1.DataSource = table;
+        }
     }
 }

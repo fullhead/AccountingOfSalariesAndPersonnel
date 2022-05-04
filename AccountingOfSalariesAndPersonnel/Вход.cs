@@ -40,14 +40,14 @@ namespace AccountingOfSalariesAndPersonnel
         }
         private void TextBox2_KeyPress_1(object sender, KeyPressEventArgs e)
         {
-            _ = e.KeyChar;
-            if (!Char.IsDigit(e.KeyChar) && e.KeyChar != Convert.ToChar(8))
+            char l = e.KeyChar;
+            if ((l < 'A' || l > 'z') && (l < '0' || l > '9') && l != '\b' && l != '@' && l != '%' && l != '$' && l != '&')
             {
                 e.Handled = true;
             }
         }
 
-        private void tableLayoutPanel1_MouseMove(object sender, MouseEventArgs e)
+        private void TableLayoutPanel1_MouseMove(object sender, MouseEventArgs e)
         {
             label3.Hide();
         }
