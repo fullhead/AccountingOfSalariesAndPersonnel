@@ -22,14 +22,6 @@ namespace AccountingOfSalariesAndPersonnel
         public Учёт_зарплат_и_кадров()
         {
             InitializeComponent();
-            //this.ДолжностиDataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            //this.КомандировкиDataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            //this.Начисление_зпDataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            //this.ОтпускиDataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            //this.СотрудникиDataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            //this.Трудовые_договораDataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            //this.Штатное_расписаниеDataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            //this.ПользователиDataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             ПользователиPage.Parent = null;
             
         }
@@ -1974,6 +1966,12 @@ namespace AccountingOfSalariesAndPersonnel
             ПользователиDataGrid.DataSource = table;
             код_пользователяComboBox.DataSource = table;
             код_пользователяComboBox1.DataSource = table;
+        }
+
+        private void ОПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            О_программе о_программе = new О_программе();
+            о_программе.Show();
         }
     }
 }
